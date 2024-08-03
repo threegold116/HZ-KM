@@ -9,24 +9,7 @@ import os
 import torch
 from transformers import AutoModel, AutoTokenizer
 from MiniCPM import MiniCPMV,MiniCPMVTokenizerFast,MiniCPMVProcessor,MiniCPMVImageProcessor
-def create_output_floder(output_path):
-    # 定义需要创建的子目录列表
-    sub_dirs = [
-        'QA',
-        'Image_caption',
-        'Change_caption'
-    ]
-
-    # 创建根目录
-    # if not os.path.exists(output_path):
-    os.makedirs(output_path,exist_ok=True)
-
-    # 在根目录下创建子目录
-    for dir_name in sub_dirs:
-        dir_path = os.path.join(output_path, dir_name)
-        # if not os.path.exists(dir_path):
-        os.makedirs(dir_path,exist_ok=True)
-
+import sys
 
 def image_parser(args):
     out = args.image_file.split(args.sep)
@@ -102,64 +85,78 @@ def test(model_path,input_file_path,output_path):
             promots= []
             output_res = ""
             # 根据不同的任务名称进行txt文件读取
+            image_keys=[]
+            for key,_ in  read_question_dict.items():
+                if "image" in key:
+                    image_keys.append(key)
+                    
             if task_name == "QA":
-                image_path = read_question_dict['image_path'][0]
+                image_path = read_question_dict[image_keys[0]][0]
                 output_res = "image_path:" + "'"+ image_path +"'"+ "\n"
                 for prompt_query in read_question_dict['text_input']:
-                    promots.append(prompt_query+"请用一个词语简短地作答。")#beam-search很倾向于回答是
-                #THREEGOLD:
+                    promots.append(prompt_base + "\n 请用中文简要作答，直接给出答案，判断问题则直接回答“是”或者“否”，提问数量问题则直接回答数字。"  + prompt_query )
             if task_name == "Image_caption":
-                image_path = read_question_dict['image_path'][0]
+                image_path = read_question_dict[image_keys[0]][0]
                 output_res = "image_path:" + "'"+ image_path +"'"+ "\n"
-                promots.append(read_question_dict['text_input'][0] + "\n请用中文作答。")
+                promots.append(prompt_base + read_question_dict['text_input'][0] + "\n请用中文作答。")
 
 
             if task_name == "Change_caption":
-                image_path1 = read_question_dict['image_path1'][0]
+                image_path1 = read_question_dict[image_keys[0]][0]
                 output_res = "image_path1:" + "'"+ image_path1 +"'" + "\n"
-                image_path2 = read_question_dict['image_path2'][0]
+                image_path2 = read_question_dict[image_keys[1]][0]
                 output_res = output_res + "image_path2:" + "'"+ image_path2 +"'" + "\n"
                 image_path = image_path1 + ',' + image_path2
-                promots.append(read_question_dict['text_input'][0]+ "\n请用中文作答。")
+                promots.append(prompt_base  + read_question_dict['text_input'][0]+ "\n请用中文作答。")
 
             print(read_question_dict)
-            for imput_prompt in promots:
-                print(imput_prompt)
-                args = type('Args', (), {
-                "model_path": model_path,
-                "model_base": None,
-                "query": imput_prompt,
-                "conv_mode": None,
-                "image_file": image_path,
-                "sep": ",",
-                "temperature": 0.8,
-                "top_p": None,
-                "num_beams": 1,
-                "max_new_tokens": 512,
-                "system_prompt":prompt_base
-                })()
+            try:
+                for imput_prompt in promots:
+                    print(imput_prompt)
+                    args = type('Args', (), {
+                    "model_path": model_path,
+                    "model_base": None,
+                    "query": imput_prompt,
+                    "conv_mode": None,
+                    "image_file": image_path,
+                    "sep": ",",
+                    "temperature": 0.8,
+                    "top_p": None,
+                    "num_beams": 1,
+                    "max_new_tokens": 512,
+                    "system_prompt":prompt_base
+                    })()
 
-                outputs = eval_model(args,tokenizer, model, processor)
-                outputs = outputs.replace("答案：", "").replace("答案:", "")
-                
-                # 生成总结果
-                read_question_dict["text_truth"].append(outputs)
-                print(read_question_dict)
+                    outputs = eval_model(args,tokenizer, model, processor)
+                    outputs = outputs.replace("答案：", "").replace("答案:", "")
+                    
+                    # 生成总结果
+                    read_question_dict["text_truth"].append(outputs)
+                    print(read_question_dict)
 
-            # 对于 Image_caption 和 Change_caption
-            if len(promots) <= 1:
-                output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
-                output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][0] +"'" 
-            else:
-                for id in read_question_dict['question_id']:
-                    num_id = int(id)
-                    output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"
-                    output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
-                    output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][num_id] +"'" + "\n"
+                # 对于 Image_caption 和 Change_caption
+                if len(promots) <= 1:
+                    output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
+                    output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][0] +"'" 
+                else:
+                    for id in read_question_dict['question_id']:
+                        num_id = int(id)
+                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"
+                        output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
+                        output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][num_id] +"'" + "\n"
+
+            except Exception as e:
+                if len(promots) <= 1:
+                    output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
+                    output_res = output_res + "text_truth:" + "'Output'" 
+                else:
+                    for id in read_question_dict['question_id']:
+                        num_id = int(id)
+                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"
+                        output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
+                        output_res = output_res + "text_truth:" + "'是'" + "\n"
 
             output_res_path = os.path.join(output_path,task_name,file_name)
-            print(output_res)
-            print(output_res_path)
             os.makedirs(os.path.dirname(output_res_path),exist_ok=True)
             with open(output_res_path, 'w',encoding="utf-8") as file:
                 file.write(output_res)
@@ -191,21 +188,19 @@ def eval_model(args,tokenizer, model, processor):
 if __name__ == "__main__":
 
     # 检查命令行参数数量
-    # if len(sys.argv) != 3:
-    #     print("Usage: python run.py <input_path> <output_path>")
-    #     sys.exit(1)
+    if len(sys.argv) != 3:
+        print("Usage: python run.py <input_path> <output_path>")
+        sys.exit(1)
 
     # 命令行参数从 sys.argv[1] 开始，因为 sys.argv[0] 是脚本名称
-    test_data_path = "/home/sxjiang/project/LLaVA-NeXT/test/input_path"
-    output_path = "/home/sxjiang/project/LLaVA-NeXT/test/out_path"
+    test_data_path = sys.argv[1]
+    output_path = sys.argv[2]
 
     # llava-1.5预训练权重
     model_path = "/home/sxjiang/model/MiniCPM-Llama3-V-2_5"
     # test_data_path = "input_path"
     # output_path = "output_path"
 
-    # 创建输出文件夹
-    create_output_floder("output_path")
 
     test(model_path,test_data_path,output_path)
     # exit()

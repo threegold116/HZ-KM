@@ -161,6 +161,7 @@ def process_input(model_path,input_file_path,output_path):
                         output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
                         output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][num_id] +"'" + "\n"
             except Exception as e:
+                print(e)
                 if len(promots) <= 1:
                     output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
                     output_res = output_res + "text_truth:" + "'Output'" 
@@ -249,7 +250,7 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
             images=images_tensor,
             image_sizes=image_sizes,
             do_sample=True,
-            temperature=0,
+            temperature=0.7,
             max_new_tokens=512,
         )
     print("*"*100)
@@ -262,13 +263,15 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
 if __name__ == "__main__":
 
     # 检查命令行参数数量
-    # if len(sys.argv) != 3:
-    #     print("Usage: python run.py <input_path> <output_path>")
-    #     sys.exit(1)
+    if len(sys.argv) != 3:
+        print("Usage: python run.py <input_path> <output_path>")
+        sys.exit(1)
 
     # 命令行参数从 sys.argv[1] 开始，因为 sys.argv[0] 是脚本名称
-    test_data_path = "/home/sxjiang/project/LLaVA-NeXT/test/input_path"
-    output_path = "/home/sxjiang/project/LLaVA-NeXT/test/out_path"
+    test_data_path = sys.argv[1]
+    output_path = sys.argv[2]
+    # test_data_path = "/home/sxjiang/myproject/HZ/examples/input_path"
+    # output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
 
     # llava-1.5预训练权重
     model_path = "/home/sxjiang/model/llama3-llava-next-8b"
@@ -276,30 +279,6 @@ if __name__ == "__main__":
     # output_path = "output_path"
 
     # 创建输出文件夹
-    create_output_floder("output_path")
 
     process_input(model_path,test_data_path,output_path)
-    # exit()
-
-
-    # # 文本提示
-    # prompt = "这两张图片有哪些区别？请用中文作答"
-    # # 测试图片路径
-    # image_file = "/home/zxwang/module/llava-all-file/input_path/Change_caption/image1/0.png,/home/zxwang/module/llava-all-file/input_path/Change_caption/image2/0.png"
-
-    # args = type('Args', (), {
-    #     "model_path": model_path,
-    #     "model_base": None,
-    #     "model_name": get_model_name_from_path(model_path),
-    #     "query": prompt,
-    #     "conv_mode": "vicuna_v1",
-    #     "image_file": image_file,
-    #     "sep": ",",
-    #     "temperature": 0,
-    #     "top_p": None,
-    #     "num_beams": 1,
-    #     "max_new_tokens": 512
-    # })()
-
-    # outputs = eval_model(args)
-    # print(outputs)
+   

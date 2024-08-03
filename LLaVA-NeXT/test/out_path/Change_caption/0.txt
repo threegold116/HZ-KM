@@ -1,4 +1,0 @@
-image_path1:'/home/sxjiang/project/LLaVA-NeXT/test/input_path/Change_caption/image1/0.png'
-image_path2:'/home/sxjiang/project/LLaVA-NeXT/test/input_path/Change_caption/image2/0.png'
-text_input:'这两张图片有哪些区别？'
-text_truth:'这两张图片的主要区别在于颜色和亮度。左边的图片看起来更暗，可能是因为拍摄时间较晚或天气条件影响了光线。右边的图片颜色更鲜艳，亮度更高，表明可能是在白天晴朗的天气条件下拍摄的。这些差异可能是由于拍摄时间、光照条件或图像处理等因素造成的。'

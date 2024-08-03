@@ -1,4 +1,0 @@
-image_path1:'/home/sxjiang/project/LLaVA-NeXT/test/input_path/Change_caption/image1/1.png'
-image_path2:'/home/sxjiang/project/LLaVA-NeXT/test/input_path/Change_caption/image2/1.png'
-text_input:'两张图像有何差异？'
-text_truth:'这两张图像的主要差异在于它们所代表的时间点。左侧的图像可能是在白天拍摄的，而右侧的图像则可能是在夜晚拍摄的。这种时间差异导致了明显的亮度和对比度差异，左侧图像显示了更多的细节和颜色，而右侧图像则呈现出较暗的色调和较少的细节。'
