@@ -1,0 +1,3 @@
+image_path:'/home/sxjiang/project/LLaVA-NeXT/test/input_path/Image_caption/image/1.tif'
+text_input:'请简要描述一下图像的内容。'
+text_truth:'这张图像是一张高精度的可见光遥感图像，主要展示了水域和船只。图像中有三艘船，一艘在水面上行驶，另外两艘停靠在岸边。水域呈现出深绿色调，可能是由于水质或反射光线的原因。船只的颜色较浅，与水域的深绿色形成对比。图像中没有明显的人类活动或其他显著特征，主要关注点在于船只及其在水域中的位置。'

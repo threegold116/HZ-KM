@@ -1,0 +1,16 @@
+image_path:'....../1.tif'  
+question_id:0
+text_input:'图像中包含几架飞机？'
+text_truth:
+question_id:1
+text_input:'图像中的飞机停靠方向是否一致？'
+text_truth:
+question_id:2
+text_input:'图像中是否有已经起飞的飞机？'
+text_truth:
+question_id:3
+text_input:'图像中的飞机主要分布在图像什么位置？'
+text_truth:
+question_id:4
+text_input:'图像拍摄的是什么场景？'
+text_truth:

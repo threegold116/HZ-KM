@@ -1,0 +1,3 @@
+image_path:'....../1.tif'  
+text_input:'请简要描述一下图像的内容。'
+text_truth:
