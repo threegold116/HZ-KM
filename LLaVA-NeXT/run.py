@@ -48,25 +48,40 @@ def load_images(image_files):
 # 阅读输入的 input的 txt文件
 def read_txt_as_dict(txt_file_path):
     result = {}
-
+    pattern=r"(.+)\'(.+)\'"
     with open(txt_file_path, 'r', encoding='utf-8') as file:
         for line in file:
             # 检查行是否非空
-            if line:
+            if "image" in line: 
+                key="image_path"
                 # 分割键和值，假设键和值之间使用冒号和空格分隔
-                key, value = line.split(':', 1)
-                if key not in result.keys():
-                    result[key] = []
-                value = value.strip()
-                # 去除值两侧的单引号
-                value = value.strip("'")
-                # 将键值对添加到字典中
-                result[key].append(value)
+            elif "text" in line:
+                key="text_input"
+            else:
+                continue
+            # elif "question"in line:
+            #     key="question_id"
+            search_groups = re.search(pattern,line.strip())    
+            if search_groups==None:
+                continue
+            if key not in result.keys():
+                result[key] = []
+            value = search_groups.group(2)
+            value = value.strip()
+            # 将键值对添加到字典中
+            result[key].append(value)
     txt_file_grandfather_dir=os.path.dirname(os.path.dirname(txt_file_path))
-    for key,value in result.items():
+    for key,values in result.items():
         if "image" in key:
-            result[key][0]=os.path.join(txt_file_grandfather_dir,key.replace("_path",""),value[0].split("/")[-1])
-        
+            for i in range(len(values)):
+                image_dirs_name=['image1','image2','image']
+                image_paths = [os.path.join(txt_file_grandfather_dir,image_dir,values[i].split("/")[-1]) for image_dir in image_dirs_name]
+                image_path=""
+                for condidate in image_paths:
+                    if os.path.exists(condidate) and condidate not in result[key]:
+                        image_path=condidate
+                        break
+                result[key][i] = image_path    
     return result
 
 # 给定输入进行分类处理
@@ -78,7 +93,7 @@ def process_input(model_path,input_file_path,output_path):
         model_name=get_model_name_from_path(model_path),
         attn_implementation=None
     )
-
+    model.eval()
 
     prompt_base = "你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出十分有用的答案。"
 
@@ -101,29 +116,48 @@ def process_input(model_path,input_file_path,output_path):
             output_res = ""
             # 根据不同的任务名称进行txt文件读取
             # 图像读取
-            image_keys=[]
-            for key,_ in  read_question_dict.items():
-                if "image" in key:
-                    image_keys.append(key)
+            # 读取内容时的冗余设置
+            image_key="image_path"
+            prompt_key="text_input"
+            question_id_key="question_id"
+            answer_key="text_truth"
+            if image_key not in read_question_dict:
+                read_question_dict[image_key]=[]
+                read_question_dict[image_key][0]=old_image_path
+            elif len(read_question_dict[image_key])==0:
+                read_question_dict[image_key][0]=old_image_path
+            else:
+                old_image_path=read_question_dict[image_key][0]
+                
+            if prompt_key not in read_question_dict:
+                read_question_dict[prompt_key]=[]
+                read_question_dict[prompt_key][0]=old_prompt_text
+            elif len(read_question_dict[prompt_key])==0:
+                read_question_dict[prompt_key][0]=old_prompt_text
+            else:
+                old_prompt_text=read_question_dict[prompt_key][0] 
+            read_question_dict[question_id_key]=[]
+            for i in range(len(read_question_dict[prompt_key])):
+                read_question_dict[question_id_key].append(str(i))
                     
             if task_name == "QA":
-                image_path = read_question_dict[image_keys[0]][0]
+                image_path = read_question_dict[image_key][0]
                 output_res = "image_path:" + "'"+ image_path +"'"+ "\n"
-                for prompt_query in read_question_dict['text_input']:
-                    promots.append(prompt_base + "\n 请用中文简要作答，直接给出答案，判断问题则直接回答“是”或者“否”，提问数量问题则直接回答数字。"  + prompt_query )
+                for prompt_query in read_question_dict[prompt_key]:
+                    promots.append("\n 请用中文简要作答，直接给出答案，判断问题则直接回答“是”或者“否”，提问数量问题则直接回答数字。"  + prompt_query )
             if task_name == "Image_caption":
-                image_path = read_question_dict[image_keys[0]][0]
+                image_path = read_question_dict[image_key][0]
                 output_res = "image_path:" + "'"+ image_path +"'"+ "\n"
-                promots.append(prompt_base + read_question_dict['text_input'][0] + "\n请用中文作答。")
+                promots.append(read_question_dict[prompt_key][0] + "\n请用中文作答。")
 
 
             if task_name == "Change_caption":
-                image_path1 = read_question_dict[image_keys[0]][0]
+                image_path1 = read_question_dict[image_key][0]
                 output_res = "image_path1:" + "'"+ image_path1 +"'" + "\n"
-                image_path2 = read_question_dict[image_keys[1]][0]
+                image_path2 = read_question_dict[image_key][0] if len(read_question_dict[image_key])==1 else read_question_dict[image_key][1]
                 output_res = output_res + "image_path2:" + "'"+ image_path2 +"'" + "\n"
                 image_path = image_path1 + ',' + image_path2
-                promots.append(prompt_base  + read_question_dict['text_input'][0]+ "\n请用中文作答。")
+                promots.append(read_question_dict[prompt_key][0]+ "\n请用中文作答。")
 
             print(read_question_dict)
             try:
@@ -147,30 +181,23 @@ def process_input(model_path,input_file_path,output_path):
                     outputs = outputs.replace("答案：", "").replace("答案:", "")
                     
                     # 生成总结果
-                    read_question_dict["text_truth"].append(outputs)
+                    read_question_dict[answer_key].append(outputs)
                     print(read_question_dict)
 
                 # 对于 Image_caption 和 Change_caption
-                if len(promots) <= 1:
-                    output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
-                    output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][0] +"'" 
-                else:
-                    for id in read_question_dict['question_id']:
-                        num_id = int(id)
-                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"
-                        output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
-                        output_res = output_res + "text_truth:" + "'"+ read_question_dict["text_truth"][num_id] +"'" + "\n"
+                for id in read_question_dict[question_id_key]:
+                    num_id = int(id)
+                    if task_name == "QA":
+                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"                
+                    output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][num_id] +"'" + "\n"
+                    output_res = output_res + "text_truth:" + "'"+ read_question_dict[answer_key][num_id] +"'" + "\n"
             except Exception as e:
-                print(e)
-                if len(promots) <= 1:
-                    output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][0] +"'" + "\n"
-                    output_res = output_res + "text_truth:" + "'Output'" 
-                else:
-                    for id in read_question_dict['question_id']:
-                        num_id = int(id)
-                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"
-                        output_res = output_res + "text_input:" + "'"+ read_question_dict['text_input'][num_id] +"'" + "\n"
-                        output_res = output_res + "text_truth:" + "'是'" + "\n"
+                for id in read_question_dict[question_id_key]:
+                    num_id = int(id)
+                    if task_name == "QA":
+                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"                
+                    output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][0] +"'" + "\n"
+                    output_res = output_res + "text_truth:" + "'是'" + "\n"
 
             output_res_path = os.path.join(output_path,task_name,file_name)
             os.makedirs(os.path.dirname(output_res_path),exist_ok=True)
@@ -263,15 +290,15 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
 if __name__ == "__main__":
 
     # 检查命令行参数数量
-    if len(sys.argv) != 3:
-        print("Usage: python run.py <input_path> <output_path>")
-        sys.exit(1)
+    # if len(sys.argv) != 3:
+    #     print("Usage: python run.py <input_path> <output_path>")
+    #     sys.exit(1)
 
     # 命令行参数从 sys.argv[1] 开始，因为 sys.argv[0] 是脚本名称
-    test_data_path = sys.argv[1]
-    output_path = sys.argv[2]
-    # test_data_path = "/home/sxjiang/myproject/HZ/examples/input_path"
-    # output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
+    # test_data_path = sys.argv[1]
+    # output_path = sys.argv[2]
+    test_data_path = "/home/sxjiang/myproject/HZ/examples/input_path"
+    output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
 
     # llava-1.5预训练权重
     model_path = "/home/sxjiang/model/llama3-llava-next-8b"
