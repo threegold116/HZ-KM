@@ -1,7 +1,7 @@
 #### 收集instruct_dataset
 - GeoChat-Instruct
 
-#### 收集Benchmark
+#### 收集与翻译Benchmark
 - VRSBench:收集的数据
 
 
