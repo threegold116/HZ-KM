@@ -1,0 +1,4 @@
+image_path1:'input_path/Change_caption/image1/0.png'
+image_path2:'input_path/Change_caption/image2/0.png'
+text_input:'这两张图片有哪些区别？'
+text_truth:

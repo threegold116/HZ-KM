@@ -1,0 +1,16 @@
+image_path'input_path/QA/image/0.tif'
+question_id:0
+text_input：'图像中是否有建筑物？'
+text_truth:
+question_id:1
+text_input:'图像中的飞机机身是否都是白色？'
+text_truth:
+question_id:2
+text_input1:'图中有几架A321飞机？'
+text_truth:
+question_id:3
+text_input"图像中的飞机大小是否相同？"
+text_truth:
+question_id:4
+'图像拍摄的主要场景是什么？'
+text_truth:
