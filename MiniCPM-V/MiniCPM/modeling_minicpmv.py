@@ -323,7 +323,7 @@ class MiniCPMV(MiniCPMVPreTrainedModel):
             copy_msgs = [sys_msg] + copy_msgs        
 
         prompt = processor.tokenizer.apply_chat_template(copy_msgs, tokenize=False, add_generation_prompt=True)
-        print(f"PROMPT IS {prompt}")
+        # print(f"PROMPT IS {prompt}")
         inputs = processor(prompt, images, return_tensors="pt", max_length=max_inp_length).to(self.device)
 
         if sampling:

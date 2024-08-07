@@ -11,6 +11,7 @@ from transformers import AutoModel, AutoTokenizer
 from MiniCPM import MiniCPMV,MiniCPMVTokenizerFast,MiniCPMVProcessor,MiniCPMVImageProcessor
 import sys
 import re
+from tqdm import tqdm
 def image_parser(args):
     out = args.image_file.split(args.sep)
     return out
@@ -88,8 +89,11 @@ def test(model_path,input_file_path,output_path):
         sub_floder = os.path.basename(root)
         if sub_floder in ['image1','image2','image']:
             continue
+        
+        bar=tqdm(total=len(files))
         # 只遍历 txt 文件
         for name in files:
+
             # 构建文件的完整路径
             file_path = os.path.join(root, name)
             file_path_parts = file_path.split('/')
@@ -101,6 +105,13 @@ def test(model_path,input_file_path,output_path):
             image_path = ""
             promots= []
             output_res = ""
+            # 输出文件设置
+            output_res_path = os.path.join(output_path,task_name,file_name)
+            if os.path.exists(output_res_path):
+                bar.update(1)
+                continue
+            
+            
             # 读取内容时的冗余设置
             image_key="image_path"
             prompt_key="text_input"
@@ -147,10 +158,10 @@ def test(model_path,input_file_path,output_path):
                 image_path = image_path1 + ',' + image_path2
                 promots.append(read_question_dict[prompt_key][0]+ "\n请用中文作答。")
 
-            print(read_question_dict)
+            # print(read_question_dict)
             try:
                 for imput_prompt in promots:
-                    print(imput_prompt)
+                    # print(imput_prompt)
                     args = type('Args', (), {
                     "model_path": model_path,
                     "model_base": None,
@@ -170,7 +181,7 @@ def test(model_path,input_file_path,output_path):
                     
                     # 生成总结果
                     read_question_dict[answer_key].append(outputs)
-                    print(read_question_dict)
+                    # print(read_question_dict)
 
                 # 对于 Image_caption 和 Change_caption
 
@@ -193,15 +204,17 @@ def test(model_path,input_file_path,output_path):
             os.makedirs(os.path.dirname(output_res_path),exist_ok=True)
             with open(output_res_path, 'w',encoding="utf-8") as file:
                 file.write(output_res)
+            bar.update(1)
+        bar.close()
 
 def eval_model(args,tokenizer, model, processor):
     # Model    
     image_files = image_parser(args)
     images = load_images(image_files)
     qs = args.query
-    print("*"*100)
+    # print("*"*100)
     msgs = [{'role': 'user', 'content': qs}]
-    print("*"*100)
+    # print("*"*100)
     outputs = model.chat(
         image=images,
         msgs=msgs,
@@ -211,9 +224,9 @@ def eval_model(args,tokenizer, model, processor):
         temperature=0.7,
         system_prompt='你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出具体的答案。' # pass system_prompt if needed
     )
-    print("*"*100)
-    print(outputs)
-    print("*"*100)
+    # print("*"*100)
+    # print(outputs)
+    # print("*"*100)
     return outputs
 
 
@@ -230,11 +243,11 @@ if __name__ == "__main__":
     # output_path = sys.argv[2]
 
     # llava-1.5预训练权重
-    model_path = "/home/sxjiang/model/MiniCPM-Llama3-V-2_5"
+    model_path = "/home/jiangshixin/model/minicpmv/test_vrsbench"
     # test_data_path = "input_path"
     # output_path = "output_path"
-    test_data_path = "/home/sxjiang/myproject/HZ/examples/input_path"
-    output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
+    test_data_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/input_path"
+    output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/test_vrsbench"
 
     test(model_path,test_data_path,output_path)
     

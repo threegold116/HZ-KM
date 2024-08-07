@@ -3,3 +3,8 @@ __pycache__
 .DS_Store
 out_path/
 result/
+logs/
+logs
+wandb/
+tencent_translate.py
+baidu.py

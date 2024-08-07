@@ -1,0 +1,5262 @@
+[
+    {
+        "image_id": "val/val_000001.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built at the top of the scene ."
+    },
+    {
+        "image_id": "val/val_000003.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built along the road at the top of the scene ."
+    },
+    {
+        "image_id": "val/val_000004.png",
+        "question": "NULL",
+        "ground_truth": "a road and two villas around it are constructed ."
+    },
+    {
+        "image_id": "val/val_000018.png",
+        "question": "NULL",
+        "ground_truth": "a small house has appeared beside a large villa ."
+    },
+    {
+        "image_id": "val/val_000021.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000022.png",
+        "question": "NULL",
+        "ground_truth": "a large building is constructed in the corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000023.png",
+        "question": "NULL",
+        "ground_truth": "the road is rebuilt and a large house is built among the trees with a path connected to the main road ."
+    },
+    {
+        "image_id": "val/val_000024.png",
+        "question": "NULL",
+        "ground_truth": "a villa with a path to the road is constructed beside the road ."
+    },
+    {
+        "image_id": "val/val_000025.png",
+        "question": "NULL",
+        "ground_truth": "two villas with a path to the road is built on the two sides of the old villa ."
+    },
+    {
+        "image_id": "val/val_000027.png",
+        "question": "NULL",
+        "ground_truth": "a road is built and two large houses are built beside it ."
+    },
+    {
+        "image_id": "val/val_000028.png",
+        "question": "NULL",
+        "ground_truth": "a villa with a path to the road appears at the bottom and another house is built in the middle right area of the scene ."
+    },
+    {
+        "image_id": "val/val_000031.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and villas with a path to roads are built ."
+    },
+    {
+        "image_id": "val/val_000032.png",
+        "question": "NULL",
+        "ground_truth": "a house with a path to the turning road is constructed on the bareland beside the road ."
+    },
+    {
+        "image_id": "val/val_000033.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in front of the forest by the roadside ."
+    },
+    {
+        "image_id": "val/val_000034.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000036.png",
+        "question": "NULL",
+        "ground_truth": "two houses are constructed with paths connected to the main road ."
+    },
+    {
+        "image_id": "val/val_000037.png",
+        "question": "NULL",
+        "ground_truth": "woods are removed and a road with villas built along appears ."
+    },
+    {
+        "image_id": "val/val_000038.png",
+        "question": "NULL",
+        "ground_truth": "two buildings and a road appears in the woods in the bottom left corner ."
+    },
+    {
+        "image_id": "val/val_000039.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear in the top right corner with a path to the road ."
+    },
+    {
+        "image_id": "val/val_000040.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built around the end of the road ."
+    },
+    {
+        "image_id": "val/val_000041.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000043.png",
+        "question": "NULL",
+        "ground_truth": "plants and bareland in the bottom are replaced by three villas with path ."
+    },
+    {
+        "image_id": "val/val_000044.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the bottom while two houses are built at the top ."
+    },
+    {
+        "image_id": "val/val_000045.png",
+        "question": "NULL",
+        "ground_truth": "two villas and a road appear at the bottom of the scene and plants are removed ."
+    },
+    {
+        "image_id": "val/val_000046.png",
+        "question": "NULL",
+        "ground_truth": "the roads are reconstructed and one of them disappears ."
+    },
+    {
+        "image_id": "val/val_000047.png",
+        "question": "NULL",
+        "ground_truth": "a cement road is built at the top of the scene ."
+    },
+    {
+        "image_id": "val/val_000048.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000051.png",
+        "question": "NULL",
+        "ground_truth": "a ring of villas are lined at the top ."
+    },
+    {
+        "image_id": "val/val_000054.png",
+        "question": "NULL",
+        "ground_truth": "a cement road extends near the forest and lake ."
+    },
+    {
+        "image_id": "val/val_000055.png",
+        "question": "NULL",
+        "ground_truth": "two parallel roads appear in the left and a ring of houses are built in the right ."
+    },
+    {
+        "image_id": "val/val_000058.png",
+        "question": "NULL",
+        "ground_truth": "a cement road replaces the dirt road ."
+    },
+    {
+        "image_id": "val/val_000062.png",
+        "question": "NULL",
+        "ground_truth": "the path in the right disappears and two houses have been constructed at the right bottom corner ."
+    },
+    {
+        "image_id": "val/val_000063.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and the road is rebuilt into a cross road with villas built along ."
+    },
+    {
+        "image_id": "val/val_000066.png",
+        "question": "NULL",
+        "ground_truth": "three villas are constructed at the edge of the scene ."
+    },
+    {
+        "image_id": "val/val_000067.png",
+        "question": "NULL",
+        "ground_truth": "the former plants and a road are replaced by the new road and houses ."
+    },
+    {
+        "image_id": "val/val_000071.png",
+        "question": "NULL",
+        "ground_truth": "a road and a line of villas appear at the top in place of the trees ."
+    },
+    {
+        "image_id": "val/val_000072.png",
+        "question": "NULL",
+        "ground_truth": "residential area with new houses and roads replace the former vegetation ."
+    },
+    {
+        "image_id": "val/val_000076.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built at the top of the scene ."
+    },
+    {
+        "image_id": "val/val_000081.png",
+        "question": "NULL",
+        "ground_truth": "a small house has appeared on the bareland between the trees ."
+    },
+    {
+        "image_id": "val/val_000084.png",
+        "question": "NULL",
+        "ground_truth": "trees in the top right area are removed and a building is constructed ."
+    },
+    {
+        "image_id": "val/val_000085.png",
+        "question": "NULL",
+        "ground_truth": "the building in the lower-left area of the scene is rebuilt into a bigger one ."
+    },
+    {
+        "image_id": "val/val_000087.png",
+        "question": "NULL",
+        "ground_truth": "a house appears beside the road in the middle of the scene ."
+    },
+    {
+        "image_id": "val/val_000092.png",
+        "question": "NULL",
+        "ground_truth": "a t-shaped road replaces the original road and three lines of buildings appear along it ."
+    },
+    {
+        "image_id": "val/val_000095.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with villas built along appears ."
+    },
+    {
+        "image_id": "val/val_000104.png",
+        "question": "NULL",
+        "ground_truth": "a lot of villas are constructed on both sides of the roads to replace the trees ."
+    },
+    {
+        "image_id": "val/val_000106.png",
+        "question": "NULL",
+        "ground_truth": "a large building and a relatively smaller one with a street connected to the main road are constructed to replace the former trees ."
+    },
+    {
+        "image_id": "val/val_000108.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings appear on both sides of the road ."
+    },
+    {
+        "image_id": "val/val_000109.png",
+        "question": "NULL",
+        "ground_truth": "the original bareland in the center of the scene has become a lake ."
+    },
+    {
+        "image_id": "val/val_000111.png",
+        "question": "NULL",
+        "ground_truth": "a ring of completed villas surrounds the road ."
+    },
+    {
+        "image_id": "val/val_000113.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000115.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a circular ground is built with villas built around it ."
+    },
+    {
+        "image_id": "val/val_000116.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and houses are built along a new road in the bottom ."
+    },
+    {
+        "image_id": "val/val_000121.png",
+        "question": "NULL",
+        "ground_truth": "a house is built next to a road in the left ."
+    },
+    {
+        "image_id": "val/val_000122.png",
+        "question": "NULL",
+        "ground_truth": "four completed mansions appear at the bottom right corner of the forest ."
+    },
+    {
+        "image_id": "val/val_000123.png",
+        "question": "NULL",
+        "ground_truth": "trees and bareland are replaced by a road through the scene with villas built along ."
+    },
+    {
+        "image_id": "val/val_000124.png",
+        "question": "NULL",
+        "ground_truth": "four villas appear in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000127.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built in the open space ."
+    },
+    {
+        "image_id": "val/val_000128.png",
+        "question": "NULL",
+        "ground_truth": "two villas in the middle left area of the scene appear and trees are removed ."
+    },
+    {
+        "image_id": "val/val_000129.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation disappears and two lines of houses appear on both sides of a road in the center ."
+    },
+    {
+        "image_id": "val/val_000133.png",
+        "question": "NULL",
+        "ground_truth": "the woods are replaced by two roads with villas built along ."
+    },
+    {
+        "image_id": "val/val_000134.png",
+        "question": "NULL",
+        "ground_truth": "most trees disappear and two houses are built along the road ."
+    },
+    {
+        "image_id": "val/val_000135.png",
+        "question": "NULL",
+        "ground_truth": "trees are replaced by bareland and a road through the scene with villas built along ."
+    },
+    {
+        "image_id": "val/val_000136.png",
+        "question": "NULL",
+        "ground_truth": "a small house appears in the lower-left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000138.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants are replaced by a piece of bareland ."
+    },
+    {
+        "image_id": "val/val_000139.png",
+        "question": "NULL",
+        "ground_truth": "trees in the top area are removed and a building appears ."
+    },
+    {
+        "image_id": "val/val_000140.png",
+        "question": "NULL",
+        "ground_truth": "a square and a house appear at the top left corner ."
+    },
+    {
+        "image_id": "val/val_000141.png",
+        "question": "NULL",
+        "ground_truth": "a small house has been built among the trees ."
+    },
+    {
+        "image_id": "val/val_000143.png",
+        "question": "NULL",
+        "ground_truth": "trees on two vertical cross lines through the scene are removed ."
+    },
+    {
+        "image_id": "val/val_000144.png",
+        "question": "NULL",
+        "ground_truth": "trees on a circle line are removed ."
+    },
+    {
+        "image_id": "val/val_000149.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear in the top right and bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000150.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000153.png",
+        "question": "NULL",
+        "ground_truth": "a building appears next to the house in the top right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000154.png",
+        "question": "NULL",
+        "ground_truth": "a large house has been built on one side of the road between the original houses ."
+    },
+    {
+        "image_id": "val/val_000156.png",
+        "question": "NULL",
+        "ground_truth": "a building has been built near the original one beside the road ."
+    },
+    {
+        "image_id": "val/val_000158.png",
+        "question": "NULL",
+        "ground_truth": "a line of buildings have been constructed at the bottom ."
+    },
+    {
+        "image_id": "val/val_000159.png",
+        "question": "NULL",
+        "ground_truth": "a small house appears in the lower-left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000162.png",
+        "question": "NULL",
+        "ground_truth": "a house in the left is enlarged and another one in the right is rebuilt ."
+    },
+    {
+        "image_id": "val/val_000167.png",
+        "question": "NULL",
+        "ground_truth": "a small house appears in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000171.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built in the forest ."
+    },
+    {
+        "image_id": "val/val_000174.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000175.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road is built with villas built along ."
+    },
+    {
+        "image_id": "val/val_000176.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and two roads appear in the top and the bottom with villas built along ."
+    },
+    {
+        "image_id": "val/val_000177.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built in the wood ."
+    },
+    {
+        "image_id": "val/val_000178.png",
+        "question": "NULL",
+        "ground_truth": "a building has been constructed at the bottom left corner ."
+    },
+    {
+        "image_id": "val/val_000180.png",
+        "question": "NULL",
+        "ground_truth": "a curved road has been built in the corner of the scene and a house has been built beside it ."
+    },
+    {
+        "image_id": "val/val_000181.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and the road is rebuilt into a cross road with villas built along ."
+    },
+    {
+        "image_id": "val/val_000183.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation quantity decreases much leaving a piece of bareland ."
+    },
+    {
+        "image_id": "val/val_000184.png",
+        "question": "NULL",
+        "ground_truth": "most trees have been cut down and two houses are built around the corner of the road ."
+    },
+    {
+        "image_id": "val/val_000186.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a house is built in the middle of the scene with a road on the left of it ."
+    },
+    {
+        "image_id": "val/val_000189.png",
+        "question": "NULL",
+        "ground_truth": "a winding road has been built in the corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000190.png",
+        "question": "NULL",
+        "ground_truth": "a new road with houses built nearby appears in the desert ."
+    },
+    {
+        "image_id": "val/val_000191.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built along the road ."
+    },
+    {
+        "image_id": "val/val_000192.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a turning road appears at the bottom and a circular road with villas built around appears in the top left corner ."
+    },
+    {
+        "image_id": "val/val_000193.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears at top of the scene ."
+    },
+    {
+        "image_id": "val/val_000194.png",
+        "question": "NULL",
+        "ground_truth": "trees and bareland are replaced by roads and buildings in the lower-right area ."
+    },
+    {
+        "image_id": "val/val_000195.png",
+        "question": "NULL",
+        "ground_truth": "a building has been built in the corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000196.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with villas built around is constructed ."
+    },
+    {
+        "image_id": "val/val_000197.png",
+        "question": "NULL",
+        "ground_truth": "a winding road and two large buildings have been built among the trees ."
+    },
+    {
+        "image_id": "val/val_000200.png",
+        "question": "NULL",
+        "ground_truth": "a line of villas appear at the top ."
+    },
+    {
+        "image_id": "val/val_000201.png",
+        "question": "NULL",
+        "ground_truth": "a winding road has been built across the forest and a house has been built near the road ."
+    },
+    {
+        "image_id": "val/val_000202.png",
+        "question": "NULL",
+        "ground_truth": "two large buildings have been built near the road ."
+    },
+    {
+        "image_id": "val/val_000203.png",
+        "question": "NULL",
+        "ground_truth": "the villa at the bottom has been rebuilt and a house appears at the top ."
+    },
+    {
+        "image_id": "val/val_000204.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa with a swimming pool is built at the bottom and the plants grow lusher ."
+    },
+    {
+        "image_id": "val/val_000205.png",
+        "question": "NULL",
+        "ground_truth": "a road has been built in the trees and a large building has appeared near it ."
+    },
+    {
+        "image_id": "val/val_000206.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a building in the middle appears and a road in the top appears and a building in the right area appears ."
+    },
+    {
+        "image_id": "val/val_000207.png",
+        "question": "NULL",
+        "ground_truth": "a house with a swimming pool shows up in the desert near the road ."
+    },
+    {
+        "image_id": "val/val_000208.png",
+        "question": "NULL",
+        "ground_truth": "the villa at the top has been rebuilt ."
+    },
+    {
+        "image_id": "val/val_000212.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings show up at the edge of the forest along the road ."
+    },
+    {
+        "image_id": "val/val_000215.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built along the road and one house is built in the woods in the bottom ."
+    },
+    {
+        "image_id": "val/val_000216.png",
+        "question": "NULL",
+        "ground_truth": "two buildings have been constructed in the clearing ."
+    },
+    {
+        "image_id": "val/val_000218.png",
+        "question": "NULL",
+        "ground_truth": "two villas are built on one side of the road and three on the other side ."
+    },
+    {
+        "image_id": "val/val_000226.png",
+        "question": "NULL",
+        "ground_truth": "three completed villas appear in the right ."
+    },
+    {
+        "image_id": "val/val_000227.png",
+        "question": "NULL",
+        "ground_truth": "one large building has been built on one side of the road in the woods ."
+    },
+    {
+        "image_id": "val/val_000229.png",
+        "question": "NULL",
+        "ground_truth": "two houses have been built in the corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000234.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the bottom right corner and the trees grow lusher ."
+    },
+    {
+        "image_id": "val/val_000235.png",
+        "question": "NULL",
+        "ground_truth": "two lines of houses are lined neatly alongside a road at the bottom ."
+    },
+    {
+        "image_id": "val/val_000236.png",
+        "question": "NULL",
+        "ground_truth": "two roads appear at the top and the bottom and villas are built along them ."
+    },
+    {
+        "image_id": "val/val_000237.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000238.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses built alongside appears in the desert ."
+    },
+    {
+        "image_id": "val/val_000239.png",
+        "question": "NULL",
+        "ground_truth": "the desert has turned into a residential area with massive houses and roads ."
+    },
+    {
+        "image_id": "val/val_000240.png",
+        "question": "NULL",
+        "ground_truth": "the desert has turned into a residential area with massive houses and roads ."
+    },
+    {
+        "image_id": "val/val_000242.png",
+        "question": "NULL",
+        "ground_truth": "two houses have been built on the bareland in the corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000243.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa has been added by the original buildings at the left bottom corner ."
+    },
+    {
+        "image_id": "val/val_000245.png",
+        "question": "NULL",
+        "ground_truth": "a new building attached to a existing one shows up in the woods ."
+    },
+    {
+        "image_id": "val/val_000246.png",
+        "question": "NULL",
+        "ground_truth": "two buildings have been constructed on both sides of the road near the trees ."
+    },
+    {
+        "image_id": "val/val_000247.png",
+        "question": "NULL",
+        "ground_truth": "a villa is built in the higher left corner with a path to the road ."
+    },
+    {
+        "image_id": "val/val_000250.png",
+        "question": "NULL",
+        "ground_truth": "a large parking lot has appeared on the bareland ."
+    },
+    {
+        "image_id": "val/val_000251.png",
+        "question": "NULL",
+        "ground_truth": "a huge building with parking lot appears at the site where trees and bareland have existed ."
+    },
+    {
+        "image_id": "val/val_000252.png",
+        "question": "NULL",
+        "ground_truth": "a bypass and a parking lot have been built on the bareland beside the main road ."
+    },
+    {
+        "image_id": "val/val_000253.png",
+        "question": "NULL",
+        "ground_truth": "almost half of the plants are removed and a road shows up ."
+    },
+    {
+        "image_id": "val/val_000256.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot appears on the left of the road and another building appears on the right side of the road ."
+    },
+    {
+        "image_id": "val/val_000257.png",
+        "question": "NULL",
+        "ground_truth": "two completed villas appear at the bottom while a house appears at the top ."
+    },
+    {
+        "image_id": "val/val_000258.png",
+        "question": "NULL",
+        "ground_truth": "massive buildings with a road going through appear in the desert ."
+    },
+    {
+        "image_id": "val/val_000259.png",
+        "question": "NULL",
+        "ground_truth": "massive buildings with roads going through appear in the desert with a group of trees ."
+    },
+    {
+        "image_id": "val/val_000260.png",
+        "question": "NULL",
+        "ground_truth": "massive buildings with roads going through appear in the desert with a group of trees ."
+    },
+    {
+        "image_id": "val/val_000273.png",
+        "question": "NULL",
+        "ground_truth": "the forest has turned into a road with houses built alongside ."
+    },
+    {
+        "image_id": "val/val_000274.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear in the lower-left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000276.png",
+        "question": "NULL",
+        "ground_truth": "a ring of villas surrounds the central square ."
+    },
+    {
+        "image_id": "val/val_000277.png",
+        "question": "NULL",
+        "ground_truth": "a t-shaped road appears at the top and two lines of villas are built on the sides ."
+    },
+    {
+        "image_id": "val/val_000278.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa has been constructed at the top left corner ."
+    },
+    {
+        "image_id": "val/val_000281.png",
+        "question": "NULL",
+        "ground_truth": "two houses have been built at the edge of the scene ."
+    },
+    {
+        "image_id": "val/val_000289.png",
+        "question": "NULL",
+        "ground_truth": "a t-shaped road has been built with neatly arranged buildings around replacing the vegetation ."
+    },
+    {
+        "image_id": "val/val_000290.png",
+        "question": "NULL",
+        "ground_truth": "the plants are replaced by two lines of buildings and a road in the middle ."
+    },
+    {
+        "image_id": "val/val_000292.png",
+        "question": "NULL",
+        "ground_truth": "plants in the bottom are replaced by a circular road with villas built along ."
+    },
+    {
+        "image_id": "val/val_000293.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and an arc road with a branch is built with villas built along ."
+    },
+    {
+        "image_id": "val/val_000294.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a turning road is built with villas built along in the top ."
+    },
+    {
+        "image_id": "val/val_000295.png",
+        "question": "NULL",
+        "ground_truth": "trees in the top are removed and a road through the forest appears at the top ."
+    },
+    {
+        "image_id": "val/val_000296.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are removed and a piece of bareland shows up ."
+    },
+    {
+        "image_id": "val/val_000303.png",
+        "question": "NULL",
+        "ground_truth": "trees on a straight line from bottom left to the top right are removed ."
+    },
+    {
+        "image_id": "val/val_000305.png",
+        "question": "NULL",
+        "ground_truth": "trees and bareland are replaced by cross roads with a branch and villas are built along the roads ."
+    },
+    {
+        "image_id": "val/val_000306.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with villas built around appears on the left ."
+    },
+    {
+        "image_id": "val/val_000307.png",
+        "question": "NULL",
+        "ground_truth": "a line of villas is constructed in the right ."
+    },
+    {
+        "image_id": "val/val_000308.png",
+        "question": "NULL",
+        "ground_truth": "a turning road with a branch replaces the trees and bareland and villas are built along the roads ."
+    },
+    {
+        "image_id": "val/val_000309.png",
+        "question": "NULL",
+        "ground_truth": "a t-shaped road runs through a residential area replacing the vegetation ."
+    },
+    {
+        "image_id": "val/val_000310.png",
+        "question": "NULL",
+        "ground_truth": "trees and the road are removed and a turning road with villas built along appears ."
+    },
+    {
+        "image_id": "val/val_000311.png",
+        "question": "NULL",
+        "ground_truth": "a road with villas built along appears on the bareland in the right ."
+    },
+    {
+        "image_id": "val/val_000313.png",
+        "question": "NULL",
+        "ground_truth": "trees and bareland are replaced by a cross road with villas built along ."
+    },
+    {
+        "image_id": "val/val_000315.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses along is built on the bareland ."
+    },
+    {
+        "image_id": "val/val_000316.png",
+        "question": "NULL",
+        "ground_truth": "a residential area with massive buildings and roads is built on the bareland ."
+    },
+    {
+        "image_id": "val/val_000317.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built on the left side of the scene ."
+    },
+    {
+        "image_id": "val/val_000318.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000319.png",
+        "question": "NULL",
+        "ground_truth": "a cross road is built to join the old road with villas built along in the lower area and plants are removed ."
+    },
+    {
+        "image_id": "val/val_000320.png",
+        "question": "NULL",
+        "ground_truth": "the trees are replaced by two lines of houses and a road in the middle ."
+    },
+    {
+        "image_id": "val/val_000328.png",
+        "question": "NULL",
+        "ground_truth": "a new road is built on the bottom side of the scene ."
+    },
+    {
+        "image_id": "val/val_000329.png",
+        "question": "NULL",
+        "ground_truth": "a construction site appears at the right bottom corner in the sparse residential ."
+    },
+    {
+        "image_id": "val/val_000332.png",
+        "question": "NULL",
+        "ground_truth": "a road appears on the right side of the scene ."
+    },
+    {
+        "image_id": "val/val_000335.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and two roads appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000339.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear beside the road on the top left ."
+    },
+    {
+        "image_id": "val/val_000341.png",
+        "question": "NULL",
+        "ground_truth": "a track appears in the bareland ."
+    },
+    {
+        "image_id": "val/val_000342.png",
+        "question": "NULL",
+        "ground_truth": "three buildings appear next to the road ."
+    },
+    {
+        "image_id": "val/val_000343.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the left side of the scene ."
+    },
+    {
+        "image_id": "val/val_000347.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000350.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000351.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a road appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000352.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000353.png",
+        "question": "NULL",
+        "ground_truth": "a straight road has been built on bareland ."
+    },
+    {
+        "image_id": "val/val_000354.png",
+        "question": "NULL",
+        "ground_truth": "a road is built at the top left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000356.png",
+        "question": "NULL",
+        "ground_truth": "a building is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "val/val_000357.png",
+        "question": "NULL",
+        "ground_truth": "a straight road is constructed on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000364.png",
+        "question": "NULL",
+        "ground_truth": "an end of a road appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000372.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a crossroad appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000373.png",
+        "question": "NULL",
+        "ground_truth": "the construction of two main roads has been completed ."
+    },
+    {
+        "image_id": "val/val_000375.png",
+        "question": "NULL",
+        "ground_truth": "a bungalow is built in the right and a road appears next to a parking lot at the bottom ."
+    },
+    {
+        "image_id": "val/val_000377.png",
+        "question": "NULL",
+        "ground_truth": "the roads have been rebuilt and a car is paving on the left one ."
+    },
+    {
+        "image_id": "val/val_000379.png",
+        "question": "NULL",
+        "ground_truth": "two original crossing paths on this land have disappeared ."
+    },
+    {
+        "image_id": "val/val_000380.png",
+        "question": "NULL",
+        "ground_truth": "a road and two buildings appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000382.png",
+        "question": "NULL",
+        "ground_truth": "the grassland has been replaced by a storage tanks site at the bottom and another one at the right ."
+    },
+    {
+        "image_id": "val/val_000383.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes a sand field ."
+    },
+    {
+        "image_id": "val/val_000387.png",
+        "question": "NULL",
+        "ground_truth": "a large building has been built on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000388.png",
+        "question": "NULL",
+        "ground_truth": "a huge building with a big parking lot appears in the bareland ."
+    },
+    {
+        "image_id": "val/val_000391.png",
+        "question": "NULL",
+        "ground_truth": "the yard in the meadow and a path have been replaced by a parking lot and building divided by a road at the top ."
+    },
+    {
+        "image_id": "val/val_000392.png",
+        "question": "NULL",
+        "ground_truth": "two buildings and a large parking lot have been built on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000395.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot is built at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000396.png",
+        "question": "NULL",
+        "ground_truth": "two buildings are built at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000399.png",
+        "question": "NULL",
+        "ground_truth": "a building and a parking lot are built beside the road on the bareland ."
+    },
+    {
+        "image_id": "val/val_000402.png",
+        "question": "NULL",
+        "ground_truth": "two straight concrete roads have been constructed in the clearing ."
+    },
+    {
+        "image_id": "val/val_000404.png",
+        "question": "NULL",
+        "ground_truth": "two straight roads are built on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000419.png",
+        "question": "NULL",
+        "ground_truth": "the number of houses in this residential area has increased ."
+    },
+    {
+        "image_id": "val/val_000421.png",
+        "question": "NULL",
+        "ground_truth": "a medium residential appears on the bareland ."
+    },
+    {
+        "image_id": "val/val_000422.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a crossroad appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000426.png",
+        "question": "NULL",
+        "ground_truth": "a huge residential has been constructed on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000427.png",
+        "question": "NULL",
+        "ground_truth": "a large and dense residential area has appeared on bareland ."
+    },
+    {
+        "image_id": "val/val_000433.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear on the top right ."
+    },
+    {
+        "image_id": "val/val_000445.png",
+        "question": "NULL",
+        "ground_truth": "a small residential appears on the left edge of the scene ."
+    },
+    {
+        "image_id": "val/val_000516.png",
+        "question": "NULL",
+        "ground_truth": "two vertical roads are constructed on bareland ."
+    },
+    {
+        "image_id": "val/val_000519.png",
+        "question": "NULL",
+        "ground_truth": "a playground appears and a small building is built at the bottom ."
+    },
+    {
+        "image_id": "val/val_000520.png",
+        "question": "NULL",
+        "ground_truth": "the meadow disappears and a building is built beside the road on the bareland ."
+    },
+    {
+        "image_id": "val/val_000522.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear at the top right corner of the scene and a square appears on the bottom side of the scene ."
+    },
+    {
+        "image_id": "val/val_000523.png",
+        "question": "NULL",
+        "ground_truth": "a straight road is built in the clearing ."
+    },
+    {
+        "image_id": "val/val_000524.png",
+        "question": "NULL",
+        "ground_truth": "a building is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "val/val_000528.png",
+        "question": "NULL",
+        "ground_truth": "a building and an open space appear on the bareland ."
+    },
+    {
+        "image_id": "val/val_000530.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a road appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000533.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a road appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000537.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses around at a right angle is built on the left side ."
+    },
+    {
+        "image_id": "val/val_000546.png",
+        "question": "NULL",
+        "ground_truth": "a villa is built on the meadow in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000549.png",
+        "question": "NULL",
+        "ground_truth": "a house is added at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000551.png",
+        "question": "NULL",
+        "ground_truth": "a house with a square appears on the right side of the scene ."
+    },
+    {
+        "image_id": "val/val_000553.png",
+        "question": "NULL",
+        "ground_truth": "a house is built beside the road on the meadow ."
+    },
+    {
+        "image_id": "val/val_000554.png",
+        "question": "NULL",
+        "ground_truth": "two buildings disappear beside the road ."
+    },
+    {
+        "image_id": "val/val_000555.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear next to the road ."
+    },
+    {
+        "image_id": "val/val_000568.png",
+        "question": "NULL",
+        "ground_truth": "a building and a parking lot are built beside the road on the meadow ."
+    },
+    {
+        "image_id": "val/val_000572.png",
+        "question": "NULL",
+        "ground_truth": "a building is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "val/val_000573.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a road appear in the bareland ."
+    },
+    {
+        "image_id": "val/val_000590.png",
+        "question": "NULL",
+        "ground_truth": "three new houses and a construction site appear at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000604.png",
+        "question": "NULL",
+        "ground_truth": "lots of buildings and a road replace the vegetation ."
+    },
+    {
+        "image_id": "val/val_000622.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the top left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000623.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built at the bottom corner ."
+    },
+    {
+        "image_id": "val/val_000626.png",
+        "question": "NULL",
+        "ground_truth": "a road disappears and a house shows up on the right side of the scene ."
+    },
+    {
+        "image_id": "val/val_000630.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the bottom side of the scene ."
+    },
+    {
+        "image_id": "val/val_000634.png",
+        "question": "NULL",
+        "ground_truth": "a small cabin appears at the top left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000636.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the left side of the scene ."
+    },
+    {
+        "image_id": "val/val_000641.png",
+        "question": "NULL",
+        "ground_truth": "around the road is built in the right and a communication tower appears at the bottom next to the original one ."
+    },
+    {
+        "image_id": "val/val_000648.png",
+        "question": "NULL",
+        "ground_truth": "a new house is built at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000650.png",
+        "question": "NULL",
+        "ground_truth": "two red houses appear on the grass on the left ."
+    },
+    {
+        "image_id": "val/val_000654.png",
+        "question": "NULL",
+        "ground_truth": "a straight and narrow path is built in the clearing ."
+    },
+    {
+        "image_id": "val/val_000658.png",
+        "question": "NULL",
+        "ground_truth": "a road with a large building appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000660.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot appears at the top left corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000670.png",
+        "question": "NULL",
+        "ground_truth": "the trees in the middle become a road connecting the left and right roads ."
+    },
+    {
+        "image_id": "val/val_000675.png",
+        "question": "NULL",
+        "ground_truth": "the grass on the right is developed into a road and houses on both sides of the road ."
+    },
+    {
+        "image_id": "val/val_000676.png",
+        "question": "NULL",
+        "ground_truth": "all trees have been removed and a large residential has been constructed ."
+    },
+    {
+        "image_id": "val/val_000680.png",
+        "question": "NULL",
+        "ground_truth": "grassland and woodland are developed into crossroads and a complex of buildings on both sides of the roads ."
+    },
+    {
+        "image_id": "val/val_000684.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on the upper right disappears and open spaces and a pool appear ."
+    },
+    {
+        "image_id": "val/val_000686.png",
+        "question": "NULL",
+        "ground_truth": "the forest disappears and a residential area has been built ."
+    },
+    {
+        "image_id": "val/val_000696.png",
+        "question": "NULL",
+        "ground_truth": "a road and houses are built at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000700.png",
+        "question": "NULL",
+        "ground_truth": "a large residential has been constructed on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000704.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings with roads in them is built on the bareland ."
+    },
+    {
+        "image_id": "val/val_000724.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000725.png",
+        "question": "NULL",
+        "ground_truth": "a winding path is built on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000727.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the bottom and the bare land has turned into a meadow ."
+    },
+    {
+        "image_id": "val/val_000728.png",
+        "question": "NULL",
+        "ground_truth": "a straight path has been built in the clearing ."
+    },
+    {
+        "image_id": "val/val_000730.png",
+        "question": "NULL",
+        "ground_truth": "a road runs through the meadow at the bottom replacing the bare ground ."
+    },
+    {
+        "image_id": "val/val_000731.png",
+        "question": "NULL",
+        "ground_truth": "a straight and narrow path is built on bareland ."
+    },
+    {
+        "image_id": "val/val_000734.png",
+        "question": "NULL",
+        "ground_truth": "the woods become lush and a small house appears on the edge of the woods ."
+    },
+    {
+        "image_id": "val/val_000748.png",
+        "question": "NULL",
+        "ground_truth": "a bungalow has been built on the left opposite the residential area ."
+    },
+    {
+        "image_id": "val/val_000752.png",
+        "question": "NULL",
+        "ground_truth": "three houses have been added to the grass on the right ."
+    },
+    {
+        "image_id": "val/val_000753.png",
+        "question": "NULL",
+        "ground_truth": "an original road is extended and a parking lot appears on bareland ."
+    },
+    {
+        "image_id": "val/val_000757.png",
+        "question": "NULL",
+        "ground_truth": "a road and a building with a parking lot are built on the grass ."
+    },
+    {
+        "image_id": "val/val_000758.png",
+        "question": "NULL",
+        "ground_truth": "two concrete roads have been constructed on the original bareland ."
+    },
+    {
+        "image_id": "val/val_000759.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is leveled and a crossroad appears below ."
+    },
+    {
+        "image_id": "val/val_000760.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the middle of the scene and a parking lot appears on the bottom side of the scene ."
+    },
+    {
+        "image_id": "val/val_000761.png",
+        "question": "NULL",
+        "ground_truth": "a large building is in the process of construction ."
+    },
+    {
+        "image_id": "val/val_000762.png",
+        "question": "NULL",
+        "ground_truth": "a construction site appears ."
+    },
+    {
+        "image_id": "val/val_000763.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is leveled and a road appears on the right ."
+    },
+    {
+        "image_id": "val/val_000764.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a parking lot and a large house ."
+    },
+    {
+        "image_id": "val/val_000765.png",
+        "question": "NULL",
+        "ground_truth": "a road is built at the top ."
+    },
+    {
+        "image_id": "val/val_000766.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation becomes lush and a trail appears in the lower-left ."
+    },
+    {
+        "image_id": "val/val_000768.png",
+        "question": "NULL",
+        "ground_truth": "a winding road appears and a building and a large parking lot has been built ."
+    },
+    {
+        "image_id": "val/val_000774.png",
+        "question": "NULL",
+        "ground_truth": "most trees have been cut down and a sparse residential is built ."
+    },
+    {
+        "image_id": "val/val_000775.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation becomes less lush and a room appears in the woodland on the left ."
+    },
+    {
+        "image_id": "val/val_000780.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation becomes less lush and a room appears below the scene ."
+    },
+    {
+        "image_id": "val/val_000784.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the grass at the bottom left and above ."
+    },
+    {
+        "image_id": "val/val_000799.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation becomes a little withered and the small houses on the upper right disappear ."
+    },
+    {
+        "image_id": "val/val_000801.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation disappears and two roads are built in a residential area ."
+    },
+    {
+        "image_id": "val/val_000802.png",
+        "question": "NULL",
+        "ground_truth": "a line of houses has been built on the side of the road ."
+    },
+    {
+        "image_id": "val/val_000805.png",
+        "question": "NULL",
+        "ground_truth": "massive houses beside a road show up in the desert ."
+    },
+    {
+        "image_id": "val/val_000806.png",
+        "question": "NULL",
+        "ground_truth": "four lines of houses have been constructed on the bareland ."
+    },
+    {
+        "image_id": "val/val_000809.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a complex of buildings and roads in between ."
+    },
+    {
+        "image_id": "val/val_000810.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a complex of buildings and roads in between ."
+    },
+    {
+        "image_id": "val/val_000811.png",
+        "question": "NULL",
+        "ground_truth": "massive houses along the extended roads appear in the desert ."
+    },
+    {
+        "image_id": "val/val_000813.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings appear on both sides of a road at the top ."
+    },
+    {
+        "image_id": "val/val_000814.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides appears in the desert ."
+    },
+    {
+        "image_id": "val/val_000816.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built among the other houses in the street blocks ."
+    },
+    {
+        "image_id": "val/val_000818.png",
+        "question": "NULL",
+        "ground_truth": "a building is built in the woods in the bottom right corner ."
+    },
+    {
+        "image_id": "val/val_000819.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear on the woodland on the lower-left ."
+    },
+    {
+        "image_id": "val/val_000821.png",
+        "question": "NULL",
+        "ground_truth": "four houses appear in the clearing below ."
+    },
+    {
+        "image_id": "val/val_000823.png",
+        "question": "NULL",
+        "ground_truth": "the path has turned into a road with two lines of villas on both sides replacing the trees ."
+    },
+    {
+        "image_id": "val/val_000825.png",
+        "question": "NULL",
+        "ground_truth": "a line of completed villas has been built by the road ."
+    },
+    {
+        "image_id": "val/val_000826.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with a branch appears with villas built along on both sides ."
+    },
+    {
+        "image_id": "val/val_000827.png",
+        "question": "NULL",
+        "ground_truth": "the woodland on the left becomes a crossroad and houses on both sides of the road ."
+    },
+    {
+        "image_id": "val/val_000829.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built between the other houses by the roadside ."
+    },
+    {
+        "image_id": "val/val_000830.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with a branch to join the old road appears with villas built along on both sides ."
+    },
+    {
+        "image_id": "val/val_000831.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides replaces most of the woods ."
+    },
+    {
+        "image_id": "val/val_000834.png",
+        "question": "NULL",
+        "ground_truth": "the road on the left continues to stretch and a neat row of houses appears on the right side of the road ."
+    },
+    {
+        "image_id": "val/val_000837.png",
+        "question": "NULL",
+        "ground_truth": "bushes are removed and two roads are built with villas built along on both sides ."
+    },
+    {
+        "image_id": "val/val_000838.png",
+        "question": "NULL",
+        "ground_truth": "a road is built in the top left corner and villas are built around the road ."
+    },
+    {
+        "image_id": "val/val_000842.png",
+        "question": "NULL",
+        "ground_truth": "a building between the roads in the woods is removed ."
+    },
+    {
+        "image_id": "val/val_000844.png",
+        "question": "NULL",
+        "ground_truth": "a building at the edge of the woods disappears ."
+    },
+    {
+        "image_id": "val/val_000852.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear near the road ."
+    },
+    {
+        "image_id": "val/val_000856.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings show up along the new branch of the road ."
+    },
+    {
+        "image_id": "val/val_000859.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in front of the wood next to another house ."
+    },
+    {
+        "image_id": "val/val_000885.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear by the road on the upper left of the scene ."
+    },
+    {
+        "image_id": "val/val_000886.png",
+        "question": "NULL",
+        "ground_truth": "a house is built between two other houses by the roadside ."
+    },
+    {
+        "image_id": "val/val_000887.png",
+        "question": "NULL",
+        "ground_truth": "two villas have been added to the line at the bottom left corner ."
+    },
+    {
+        "image_id": "val/val_000888.png",
+        "question": "NULL",
+        "ground_truth": "a villa has been added to the construction site at the bottom ."
+    },
+    {
+        "image_id": "val/val_000893.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the residential area with roads and villas ."
+    },
+    {
+        "image_id": "val/val_000894.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000908.png",
+        "question": "NULL",
+        "ground_truth": "a road with an end is built on the bareland ."
+    },
+    {
+        "image_id": "val/val_000912.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000913.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on the upper left becomes dense and a house appears on the lower-right ."
+    },
+    {
+        "image_id": "val/val_000918.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides appear near the former one ."
+    },
+    {
+        "image_id": "val/val_000921.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes a residential area with roads and houses on both sides of the roads ."
+    },
+    {
+        "image_id": "val/val_000922.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes a residential area with roads and houses on both sides of the roads ."
+    },
+    {
+        "image_id": "val/val_000923.png",
+        "question": "NULL",
+        "ground_truth": "the road is built longer and a road is built at the bottom and villas are built along the roads ."
+    },
+    {
+        "image_id": "val/val_000925.png",
+        "question": "NULL",
+        "ground_truth": "three buildings appear in the desert near the road ."
+    },
+    {
+        "image_id": "val/val_000951.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "val/val_000952.png",
+        "question": "NULL",
+        "ground_truth": "a road and houses on both sides of the road appear on the grass ."
+    },
+    {
+        "image_id": "val/val_000956.png",
+        "question": "NULL",
+        "ground_truth": "new roads connecting the existing one with houses alongside appear in the desert ."
+    },
+    {
+        "image_id": "val/val_000970.png",
+        "question": "NULL",
+        "ground_truth": "the bungalow in the center has been removed and a house is built ."
+    },
+    {
+        "image_id": "val/val_000993.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built next to a path which connects the original two paths ."
+    },
+    {
+        "image_id": "val/val_001001.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation becomes sparse and dry and a house appears in the woodland on the left ."
+    },
+    {
+        "image_id": "val/val_001005.png",
+        "question": "NULL",
+        "ground_truth": "the grass on the right becomes a large field with a house on it ."
+    },
+    {
+        "image_id": "val/val_001006.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation disappears and a large site with a house and road appears on the left ."
+    },
+    {
+        "image_id": "val/val_001021.png",
+        "question": "NULL",
+        "ground_truth": "three buildings appear at the edge of the desert ."
+    },
+    {
+        "image_id": "val/val_001022.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on the grass becomes withered and three houses are added on the left side of the road ."
+    },
+    {
+        "image_id": "val/val_001239.png",
+        "question": "NULL",
+        "ground_truth": "a new road is built in front of the houses at top of the picture ."
+    },
+    {
+        "image_id": "val/val_001240.png",
+        "question": "NULL",
+        "ground_truth": "a narrow road is built at the top corner ."
+    },
+    {
+        "image_id": "val/val_001241.png",
+        "question": "NULL",
+        "ground_truth": "the road is extended and the grass decreases ."
+    },
+    {
+        "image_id": "val/val_001242.png",
+        "question": "NULL",
+        "ground_truth": "a ring of the villa has been constructed at the top and the meadow at the bottom disappears ."
+    },
+    {
+        "image_id": "val/val_001244.png",
+        "question": "NULL",
+        "ground_truth": "a narrow road appears in the forest ."
+    },
+    {
+        "image_id": "val/val_001245.png",
+        "question": "NULL",
+        "ground_truth": "most trees have been replaced by two vertical roads and neatly arranged houses ."
+    },
+    {
+        "image_id": "val/val_001248.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed as roads and a building in the upper right corner ."
+    },
+    {
+        "image_id": "val/val_001250.png",
+        "question": "NULL",
+        "ground_truth": "the forest is removed and a winding road with buildings around is built ."
+    },
+    {
+        "image_id": "val/val_001252.png",
+        "question": "NULL",
+        "ground_truth": "three roads and houses between them appear in the desert ."
+    },
+    {
+        "image_id": "val/val_001253.png",
+        "question": "NULL",
+        "ground_truth": "two straight roads are built at the bottom and a road with houses around is built on the right side ."
+    },
+    {
+        "image_id": "val/val_001257.png",
+        "question": "NULL",
+        "ground_truth": "a cement road is built at top of the picture ."
+    },
+    {
+        "image_id": "val/val_001259.png",
+        "question": "NULL",
+        "ground_truth": "a neatly arranged residential area appear replacing the plants ."
+    },
+    {
+        "image_id": "val/val_001261.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built around the corner in the open space ."
+    },
+    {
+        "image_id": "val/val_001262.png",
+        "question": "NULL",
+        "ground_truth": "two lines of villas appear on a roadside ."
+    },
+    {
+        "image_id": "val/val_001267.png",
+        "question": "NULL",
+        "ground_truth": "two roads with houses on both sides appear in the desert ."
+    },
+    {
+        "image_id": "val/val_001268.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in a residential area ."
+    },
+    {
+        "image_id": "val/val_001270.png",
+        "question": "NULL",
+        "ground_truth": "the open space on the right is developed as roads and a building complex ."
+    },
+    {
+        "image_id": "val/val_001276.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings with parking lots appear on the bare ground ."
+    },
+    {
+        "image_id": "val/val_001283.png",
+        "question": "NULL",
+        "ground_truth": "the woodland becomes a concrete field with a large house on it ."
+    },
+    {
+        "image_id": "val/val_001285.png",
+        "question": "NULL",
+        "ground_truth": "a square house appears in the open space near the woods ."
+    },
+    {
+        "image_id": "val/val_001286.png",
+        "question": "NULL",
+        "ground_truth": "a winding road appears ."
+    },
+    {
+        "image_id": "val/val_001287.png",
+        "question": "NULL",
+        "ground_truth": "the woodland becomes sparse and a house appears in the upper right corner of the screen ."
+    },
+    {
+        "image_id": "val/val_001292.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation quantity increases and two houses appear at the edge of the scene ."
+    },
+    {
+        "image_id": "val/val_001295.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the forest in the lower-right corner of the picture ."
+    },
+    {
+        "image_id": "val/val_001296.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the roadside in the lower-left of the woodland ."
+    },
+    {
+        "image_id": "val/val_001298.png",
+        "question": "NULL",
+        "ground_truth": "a building is built in the middle ."
+    },
+    {
+        "image_id": "val/val_001299.png",
+        "question": "NULL",
+        "ground_truth": "the small path on the upper right has disappeared and the vegetation in the residential area on the lower-left has grown stronger ."
+    },
+    {
+        "image_id": "val/val_001301.png",
+        "question": "NULL",
+        "ground_truth": "four new houses are built at the bottom of the picture ."
+    },
+    {
+        "image_id": "val/val_001302.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides appears on the bare ground ."
+    },
+    {
+        "image_id": "val/val_001303.png",
+        "question": "NULL",
+        "ground_truth": "a road runs across two lines of buildings on the left ."
+    },
+    {
+        "image_id": "val/val_001306.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are removed and five houses appear ."
+    },
+    {
+        "image_id": "val/val_001307.png",
+        "question": "NULL",
+        "ground_truth": "wasteland is developed into neat houses and a road ."
+    },
+    {
+        "image_id": "val/val_001308.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built near the cement ground on the left side of the picture ."
+    },
+    {
+        "image_id": "val/val_001309.png",
+        "question": "NULL",
+        "ground_truth": "the trees have been removed and a construction site appears on the right near a road ."
+    },
+    {
+        "image_id": "val/val_001310.png",
+        "question": "NULL",
+        "ground_truth": "two new white buildings replace the trees on the ground ."
+    },
+    {
+        "image_id": "val/val_001312.png",
+        "question": "NULL",
+        "ground_truth": "a parking area appears at the top and the road has been widened ."
+    },
+    {
+        "image_id": "val/val_001313.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation disappears and a road appears in the center near a parking lot ."
+    },
+    {
+        "image_id": "val/val_001316.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation disappears and a construction site appears near a road on the right ."
+    },
+    {
+        "image_id": "val/val_001317.png",
+        "question": "NULL",
+        "ground_truth": "a group of houses surrounding the parking lot replace half of the plants ."
+    },
+    {
+        "image_id": "val/val_001319.png",
+        "question": "NULL",
+        "ground_truth": "all the trees have been removed and a roundabout is built on the ground ."
+    },
+    {
+        "image_id": "val/val_001320.png",
+        "question": "NULL",
+        "ground_truth": "lush vegetation disappears and becomes a wasteland ."
+    },
+    {
+        "image_id": "val/val_001322.png",
+        "question": "NULL",
+        "ground_truth": "the grass below turns into concrete and two large buildings appear on it ."
+    },
+    {
+        "image_id": "val/val_001323.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear at the top and the trees by the road disappear ."
+    },
+    {
+        "image_id": "val/val_001324.png",
+        "question": "NULL",
+        "ground_truth": "two small houses appear in the lower-right corner of the picture ."
+    },
+    {
+        "image_id": "val/val_001327.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides replace the plants ."
+    },
+    {
+        "image_id": "val/val_001328.png",
+        "question": "NULL",
+        "ground_truth": "all the plants have been replaced by two lines of houses and a road in the center ."
+    },
+    {
+        "image_id": "val/val_001329.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation is replaced by a road and neatly arranged houses ."
+    },
+    {
+        "image_id": "val/val_001330.png",
+        "question": "NULL",
+        "ground_truth": "a group of houses appear at the edge of the scene ."
+    },
+    {
+        "image_id": "val/val_001335.png",
+        "question": "NULL",
+        "ground_truth": "a group of houses appears in the woods and the meadow disappears ."
+    },
+    {
+        "image_id": "val/val_001336.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland develops into a residential area with concrete roads and houses ."
+    },
+    {
+        "image_id": "val/val_001337.png",
+        "question": "NULL",
+        "ground_truth": "two villas are built in the wood on the left side of the picture ."
+    },
+    {
+        "image_id": "val/val_001338.png",
+        "question": "NULL",
+        "ground_truth": "five houses along the road replace the woods ."
+    },
+    {
+        "image_id": "val/val_001341.png",
+        "question": "NULL",
+        "ground_truth": "a house is built on the left side near the forest ."
+    },
+    {
+        "image_id": "val/val_001342.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built with trees around on both sides of the road ."
+    },
+    {
+        "image_id": "val/val_001344.png",
+        "question": "NULL",
+        "ground_truth": "two villas have been built in the forest on the right side of the picture ."
+    },
+    {
+        "image_id": "val/val_001348.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built along the road with trees by ."
+    },
+    {
+        "image_id": "val/val_001351.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot shows up at the intersection of two roads ."
+    },
+    {
+        "image_id": "val/val_001352.png",
+        "question": "NULL",
+        "ground_truth": "the two puddles on the left side of the scene disappear and become overgrown with trees ."
+    },
+    {
+        "image_id": "val/val_001353.png",
+        "question": "NULL",
+        "ground_truth": "a round structure has disappeared and a white building has been built near the parking lot ."
+    },
+    {
+        "image_id": "val/val_001355.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears on the right near a parking lot ."
+    },
+    {
+        "image_id": "val/val_001356.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on both sides of the road above the scene is replaced by a large number of houses ."
+    },
+    {
+        "image_id": "val/val_001357.png",
+        "question": "NULL",
+        "ground_truth": "a construction site appears at the bottom replacing the plants ."
+    },
+    {
+        "image_id": "val/val_001359.png",
+        "question": "NULL",
+        "ground_truth": "three new houses are built in front of the forest along the road ."
+    },
+    {
+        "image_id": "val/val_001361.png",
+        "question": "NULL",
+        "ground_truth": "a path appears in the middle of the forest ."
+    },
+    {
+        "image_id": "val/val_001362.png",
+        "question": "NULL",
+        "ground_truth": "a road runs across the forest in the center ."
+    },
+    {
+        "image_id": "val/val_001363.png",
+        "question": "NULL",
+        "ground_truth": "a line of houses appears on the left and a house appears on the right ."
+    },
+    {
+        "image_id": "val/val_001364.png",
+        "question": "NULL",
+        "ground_truth": "two paths appear in the middle and above the forest and a small house appears on the side of the road ."
+    },
+    {
+        "image_id": "val/val_001365.png",
+        "question": "NULL",
+        "ground_truth": "a path appears in the forest and a cement road has been built at top of the picture ."
+    },
+    {
+        "image_id": "val/val_001367.png",
+        "question": "NULL",
+        "ground_truth": "a field with parked vehicles appears on the wasteland and a building appears in the upper right corner ."
+    },
+    {
+        "image_id": "val/val_001368.png",
+        "question": "NULL",
+        "ground_truth": "roads and a parking lot are developed on the wasteland ."
+    },
+    {
+        "image_id": "val/val_001369.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes tidy and a path appears in the middle ."
+    },
+    {
+        "image_id": "val/val_001370.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes tidy and a path appears above ."
+    },
+    {
+        "image_id": "val/val_001371.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland becomes tidy and a crossroad appears above ."
+    },
+    {
+        "image_id": "val/val_001372.png",
+        "question": "NULL",
+        "ground_truth": "a road is built in the middle perpendicular to the existing one ."
+    },
+    {
+        "image_id": "val/val_001373.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is leveled and a road appears in the middle ."
+    },
+    {
+        "image_id": "val/val_001374.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the upper right corner of the wasteland ."
+    },
+    {
+        "image_id": "val/val_001375.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on the right has been developed into a residential area ."
+    },
+    {
+        "image_id": "val/val_001376.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on either side of the road below is developed into a residential area ."
+    },
+    {
+        "image_id": "val/val_001377.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on both sides of the road is developed into a residential area and a parking lot ."
+    },
+    {
+        "image_id": "val/val_001378.png",
+        "question": "NULL",
+        "ground_truth": "a large building has been built in the open space ."
+    },
+    {
+        "image_id": "val/val_001380.png",
+        "question": "NULL",
+        "ground_truth": "a residential area has been built on the ground ."
+    },
+    {
+        "image_id": "val/val_001381.png",
+        "question": "NULL",
+        "ground_truth": "a residential area has been built in the open space ."
+    },
+    {
+        "image_id": "val/val_001383.png",
+        "question": "NULL",
+        "ground_truth": "half of the woods are replaced by a road with four houses alongside ."
+    },
+    {
+        "image_id": "val/val_001384.png",
+        "question": "NULL",
+        "ground_truth": "trees disappear and four houses have been built along the road ."
+    },
+    {
+        "image_id": "val/val_001385.png",
+        "question": "NULL",
+        "ground_truth": "the woods are replaced by a road with houses alongside ."
+    },
+    {
+        "image_id": "val/val_001386.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the lower-left corner of the woods ."
+    },
+    {
+        "image_id": "val/val_001387.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland under the woods is developed into a road and three houses by the road ."
+    },
+    {
+        "image_id": "val/val_001388.png",
+        "question": "NULL",
+        "ground_truth": "a building is built on the right side in the forest ."
+    },
+    {
+        "image_id": "val/val_001389.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are removed and a road with houses alongside appears ."
+    },
+    {
+        "image_id": "val/val_001390.png",
+        "question": "NULL",
+        "ground_truth": "most of the vegetation has disappeared and a path has emerged on the left ."
+    },
+    {
+        "image_id": "val/val_001392.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the right top corner in the forest ."
+    },
+    {
+        "image_id": "val/val_001394.png",
+        "question": "NULL",
+        "ground_truth": "the trees between the houses on both sides of the road become lusher and three houses appear in the lower-left corner ."
+    },
+    {
+        "image_id": "val/val_001395.png",
+        "question": "NULL",
+        "ground_truth": "a cement road turns to an asphalt road ."
+    },
+    {
+        "image_id": "val/val_001396.png",
+        "question": "NULL",
+        "ground_truth": "four houses have been built at the crossroad ."
+    },
+    {
+        "image_id": "val/val_001399.png",
+        "question": "NULL",
+        "ground_truth": "five houses have been built on both sides of the road ."
+    },
+    {
+        "image_id": "val/val_001400.png",
+        "question": "NULL",
+        "ground_truth": "a straight road is built parallel to the existing one ."
+    },
+    {
+        "image_id": "val/val_001402.png",
+        "question": "NULL",
+        "ground_truth": "a straight road is built parallel to the existing one ."
+    },
+    {
+        "image_id": "val/val_001404.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built on the bare ground at the crossroad ."
+    },
+    {
+        "image_id": "val/val_001408.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings are arranged by the sides of the road at the top ."
+    },
+    {
+        "image_id": "val/val_001409.png",
+        "question": "NULL",
+        "ground_truth": "the path and woods are replaced by a t-shaped road and neatly arranged houses ."
+    },
+    {
+        "image_id": "val/val_001410.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses along1side appears in the desert and a building disappears ."
+    },
+    {
+        "image_id": "val/val_001412.png",
+        "question": "NULL",
+        "ground_truth": "a bungalow has been built by the original ones on the right ."
+    },
+    {
+        "image_id": "val/val_001417.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides is built at a right angle at the top corner ."
+    },
+    {
+        "image_id": "val/val_001418.png",
+        "question": "NULL",
+        "ground_truth": "a turning road with houses alongside and three courts appears in the desert ."
+    },
+    {
+        "image_id": "val/val_001420.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the top and a construction site appears ."
+    },
+    {
+        "image_id": "val/val_001423.png",
+        "question": "NULL",
+        "ground_truth": "a small house has been built in the wood at the edge of the open space ."
+    },
+    {
+        "image_id": "val/val_001424.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on the grass has thinned and a house in the lower-right corner has disappeared ."
+    },
+    {
+        "image_id": "val/val_001425.png",
+        "question": "NULL",
+        "ground_truth": "a building at the corner of the scene disappears and the vegetation quantity decreases much ."
+    },
+    {
+        "image_id": "val/val_001431.png",
+        "question": "NULL",
+        "ground_truth": "most plants have been replaced by buildings and a road ."
+    },
+    {
+        "image_id": "val/val_001432.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides is built on the right side and the woods is removed on the left side ."
+    },
+    {
+        "image_id": "val/val_001433.png",
+        "question": "NULL",
+        "ground_truth": "the forest disappears and a road in a circle is built with a big circular building around ."
+    },
+    {
+        "image_id": "val/val_001434.png",
+        "question": "NULL",
+        "ground_truth": "trees have been removed and three houses are built in the open space ."
+    },
+    {
+        "image_id": "val/val_001437.png",
+        "question": "NULL",
+        "ground_truth": "massive houses and a road replace most of the trees ."
+    },
+    {
+        "image_id": "val/val_001438.png",
+        "question": "NULL",
+        "ground_truth": "trees disappear and houses with a parking lot are built ."
+    },
+    {
+        "image_id": "test/test_000004.png",
+        "question": "NULL",
+        "ground_truth": "the former forest has been replaced by a residential area with roads and houses ."
+    },
+    {
+        "image_id": "test/test_000017.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and neatly arranged residential buildings with a circular road at the top of the area and a turning road through the buildings ."
+    },
+    {
+        "image_id": "test/test_000018.png",
+        "question": "NULL",
+        "ground_truth": "trees and the road are replaced by a new road with neatly arranged residential buildings and another circular road at the top ."
+    },
+    {
+        "image_id": "test/test_000020.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built on the ground ."
+    },
+    {
+        "image_id": "test/test_000032.png",
+        "question": "NULL",
+        "ground_truth": "a house is built on bareland and trees disappear ."
+    },
+    {
+        "image_id": "test/test_000044.png",
+        "question": "NULL",
+        "ground_truth": "a separate house appears near the road in the desert ."
+    },
+    {
+        "image_id": "test/test_000045.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa has been constructed at the bottom right corner ."
+    },
+    {
+        "image_id": "test/test_000046.png",
+        "question": "NULL",
+        "ground_truth": "a building has appeared on the bareland ."
+    },
+    {
+        "image_id": "test/test_000047.png",
+        "question": "NULL",
+        "ground_truth": "a house with a path leading to the road shows up in the desert ."
+    },
+    {
+        "image_id": "test/test_000048.png",
+        "question": "NULL",
+        "ground_truth": "two houses are constructed on the bareland near the trees ."
+    },
+    {
+        "image_id": "test/test_000049.png",
+        "question": "NULL",
+        "ground_truth": "a new house is built in the upper right corner next to another one ."
+    },
+    {
+        "image_id": "test/test_000050.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the higher left corner and another one appears in the higher right corner ."
+    },
+    {
+        "image_id": "test/test_000051.png",
+        "question": "NULL",
+        "ground_truth": "a building is built in the trees at the right middle corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000062.png",
+        "question": "NULL",
+        "ground_truth": "a house has been completed and another villa has been built on the bareland near the original one ."
+    },
+    {
+        "image_id": "test/test_000063.png",
+        "question": "NULL",
+        "ground_truth": "three neatly arranged buildings with paths to the road are built ."
+    },
+    {
+        "image_id": "test/test_000064.png",
+        "question": "NULL",
+        "ground_truth": "four buildings are built on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000068.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the center of the forest ."
+    },
+    {
+        "image_id": "test/test_000079.png",
+        "question": "NULL",
+        "ground_truth": "two houses show up among the trees and a road disappears ."
+    },
+    {
+        "image_id": "test/test_000082.png",
+        "question": "NULL",
+        "ground_truth": "a new building with a path to the road is built in the residential ."
+    },
+    {
+        "image_id": "test/test_000085.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears in the woods at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000088.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built in the clearing on the right ."
+    },
+    {
+        "image_id": "test/test_000091.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the woods in the middle left corner ."
+    },
+    {
+        "image_id": "test/test_000092.png",
+        "question": "NULL",
+        "ground_truth": "a small house has been built among the trees at the edge of the scene ."
+    },
+    {
+        "image_id": "test/test_000096.png",
+        "question": "NULL",
+        "ground_truth": "a building has been built near the trees at the edge of the scene ."
+    },
+    {
+        "image_id": "test/test_000101.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses surrounds the square ."
+    },
+    {
+        "image_id": "test/test_000104.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road is built with houses on both sides ."
+    },
+    {
+        "image_id": "test/test_000106.png",
+        "question": "NULL",
+        "ground_truth": "a lot of villas are constructed on the bareland on both sides of the two roads ."
+    },
+    {
+        "image_id": "test/test_000107.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear on one side of the road and two on the other side ."
+    },
+    {
+        "image_id": "test/test_000108.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and neatly arranged villas with a road appear in the left ."
+    },
+    {
+        "image_id": "test/test_000111.png",
+        "question": "NULL",
+        "ground_truth": "a building has been added to the line at the bottom ."
+    },
+    {
+        "image_id": "test/test_000112.png",
+        "question": "NULL",
+        "ground_truth": "new villas are built along the old ones ."
+    },
+    {
+        "image_id": "test/test_000113.png",
+        "question": "NULL",
+        "ground_truth": "new villas are built along the old ones in the top ."
+    },
+    {
+        "image_id": "test/test_000115.png",
+        "question": "NULL",
+        "ground_truth": "a villa has been built at the right top corner and another one opposite to it ."
+    },
+    {
+        "image_id": "test/test_000116.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built in the upper left corner ."
+    },
+    {
+        "image_id": "test/test_000122.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants are removed and a road as well as houses are built at that site ."
+    },
+    {
+        "image_id": "test/test_000124.png",
+        "question": "NULL",
+        "ground_truth": "the old road is rebuilt into a new one with a building in the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000126.png",
+        "question": "NULL",
+        "ground_truth": "a cement road is built and houses are built along with it ."
+    },
+    {
+        "image_id": "test/test_000127.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and neatly arranged villas with the path to roads appear around the area ."
+    },
+    {
+        "image_id": "test/test_000128.png",
+        "question": "NULL",
+        "ground_truth": "a line of villas appears on the roadside ."
+    },
+    {
+        "image_id": "test/test_000129.png",
+        "question": "NULL",
+        "ground_truth": "three new houses are built on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000133.png",
+        "question": "NULL",
+        "ground_truth": "three buildings are constructed on the bareland on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000137.png",
+        "question": "NULL",
+        "ground_truth": "a building with a path to the road shows up on the bareland ."
+    },
+    {
+        "image_id": "test/test_000141.png",
+        "question": "NULL",
+        "ground_truth": "two buildings surrounded by roads show up on the bareland ."
+    },
+    {
+        "image_id": "test/test_000149.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in the lower-right of the corner ."
+    },
+    {
+        "image_id": "test/test_000150.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built in the lower-left corner and a new road is built ."
+    },
+    {
+        "image_id": "test/test_000153.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a residential area is built on the two sides of the road ."
+    },
+    {
+        "image_id": "test/test_000154.png",
+        "question": "NULL",
+        "ground_truth": "trees and roads are removed and villas are built beside a new road ."
+    },
+    {
+        "image_id": "test/test_000155.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a new asphalt road is built with houses along with it ."
+    },
+    {
+        "image_id": "test/test_000156.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and villas are built with a new road in the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000157.png",
+        "question": "NULL",
+        "ground_truth": "a large number of villas are built along the road ."
+    },
+    {
+        "image_id": "test/test_000158.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses has been built around the road ."
+    },
+    {
+        "image_id": "test/test_000159.png",
+        "question": "NULL",
+        "ground_truth": "two new branches of the road show up and massive buildings appear near the road ."
+    },
+    {
+        "image_id": "test/test_000171.png",
+        "question": "NULL",
+        "ground_truth": "three houses are added to the construction site at the bottom ."
+    },
+    {
+        "image_id": "test/test_000172.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built in the forest ."
+    },
+    {
+        "image_id": "test/test_000174.png",
+        "question": "NULL",
+        "ground_truth": "villas are built between the old ones along the road ."
+    },
+    {
+        "image_id": "test/test_000175.png",
+        "question": "NULL",
+        "ground_truth": "a new villa is built with a path to the square connected to the road ."
+    },
+    {
+        "image_id": "test/test_000176.png",
+        "question": "NULL",
+        "ground_truth": "two villas are built on top of the scene ."
+    },
+    {
+        "image_id": "test/test_000181.png",
+        "question": "NULL",
+        "ground_truth": "a new residential district is built on abandoned land ."
+    },
+    {
+        "image_id": "test/test_000182.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built in the woods ."
+    },
+    {
+        "image_id": "test/test_000186.png",
+        "question": "NULL",
+        "ground_truth": "two roads appear crossing the scene and villas are built along them ."
+    },
+    {
+        "image_id": "test/test_000190.png",
+        "question": "NULL",
+        "ground_truth": "the desert has turned into a residential area with massive houses and roads ."
+    },
+    {
+        "image_id": "test/test_000191.png",
+        "question": "NULL",
+        "ground_truth": "the woods have turned into a residential area with massive houses and roads ."
+    },
+    {
+        "image_id": "test/test_000192.png",
+        "question": "NULL",
+        "ground_truth": "a new road is built near another one and houses are built along it ."
+    },
+    {
+        "image_id": "test/test_000193.png",
+        "question": "NULL",
+        "ground_truth": "two large houses have been constructed in the corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000194.png",
+        "question": "NULL",
+        "ground_truth": "a new residential district is built and vegetation are removed ."
+    },
+    {
+        "image_id": "test/test_000195.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are replaced by a residential area ."
+    },
+    {
+        "image_id": "test/test_000196.png",
+        "question": "NULL",
+        "ground_truth": "the turning road becomes a cross road and new buildings are built around the roads ."
+    },
+    {
+        "image_id": "test/test_000198.png",
+        "question": "NULL",
+        "ground_truth": "two lines of completed villas are arranged neatly on a roadsides ."
+    },
+    {
+        "image_id": "test/test_000199.png",
+        "question": "NULL",
+        "ground_truth": "the woods have turned into a residential area with crossed roads and massive houses ."
+    },
+    {
+        "image_id": "test/test_000203.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road with villas built along appears ."
+    },
+    {
+        "image_id": "test/test_000205.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa appears at the top left corner ."
+    },
+    {
+        "image_id": "test/test_000207.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appears in the woods in the middle top ."
+    },
+    {
+        "image_id": "test/test_000208.png",
+        "question": "NULL",
+        "ground_truth": "two villas have been constructed between the original ones beside the roads ."
+    },
+    {
+        "image_id": "test/test_000209.png",
+        "question": "NULL",
+        "ground_truth": "the roads are surrounded by a construction site ."
+    },
+    {
+        "image_id": "test/test_000211.png",
+        "question": "NULL",
+        "ground_truth": "two completed villas are constructed at the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000213.png",
+        "question": "NULL",
+        "ground_truth": "neatly arranged buildings appear around the cross road with a path to it ."
+    },
+    {
+        "image_id": "test/test_000214.png",
+        "question": "NULL",
+        "ground_truth": "buildings are built beside the road with a path to it ."
+    },
+    {
+        "image_id": "test/test_000215.png",
+        "question": "NULL",
+        "ground_truth": "buildings are built beside the road with a path to it ."
+    },
+    {
+        "image_id": "test/test_000219.png",
+        "question": "NULL",
+        "ground_truth": "a building replaces the trees in the top left corner ."
+    },
+    {
+        "image_id": "test/test_000222.png",
+        "question": "NULL",
+        "ground_truth": "a ring of villas are constructed around the square ."
+    },
+    {
+        "image_id": "test/test_000226.png",
+        "question": "NULL",
+        "ground_truth": "a small house is built in the center of the scene ."
+    },
+    {
+        "image_id": "test/test_000236.png",
+        "question": "NULL",
+        "ground_truth": "a road with three houses built along shows up in the desert ."
+    },
+    {
+        "image_id": "test/test_000237.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built on the bareland beside the road ."
+    },
+    {
+        "image_id": "test/test_000239.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built in the trees in the corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000240.png",
+        "question": "NULL",
+        "ground_truth": "a building appears on the bareland in the top left corner and a road crossing the woods appears in the forest ."
+    },
+    {
+        "image_id": "test/test_000241.png",
+        "question": "NULL",
+        "ground_truth": "a large building with a parking lot has been built on the bareland ."
+    },
+    {
+        "image_id": "test/test_000242.png",
+        "question": "NULL",
+        "ground_truth": "a large building with a square in front of it has been constructed on the bareland ."
+    },
+    {
+        "image_id": "test/test_000243.png",
+        "question": "NULL",
+        "ground_truth": "a building with a square beside it has appeared on the bareland ."
+    },
+    {
+        "image_id": "test/test_000245.png",
+        "question": "NULL",
+        "ground_truth": "two vertical roads have been built and two large villas have been built with paths connected to the road ."
+    },
+    {
+        "image_id": "test/test_000246.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants are replaced by roads and a parking lot ."
+    },
+    {
+        "image_id": "test/test_000247.png",
+        "question": "NULL",
+        "ground_truth": "a winding road with a bypass has been built on the bareland near the woods ."
+    },
+    {
+        "image_id": "test/test_000249.png",
+        "question": "NULL",
+        "ground_truth": "a small house in the trees disappears and a road and a square are constructed ."
+    },
+    {
+        "image_id": "test/test_000250.png",
+        "question": "NULL",
+        "ground_truth": "a road runs across the forest in the center and a villa is built on the left ."
+    },
+    {
+        "image_id": "test/test_000253.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears in the bottom left corner and another one appears in the top right corner ."
+    },
+    {
+        "image_id": "test/test_000260.png",
+        "question": "NULL",
+        "ground_truth": "a path is hewed through the underbrush in the center ."
+    },
+    {
+        "image_id": "test/test_000262.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants have been replaced by bareland and a road ."
+    },
+    {
+        "image_id": "test/test_000270.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants are replaced by a road with houses along ."
+    },
+    {
+        "image_id": "test/test_000271.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants have been removed and a road with houses built along ."
+    },
+    {
+        "image_id": "test/test_000272.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a villa is built at the corner of the asphalt road ."
+    },
+    {
+        "image_id": "test/test_000274.png",
+        "question": "NULL",
+        "ground_truth": "a road is built through the woods in the right ."
+    },
+    {
+        "image_id": "test/test_000275.png",
+        "question": "NULL",
+        "ground_truth": "the forest has turned into a residential area with arranged buildings and roads ."
+    },
+    {
+        "image_id": "test/test_000276.png",
+        "question": "NULL",
+        "ground_truth": "the forest has turned into a residential area with arranged buildings and roads ."
+    },
+    {
+        "image_id": "test/test_000278.png",
+        "question": "NULL",
+        "ground_truth": "two paths appear at the top of the bareland ."
+    },
+    {
+        "image_id": "test/test_000280.png",
+        "question": "NULL",
+        "ground_truth": "forests are replaced by a huge building with a square and roads with neatly arranged residential houses ."
+    },
+    {
+        "image_id": "test/test_000285.png",
+        "question": "NULL",
+        "ground_truth": "buildings and trees in the middle are removed and a large building is built with circular road surrounded ."
+    },
+    {
+        "image_id": "test/test_000286.png",
+        "question": "NULL",
+        "ground_truth": "cars and a building in the right disappear and a building with a circular road surrounded appears ."
+    },
+    {
+        "image_id": "test/test_000287.png",
+        "question": "NULL",
+        "ground_truth": "three buildings with parking lots appear on the bareland ."
+    },
+    {
+        "image_id": "test/test_000288.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot appears on the left and a building disappears in the woods ."
+    },
+    {
+        "image_id": "test/test_000289.png",
+        "question": "NULL",
+        "ground_truth": "a road and a parking lot is built in the top and a new house have been built in the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000293.png",
+        "question": "NULL",
+        "ground_truth": "the house in the top is rebuilt into a big one and a new house is built along it ."
+    },
+    {
+        "image_id": "test/test_000299.png",
+        "question": "NULL",
+        "ground_truth": "a circular road appears surrounding the grassland ."
+    },
+    {
+        "image_id": "test/test_000301.png",
+        "question": "NULL",
+        "ground_truth": "a line of completed villas are built alongside the road ."
+    },
+    {
+        "image_id": "test/test_000302.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings appear on both sides of the road at the top ."
+    },
+    {
+        "image_id": "test/test_000304.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses appears surrounding the square ."
+    },
+    {
+        "image_id": "test/test_000305.png",
+        "question": "NULL",
+        "ground_truth": "two lines of houses are built on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000306.png",
+        "question": "NULL",
+        "ground_truth": "a residential area is built on a wasteland ."
+    },
+    {
+        "image_id": "test/test_000308.png",
+        "question": "NULL",
+        "ground_truth": "the desert has turned into a residential area with buildings of different size and roads leading in all directions ."
+    },
+    {
+        "image_id": "test/test_000309.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a cross road is built with neatly arranged villas built along ."
+    },
+    {
+        "image_id": "test/test_000310.png",
+        "question": "NULL",
+        "ground_truth": "the forest has turned into a residential area with massive buildings and roads leading in all directions ."
+    },
+    {
+        "image_id": "test/test_000311.png",
+        "question": "NULL",
+        "ground_truth": "trees are replaced by a circular road on the left with villas built neatly along and another building is built in the top right corner ."
+    },
+    {
+        "image_id": "test/test_000312.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings with parking lots appear in the desert ."
+    },
+    {
+        "image_id": "test/test_000313.png",
+        "question": "NULL",
+        "ground_truth": "all trees are removed and a residential district has been built ."
+    },
+    {
+        "image_id": "test/test_000314.png",
+        "question": "NULL",
+        "ground_truth": "a house and trees around it are removed and a new road is built with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000316.png",
+        "question": "NULL",
+        "ground_truth": "the plants grow lusher and a road appears at the bottom ."
+    },
+    {
+        "image_id": "test/test_000319.png",
+        "question": "NULL",
+        "ground_truth": "half of the plants have been removed and groups of buildings as well as a road with branches appear ."
+    },
+    {
+        "image_id": "test/test_000320.png",
+        "question": "NULL",
+        "ground_truth": "a road has been built in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000322.png",
+        "question": "NULL",
+        "ground_truth": "the road in the left is rebuilt into one with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000323.png",
+        "question": "NULL",
+        "ground_truth": "almost all of the plants are removed and a road with houses built around appears ."
+    },
+    {
+        "image_id": "test/test_000324.png",
+        "question": "NULL",
+        "ground_truth": "the path and trees disappear and a road runs across two lines of buildings ."
+    },
+    {
+        "image_id": "test/test_000325.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and the road in the right has been rebuilt into one with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000327.png",
+        "question": "NULL",
+        "ground_truth": "a turning road with villas neatly built along replaces the trees and a parking lot appears in the bottom ."
+    },
+    {
+        "image_id": "test/test_000328.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings with a road in the middle replace the trees ."
+    },
+    {
+        "image_id": "test/test_000329.png",
+        "question": "NULL",
+        "ground_truth": "two villas have been constructed on the bareland at the edge of the scene ."
+    },
+    {
+        "image_id": "test/test_000330.png",
+        "question": "NULL",
+        "ground_truth": "a huge building is built in the center of the scene ."
+    },
+    {
+        "image_id": "test/test_000331.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses appears at the top and a road is built at the bottom replacing the vegetation ."
+    },
+    {
+        "image_id": "test/test_000332.png",
+        "question": "NULL",
+        "ground_truth": "trees and a house are removed and a cross road is built through the woods ."
+    },
+    {
+        "image_id": "test/test_000333.png",
+        "question": "NULL",
+        "ground_truth": "two warehouses are pulled down to build a parking lot ."
+    },
+    {
+        "image_id": "test/test_000334.png",
+        "question": "NULL",
+        "ground_truth": "new buildings with parking lots and roads are built and a new road is built to join the old road ."
+    },
+    {
+        "image_id": "test/test_000335.png",
+        "question": "NULL",
+        "ground_truth": "a road appears on the left and two malls are built on both sides ."
+    },
+    {
+        "image_id": "test/test_000336.png",
+        "question": "NULL",
+        "ground_truth": "a huge building appears in the forest in the top left corner ."
+    },
+    {
+        "image_id": "test/test_000345.png",
+        "question": "NULL",
+        "ground_truth": "two large buildings are constructed among the trees ."
+    },
+    {
+        "image_id": "test/test_000347.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built among the trees ."
+    },
+    {
+        "image_id": "test/test_000352.png",
+        "question": "NULL",
+        "ground_truth": "a line of villas appears at the top and two villas at the bottom ."
+    },
+    {
+        "image_id": "test/test_000353.png",
+        "question": "NULL",
+        "ground_truth": "buildings are built in the forest in the lower area of the scene ."
+    },
+    {
+        "image_id": "test/test_000354.png",
+        "question": "NULL",
+        "ground_truth": "three villas have been built in the woods and a small path connects with the road ."
+    },
+    {
+        "image_id": "test/test_000361.png",
+        "question": "NULL",
+        "ground_truth": "villas are built in the woods with a path to the road ."
+    },
+    {
+        "image_id": "test/test_000362.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built along the road and a house has been built in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000363.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in the forests on the top of the scene ."
+    },
+    {
+        "image_id": "test/test_000366.png",
+        "question": "NULL",
+        "ground_truth": "villas and a road are built with a path to the road ."
+    },
+    {
+        "image_id": "test/test_000371.png",
+        "question": "NULL",
+        "ground_truth": "two completed villas are constructed on the right side of the road ."
+    },
+    {
+        "image_id": "test/test_000372.png",
+        "question": "NULL",
+        "ground_truth": "a small house has been built in the wood next to the road ."
+    },
+    {
+        "image_id": "test/test_000373.png",
+        "question": "NULL",
+        "ground_truth": "a building appears on the bareland in the bottom right corner ."
+    },
+    {
+        "image_id": "test/test_000374.png",
+        "question": "NULL",
+        "ground_truth": "a construction site appears at the bottom and the plants grow lusher ."
+    },
+    {
+        "image_id": "test/test_000375.png",
+        "question": "NULL",
+        "ground_truth": "a villa is built in the woods on the left side of the road ."
+    },
+    {
+        "image_id": "test/test_000376.png",
+        "question": "NULL",
+        "ground_truth": "two houses have been constructed among the trees ."
+    },
+    {
+        "image_id": "test/test_000377.png",
+        "question": "NULL",
+        "ground_truth": "three villas have been constructed on the bareland ."
+    },
+    {
+        "image_id": "test/test_000380.png",
+        "question": "NULL",
+        "ground_truth": "a road vertical to the original one appears and four villas are built on both sides ."
+    },
+    {
+        "image_id": "test/test_000384.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built by the road ."
+    },
+    {
+        "image_id": "test/test_000385.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa appears in the woods at the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000386.png",
+        "question": "NULL",
+        "ground_truth": "two connected small buildings appear in the woods ."
+    },
+    {
+        "image_id": "test/test_000388.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the woods in the top left corner and two buildings are rebuilt into bigger ones ."
+    },
+    {
+        "image_id": "test/test_000389.png",
+        "question": "NULL",
+        "ground_truth": "three villas have been built in the trees on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000390.png",
+        "question": "NULL",
+        "ground_truth": "a large house appears in the right area of the scene beside the road ."
+    },
+    {
+        "image_id": "test/test_000391.png",
+        "question": "NULL",
+        "ground_truth": "two small houses have been built in the forest beside the road ."
+    },
+    {
+        "image_id": "test/test_000392.png",
+        "question": "NULL",
+        "ground_truth": "three small buildings are built together in the forest ."
+    },
+    {
+        "image_id": "test/test_000393.png",
+        "question": "NULL",
+        "ground_truth": "four houses appear along the road among the plants ."
+    },
+    {
+        "image_id": "test/test_000394.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear at the top and a villa appears at the bottom by the road ."
+    },
+    {
+        "image_id": "test/test_000396.png",
+        "question": "NULL",
+        "ground_truth": "two large buildings have been built on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000397.png",
+        "question": "NULL",
+        "ground_truth": "two buildings with respective pools appear at the top ."
+    },
+    {
+        "image_id": "test/test_000398.png",
+        "question": "NULL",
+        "ground_truth": "four separate houses appear in the woods ."
+    },
+    {
+        "image_id": "test/test_000401.png",
+        "question": "NULL",
+        "ground_truth": "two small houses are built in the lower-left of the scene ."
+    },
+    {
+        "image_id": "test/test_000402.png",
+        "question": "NULL",
+        "ground_truth": "two small buildings have been built in the woods beside the road ."
+    },
+    {
+        "image_id": "test/test_000403.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear near the plants and the existing one ."
+    },
+    {
+        "image_id": "test/test_000404.png",
+        "question": "NULL",
+        "ground_truth": "a mansion has been constructed at the bottom in place of the trees and the path in the center disappears ."
+    },
+    {
+        "image_id": "test/test_000405.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the woods in the top left corner and another house appears between the old houses in the lower area of the scene ."
+    },
+    {
+        "image_id": "test/test_000408.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears in the middle of the scene and another villa is constructed below it ."
+    },
+    {
+        "image_id": "test/test_000409.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built in the center of the other three buildings ."
+    },
+    {
+        "image_id": "test/test_000411.png",
+        "question": "NULL",
+        "ground_truth": "a small building appears in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000412.png",
+        "question": "NULL",
+        "ground_truth": "trees and bareland are replaced by two buildings in the lower-left area of the scene ."
+    },
+    {
+        "image_id": "test/test_000413.png",
+        "question": "NULL",
+        "ground_truth": "a new house has been built between the other two houses in the wood ."
+    },
+    {
+        "image_id": "test/test_000415.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built in front of the trees ."
+    },
+    {
+        "image_id": "test/test_000416.png",
+        "question": "NULL",
+        "ground_truth": "most trees are removed and the road is rebuilt into a straight road with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000417.png",
+        "question": "NULL",
+        "ground_truth": "a new house is built beside the road in the middle of the scene ."
+    },
+    {
+        "image_id": "test/test_000418.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear by the mall at the top and a house appears at the bottom ."
+    },
+    {
+        "image_id": "test/test_000419.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built on the left of the residential area ."
+    },
+    {
+        "image_id": "test/test_000420.png",
+        "question": "NULL",
+        "ground_truth": "four houses appear along the road and one shows up among the trees ."
+    },
+    {
+        "image_id": "test/test_000421.png",
+        "question": "NULL",
+        "ground_truth": "a building is built in the bottom left corner and another building appears in the top right corner ."
+    },
+    {
+        "image_id": "test/test_000422.png",
+        "question": "NULL",
+        "ground_truth": "a villa is constructed along the road in the left of the scene ."
+    },
+    {
+        "image_id": "test/test_000427.png",
+        "question": "NULL",
+        "ground_truth": "three small houses are built near other houses in the block ."
+    },
+    {
+        "image_id": "test/test_000429.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and the road is rebuilt into a cross road with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000430.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and the road is rebuilt into a cross road with villas built along ."
+    },
+    {
+        "image_id": "test/test_000436.png",
+        "question": "NULL",
+        "ground_truth": "three same houses are located by the road ."
+    },
+    {
+        "image_id": "test/test_000441.png",
+        "question": "NULL",
+        "ground_truth": "a residential area is located in an abandoned space ."
+    },
+    {
+        "image_id": "test/test_000442.png",
+        "question": "NULL",
+        "ground_truth": "three lines of completed villas are built on both sides of the road replacing the trees ."
+    },
+    {
+        "image_id": "test/test_000443.png",
+        "question": "NULL",
+        "ground_truth": "a road with villas neatly built along appears in the bottom area of the scene ."
+    },
+    {
+        "image_id": "test/test_000446.png",
+        "question": "NULL",
+        "ground_truth": "a road with villas neatly built along appears on the trees and bareland ."
+    },
+    {
+        "image_id": "test/test_000447.png",
+        "question": "NULL",
+        "ground_truth": "two roads with villas neatly built along appear on the trees and bareland ."
+    },
+    {
+        "image_id": "test/test_000448.png",
+        "question": "NULL",
+        "ground_truth": "a road with villas neatly built along appears on the trees and bareland ."
+    },
+    {
+        "image_id": "test/test_000451.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa appears next to the road and another one at the bottom ."
+    },
+    {
+        "image_id": "test/test_000452.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built at the corner of the asphalt road ."
+    },
+    {
+        "image_id": "test/test_000453.png",
+        "question": "NULL",
+        "ground_truth": "three same villas appear on the right side of the scene ."
+    },
+    {
+        "image_id": "test/test_000454.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation has been replaced by a road and neatly arranged buildings ."
+    },
+    {
+        "image_id": "test/test_000455.png",
+        "question": "NULL",
+        "ground_truth": "most plants are removed and a cross road with villas neatly built along appears ."
+    },
+    {
+        "image_id": "test/test_000456.png",
+        "question": "NULL",
+        "ground_truth": "plants on the right are removed and a ring of villas surrounds a square ."
+    },
+    {
+        "image_id": "test/test_000457.png",
+        "question": "NULL",
+        "ground_truth": "plants are replaced by a road with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000458.png",
+        "question": "NULL",
+        "ground_truth": "trees and a water pool are replaced by a road with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000459.png",
+        "question": "NULL",
+        "ground_truth": "trees are replaced by a cross road with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000460.png",
+        "question": "NULL",
+        "ground_truth": "trees in the higher area are removed and a road with villas neatly built along appears ."
+    },
+    {
+        "image_id": "test/test_000462.png",
+        "question": "NULL",
+        "ground_truth": "most of the trees are removed and a new residential district has been built ."
+    },
+    {
+        "image_id": "test/test_000463.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear at the edge of the bareland among the trees ."
+    },
+    {
+        "image_id": "test/test_000464.png",
+        "question": "NULL",
+        "ground_truth": "a road and two buildings appear in the middle area of the scene ."
+    },
+    {
+        "image_id": "test/test_000466.png",
+        "question": "NULL",
+        "ground_truth": "a small building has been situated in front of forests ."
+    },
+    {
+        "image_id": "test/test_000469.png",
+        "question": "NULL",
+        "ground_truth": "three new buildings have been located near the end of the road in the forest ."
+    },
+    {
+        "image_id": "test/test_000470.png",
+        "question": "NULL",
+        "ground_truth": "a new building has been situated on the left side of the scene ."
+    },
+    {
+        "image_id": "test/test_000473.png",
+        "question": "NULL",
+        "ground_truth": "a villa appears by the original one and the other one at the bottom ."
+    },
+    {
+        "image_id": "test/test_000474.png",
+        "question": "NULL",
+        "ground_truth": "almost half of the plants disappear and four houses beside a road appear ."
+    },
+    {
+        "image_id": "test/test_000476.png",
+        "question": "NULL",
+        "ground_truth": "a line of villas appear on the right in place of the plants ."
+    },
+    {
+        "image_id": "test/test_000477.png",
+        "question": "NULL",
+        "ground_truth": "three mansions have been built on the left of the woods ."
+    },
+    {
+        "image_id": "test/test_000478.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a road appears with villas neatly built along ."
+    },
+    {
+        "image_id": "test/test_000480.png",
+        "question": "NULL",
+        "ground_truth": "almost all of the plants are removed and a road with houses built on both sides shows up ."
+    },
+    {
+        "image_id": "test/test_000484.png",
+        "question": "NULL",
+        "ground_truth": "a\\almost all of the plants are removed and a road with houses built alongside shows up ."
+    },
+    {
+        "image_id": "test/test_000485.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are removed and a road with houses built on both sides shows up ."
+    },
+    {
+        "image_id": "test/test_000486.png",
+        "question": "NULL",
+        "ground_truth": "a building appears at the top of the scene replacing trees ans bareland ."
+    },
+    {
+        "image_id": "test/test_000487.png",
+        "question": "NULL",
+        "ground_truth": "a tennis court is built in the bottom and another building with a path to the road is built ."
+    },
+    {
+        "image_id": "test/test_000488.png",
+        "question": "NULL",
+        "ground_truth": "a football pitch appears at the bottom and two buildings appear ."
+    },
+    {
+        "image_id": "test/test_000489.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the top left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000490.png",
+        "question": "NULL",
+        "ground_truth": "a road with four buildings replaces most of the plants ."
+    },
+    {
+        "image_id": "test/test_000491.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the middle left and another two buildings appear in the top ."
+    },
+    {
+        "image_id": "test/test_000492.png",
+        "question": "NULL",
+        "ground_truth": "a small building appears in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000493.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants are removed and a road with houses built on both sides shows up ."
+    },
+    {
+        "image_id": "test/test_000494.png",
+        "question": "NULL",
+        "ground_truth": "two roads through the scene are constructed and buildings are built between them ."
+    },
+    {
+        "image_id": "test/test_000495.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the center and a bungalow appears at the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_000496.png",
+        "question": "NULL",
+        "ground_truth": "two houses have been constructed among the trees beside the road ."
+    },
+    {
+        "image_id": "test/test_000499.png",
+        "question": "NULL",
+        "ground_truth": "a completed villa appears on the right with a swimming pool ."
+    },
+    {
+        "image_id": "test/test_000500.png",
+        "question": "NULL",
+        "ground_truth": "a building has been constructed next to the original one ."
+    },
+    {
+        "image_id": "test/test_000501.png",
+        "question": "NULL",
+        "ground_truth": "three small houses are built among others ."
+    },
+    {
+        "image_id": "test/test_000504.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the center of the scene ."
+    },
+    {
+        "image_id": "test/test_000505.png",
+        "question": "NULL",
+        "ground_truth": "a small building is located in the forest at the top of the scene ."
+    },
+    {
+        "image_id": "test/test_000506.png",
+        "question": "NULL",
+        "ground_truth": "a new house is located in an open space in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000512.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the center with two lines of houses on both sides and the plants are removed ."
+    },
+    {
+        "image_id": "test/test_000513.png",
+        "question": "NULL",
+        "ground_truth": "a villa has been built on the bareland between the original ones ."
+    },
+    {
+        "image_id": "test/test_000519.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings surrounded by a road appears on the bareland ."
+    },
+    {
+        "image_id": "test/test_000522.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the bottom left corner and a building appears in the middle right of the scene ."
+    },
+    {
+        "image_id": "test/test_000523.png",
+        "question": "NULL",
+        "ground_truth": "two lines of villas appear on both sides of the road and the bareland is covered with grass ."
+    },
+    {
+        "image_id": "test/test_000525.png",
+        "question": "NULL",
+        "ground_truth": "a building appears at the top and another building appears in the lower-right of the scene ."
+    },
+    {
+        "image_id": "test/test_000528.png",
+        "question": "NULL",
+        "ground_truth": "three new houses are built next to another one near the cement road ."
+    },
+    {
+        "image_id": "test/test_000529.png",
+        "question": "NULL",
+        "ground_truth": "a residential area has been constructed around the roads ."
+    },
+    {
+        "image_id": "test/test_000531.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the woods in the lower-right of the scene ."
+    },
+    {
+        "image_id": "test/test_000534.png",
+        "question": "NULL",
+        "ground_truth": "villas are built along the road on the two sides ."
+    },
+    {
+        "image_id": "test/test_000535.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built on the bareland near the road ."
+    },
+    {
+        "image_id": "test/test_000536.png",
+        "question": "NULL",
+        "ground_truth": "a line of houses and a road appear on the right ."
+    },
+    {
+        "image_id": "test/test_000537.png",
+        "question": "NULL",
+        "ground_truth": "four orange villas appear in the open space between the main road and a path ."
+    },
+    {
+        "image_id": "test/test_000538.png",
+        "question": "NULL",
+        "ground_truth": "villas are built along the arc road on the two sides ."
+    },
+    {
+        "image_id": "test/test_000539.png",
+        "question": "NULL",
+        "ground_truth": "villas are built along the roads on the two sides ."
+    },
+    {
+        "image_id": "test/test_000541.png",
+        "question": "NULL",
+        "ground_truth": "two yellow houses are situated in front of the forest on the ground ."
+    },
+    {
+        "image_id": "test/test_000544.png",
+        "question": "NULL",
+        "ground_truth": "a residential area is located in a triangular block ."
+    },
+    {
+        "image_id": "test/test_000548.png",
+        "question": "NULL",
+        "ground_truth": "a new road with villas built along is built to join the old road and plants are removed ."
+    },
+    {
+        "image_id": "test/test_000551.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a road with villas built along is built ."
+    },
+    {
+        "image_id": "test/test_000554.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a new road with villas built along is built to join the old road ."
+    },
+    {
+        "image_id": "test/test_000555.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a new road is built with neatly arranged villas built along ."
+    },
+    {
+        "image_id": "test/test_000556.png",
+        "question": "NULL",
+        "ground_truth": "two lines of houses are arranged neatly on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_000558.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a road with villas built along is constructed in the top ."
+    },
+    {
+        "image_id": "test/test_000559.png",
+        "question": "NULL",
+        "ground_truth": "a cross road is built to join the old road and villas are constructed along and between them ."
+    },
+    {
+        "image_id": "test/test_000564.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot has been built by the road ."
+    },
+    {
+        "image_id": "test/test_000571.png",
+        "question": "NULL",
+        "ground_truth": "most trees are replaced by a road on the right ."
+    },
+    {
+        "image_id": "test/test_000572.png",
+        "question": "NULL",
+        "ground_truth": "a small house appears at the bottom of the scene and almost all the trees have been removed ."
+    },
+    {
+        "image_id": "test/test_000573.png",
+        "question": "NULL",
+        "ground_truth": "a road is removed and trees become denser ."
+    },
+    {
+        "image_id": "test/test_000576.png",
+        "question": "NULL",
+        "ground_truth": "lots of similar houses are built in the blocks and new cement roads extend ."
+    },
+    {
+        "image_id": "test/test_000579.png",
+        "question": "NULL",
+        "ground_truth": "a road with buildings built along appears on the widow ."
+    },
+    {
+        "image_id": "test/test_000581.png",
+        "question": "NULL",
+        "ground_truth": "a cross road is built on the bareland and neatly arranged villas are built around it ."
+    },
+    {
+        "image_id": "test/test_000582.png",
+        "question": "NULL",
+        "ground_truth": "a cross road is built and neatly arranged villas are built along the road ."
+    },
+    {
+        "image_id": "test/test_000585.png",
+        "question": "NULL",
+        "ground_truth": "a line of houses has been built by the road at the top ."
+    },
+    {
+        "image_id": "test/test_000595.png",
+        "question": "NULL",
+        "ground_truth": "a vertical road is built to join the old road and villas are built around the roads ."
+    },
+    {
+        "image_id": "test/test_000597.png",
+        "question": "NULL",
+        "ground_truth": "a residential area appears around the roads ."
+    },
+    {
+        "image_id": "test/test_000598.png",
+        "question": "NULL",
+        "ground_truth": "two turning roads appears at the top and the bottom of the scene and villas are built along the roads and in the left area of the scene ."
+    },
+    {
+        "image_id": "test/test_000599.png",
+        "question": "NULL",
+        "ground_truth": "new branches of a road and massive arranged buildings appear in the desert ."
+    },
+    {
+        "image_id": "test/test_000601.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000602.png",
+        "question": "NULL",
+        "ground_truth": "three villas are built around an open space ."
+    },
+    {
+        "image_id": "test/test_000604.png",
+        "question": "NULL",
+        "ground_truth": "two vertical roads are built on the bareland to join the old road and villas are built along the roads ."
+    },
+    {
+        "image_id": "test/test_000607.png",
+        "question": "NULL",
+        "ground_truth": "roads are built and villas appear along them in the higher right area of the scene ."
+    },
+    {
+        "image_id": "test/test_000609.png",
+        "question": "NULL",
+        "ground_truth": "the woods have thinned out in the lower area of the scene ."
+    },
+    {
+        "image_id": "test/test_000613.png",
+        "question": "NULL",
+        "ground_truth": "trees become sparse at the top and trees at the bottom are replaced by a turning road ."
+    },
+    {
+        "image_id": "test/test_000614.png",
+        "question": "NULL",
+        "ground_truth": "most of the plants have been removed and a road appears ."
+    },
+    {
+        "image_id": "test/test_000617.png",
+        "question": "NULL",
+        "ground_truth": "all the plants have been removed by a road at the top and a road at the bottom ."
+    },
+    {
+        "image_id": "test/test_000618.png",
+        "question": "NULL",
+        "ground_truth": "the forest disappears and two roads and a group of houses appear ."
+    },
+    {
+        "image_id": "test/test_000619.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear in the field ."
+    },
+    {
+        "image_id": "test/test_000621.png",
+        "question": "NULL",
+        "ground_truth": "two vertical roads are constructed and two lines of completed villas appear replacing the vegetation ."
+    },
+    {
+        "image_id": "test/test_000623.png",
+        "question": "NULL",
+        "ground_truth": "plants disappear and a cross road with villas built along appears in the left area ."
+    },
+    {
+        "image_id": "test/test_000627.png",
+        "question": "NULL",
+        "ground_truth": "two lines of houses have been constructed on the roadsides ."
+    },
+    {
+        "image_id": "test/test_000644.png",
+        "question": "NULL",
+        "ground_truth": "a villa is built on bareland ."
+    },
+    {
+        "image_id": "test/test_000645.png",
+        "question": "NULL",
+        "ground_truth": "a road vertical to the original one has been connected to it ."
+    },
+    {
+        "image_id": "test/test_000646.png",
+        "question": "NULL",
+        "ground_truth": "a path has been built in the center and another one at the bottom ."
+    },
+    {
+        "image_id": "test/test_000647.png",
+        "question": "NULL",
+        "ground_truth": "a road and two buildings appear ."
+    },
+    {
+        "image_id": "test/test_000657.png",
+        "question": "NULL",
+        "ground_truth": "three buildings and a basketball court appear ."
+    },
+    {
+        "image_id": "test/test_000661.png",
+        "question": "NULL",
+        "ground_truth": "a new row of houses appears on the bottom side of the scene ."
+    },
+    {
+        "image_id": "test/test_000662.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000667.png",
+        "question": "NULL",
+        "ground_truth": "a residential area is built to replace the original young trees ."
+    },
+    {
+        "image_id": "test/test_000671.png",
+        "question": "NULL",
+        "ground_truth": "a house shows up at the top right corner of the scene and a construction site appears ."
+    },
+    {
+        "image_id": "test/test_000675.png",
+        "question": "NULL",
+        "ground_truth": "three buildings have been built on the upper right ."
+    },
+    {
+        "image_id": "test/test_000676.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear along the roads and a building with a parking lot is built on the bottom side of the scene ."
+    },
+    {
+        "image_id": "test/test_000680.png",
+        "question": "NULL",
+        "ground_truth": "a house with a parking lot has been built in the clearing ."
+    },
+    {
+        "image_id": "test/test_000684.png",
+        "question": "NULL",
+        "ground_truth": "a house shows up at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000692.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000708.png",
+        "question": "NULL",
+        "ground_truth": "the original forest has disappeared and a large residential area is built ."
+    },
+    {
+        "image_id": "test/test_000712.png",
+        "question": "NULL",
+        "ground_truth": "a block with roads and villas has been realized on former bareland ."
+    },
+    {
+        "image_id": "test/test_000720.png",
+        "question": "NULL",
+        "ground_truth": "the forest has disappeared and a neat residential area is built ."
+    },
+    {
+        "image_id": "test/test_000729.png",
+        "question": "NULL",
+        "ground_truth": "only certain buildings appear in this area ."
+    },
+    {
+        "image_id": "test/test_000734.png",
+        "question": "NULL",
+        "ground_truth": "a villa is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_000737.png",
+        "question": "NULL",
+        "ground_truth": "most of the vegetation disappears and two paths appear on the bare ground ."
+    },
+    {
+        "image_id": "test/test_000740.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the bottom of the scene ."
+    },
+    {
+        "image_id": "test/test_000741.png",
+        "question": "NULL",
+        "ground_truth": "most of the vegetation disappears but a narrow road appears ."
+    },
+    {
+        "image_id": "test/test_000745.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000747.png",
+        "question": "NULL",
+        "ground_truth": "a street with buildings besides appears ."
+    },
+    {
+        "image_id": "test/test_000755.png",
+        "question": "NULL",
+        "ground_truth": "villas in the center have been completed with swimming pools and a villa is built at the left top corner ."
+    },
+    {
+        "image_id": "test/test_000773.png",
+        "question": "NULL",
+        "ground_truth": "only a single construction appear recently at the bottom of the scene ."
+    },
+    {
+        "image_id": "test/test_000774.png",
+        "question": "NULL",
+        "ground_truth": "a road has been extended and buildings have been constructed alongside ."
+    },
+    {
+        "image_id": "test/test_000777.png",
+        "question": "NULL",
+        "ground_truth": "a house is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_000788.png",
+        "question": "NULL",
+        "ground_truth": "a lake and a winding path have appeared on the original bareland ."
+    },
+    {
+        "image_id": "test/test_000789.png",
+        "question": "NULL",
+        "ground_truth": "two intersecting roads are built on bareland ."
+    },
+    {
+        "image_id": "test/test_000792.png",
+        "question": "NULL",
+        "ground_truth": "a path and a road appear and two buildings are built near a road ."
+    },
+    {
+        "image_id": "test/test_000794.png",
+        "question": "NULL",
+        "ground_truth": "a t-shaped road appears and a building is built near a t-shaped road ."
+    },
+    {
+        "image_id": "test/test_000795.png",
+        "question": "NULL",
+        "ground_truth": "only a single building appears in the lower corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000808.png",
+        "question": "NULL",
+        "ground_truth": "a road shows up at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000810.png",
+        "question": "NULL",
+        "ground_truth": "a path appears at the bottom right corner of the bare land ."
+    },
+    {
+        "image_id": "test/test_000811.png",
+        "question": "NULL",
+        "ground_truth": "a cement road has been built in the center of the bare ground ."
+    },
+    {
+        "image_id": "test/test_000812.png",
+        "question": "NULL",
+        "ground_truth": "a curved road has been built on the original bareland ."
+    },
+    {
+        "image_id": "test/test_000813.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000814.png",
+        "question": "NULL",
+        "ground_truth": "a winding road is built on the original bareland ."
+    },
+    {
+        "image_id": "test/test_000840.png",
+        "question": "NULL",
+        "ground_truth": "a single construction is completed at the top of the scene ."
+    },
+    {
+        "image_id": "test/test_000842.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear on the bottom side of the scene ."
+    },
+    {
+        "image_id": "test/test_000845.png",
+        "question": "NULL",
+        "ground_truth": "a single building appears in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000849.png",
+        "question": "NULL",
+        "ground_truth": "the main road and two large buildings have been built on bareland ."
+    },
+    {
+        "image_id": "test/test_000850.png",
+        "question": "NULL",
+        "ground_truth": "three large constructions have been constructed along the road ."
+    },
+    {
+        "image_id": "test/test_000851.png",
+        "question": "NULL",
+        "ground_truth": "a building is built beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_000853.png",
+        "question": "NULL",
+        "ground_truth": "a crossroad and three buildings appear ."
+    },
+    {
+        "image_id": "test/test_000854.png",
+        "question": "NULL",
+        "ground_truth": "four mansions have been completed on the left side of the road ."
+    },
+    {
+        "image_id": "test/test_000857.png",
+        "question": "NULL",
+        "ground_truth": "a house with a parking lot and roads is built at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000858.png",
+        "question": "NULL",
+        "ground_truth": "a road with a parking lot appears at the top left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000868.png",
+        "question": "NULL",
+        "ground_truth": "two lakes appear ."
+    },
+    {
+        "image_id": "test/test_000878.png",
+        "question": "NULL",
+        "ground_truth": "a large number of houses are built along the roads ."
+    },
+    {
+        "image_id": "test/test_000884.png",
+        "question": "NULL",
+        "ground_truth": "a building is built beside the newly built road on the bareland ."
+    },
+    {
+        "image_id": "test/test_000890.png",
+        "question": "NULL",
+        "ground_truth": "two large buildings with roads appear at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000894.png",
+        "question": "NULL",
+        "ground_truth": "a large building with a square appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000897.png",
+        "question": "NULL",
+        "ground_truth": "a path appears at the top next to a line of villas ."
+    },
+    {
+        "image_id": "test/test_000905.png",
+        "question": "NULL",
+        "ground_truth": "a small house is built on the original bareland ."
+    },
+    {
+        "image_id": "test/test_000909.png",
+        "question": "NULL",
+        "ground_truth": "houses near the villa have been removed and the path in the left disappears ."
+    },
+    {
+        "image_id": "test/test_000910.png",
+        "question": "NULL",
+        "ground_truth": "the grassland has turned into the bare ground and the house is replaced by a path in the center ."
+    },
+    {
+        "image_id": "test/test_000913.png",
+        "question": "NULL",
+        "ground_truth": "only a single building appear on the left side of the road ."
+    },
+    {
+        "image_id": "test/test_000943.png",
+        "question": "NULL",
+        "ground_truth": "three small houses appear ."
+    },
+    {
+        "image_id": "test/test_000968.png",
+        "question": "NULL",
+        "ground_truth": "a building disappears and a building appears ."
+    },
+    {
+        "image_id": "test/test_000980.png",
+        "question": "NULL",
+        "ground_truth": "a small track appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_000993.png",
+        "question": "NULL",
+        "ground_truth": "the path at the top has been replaced by another one connecting the road to the woods ."
+    },
+    {
+        "image_id": "test/test_000994.png",
+        "question": "NULL",
+        "ground_truth": "a path disappears and a road appears ."
+    },
+    {
+        "image_id": "test/test_000995.png",
+        "question": "NULL",
+        "ground_truth": "a road at the bottom left corner of the scene is replaced by a wider one ."
+    },
+    {
+        "image_id": "test/test_000997.png",
+        "question": "NULL",
+        "ground_truth": "two houses in the forest and the path next to them are removed ."
+    },
+    {
+        "image_id": "test/test_000999.png",
+        "question": "NULL",
+        "ground_truth": "a road at the top right corner of the scene is replaced by a wider one ."
+    },
+    {
+        "image_id": "test/test_001000.png",
+        "question": "NULL",
+        "ground_truth": "a road in the middle of the scene is replaced by a wider one ."
+    },
+    {
+        "image_id": "test/test_001013.png",
+        "question": "NULL",
+        "ground_truth": "a road at the bottom left corner of the scene is replaced by a wider one ."
+    },
+    {
+        "image_id": "test/test_001017.png",
+        "question": "NULL",
+        "ground_truth": "two straight concrete roads and a path are built to replace the original road ."
+    },
+    {
+        "image_id": "test/test_001018.png",
+        "question": "NULL",
+        "ground_truth": "a path and two concrete roads are constructed to replace the original road and trees ."
+    },
+    {
+        "image_id": "test/test_001023.png",
+        "question": "NULL",
+        "ground_truth": "another road has been built in the center next to the original one ."
+    },
+    {
+        "image_id": "test/test_001037.png",
+        "question": "NULL",
+        "ground_truth": "three cars appear on the road on the left and a road is built in the center ."
+    },
+    {
+        "image_id": "test/test_001061.png",
+        "question": "NULL",
+        "ground_truth": "a house is built beside the road on the meadow in the lower-left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001062.png",
+        "question": "NULL",
+        "ground_truth": "the former large area of green land is replaced two main roads ."
+    },
+    {
+        "image_id": "test/test_001065.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear on the right side of the scene ."
+    },
+    {
+        "image_id": "test/test_001069.png",
+        "question": "NULL",
+        "ground_truth": "the former grassland is replaced by a large sporting pitch and a building ."
+    },
+    {
+        "image_id": "test/test_001072.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001076.png",
+        "question": "NULL",
+        "ground_truth": "the shrubs are removed and a t shaped road is built next to a house on the right ."
+    },
+    {
+        "image_id": "test/test_001080.png",
+        "question": "NULL",
+        "ground_truth": "two t-shaped roads appears and a building disappears ."
+    },
+    {
+        "image_id": "test/test_001083.png",
+        "question": "NULL",
+        "ground_truth": "the meadow and the path next to a house have been replaced by a road at the top and bare land ."
+    },
+    {
+        "image_id": "test/test_001084.png",
+        "question": "NULL",
+        "ground_truth": "a road and a building have been constructed on the bareland ."
+    },
+    {
+        "image_id": "test/test_001095.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears on the right side of the scene ."
+    },
+    {
+        "image_id": "test/test_001097.png",
+        "question": "NULL",
+        "ground_truth": "a large and dense residential area has appeared in the clearing ."
+    },
+    {
+        "image_id": "test/test_001100.png",
+        "question": "NULL",
+        "ground_truth": "three buildings are built on the lower-left ."
+    },
+    {
+        "image_id": "test/test_001113.png",
+        "question": "NULL",
+        "ground_truth": "a house with roads and a swimming pool appears on the right side of the scene ."
+    },
+    {
+        "image_id": "test/test_001117.png",
+        "question": "NULL",
+        "ground_truth": "a large building with roads and a parking lot appears ."
+    },
+    {
+        "image_id": "test/test_001126.png",
+        "question": "NULL",
+        "ground_truth": "a large construction has been completed on the left side of the main road ."
+    },
+    {
+        "image_id": "test/test_001127.png",
+        "question": "NULL",
+        "ground_truth": "a large building with a parking lot appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001136.png",
+        "question": "NULL",
+        "ground_truth": "two buildings disappear and a building is built and a parking lot is built ."
+    },
+    {
+        "image_id": "test/test_001164.png",
+        "question": "NULL",
+        "ground_truth": "only a single building appears at the top of the scene on bareland ."
+    },
+    {
+        "image_id": "test/test_001171.png",
+        "question": "NULL",
+        "ground_truth": "a large and dense residential area has been built on bareland ."
+    },
+    {
+        "image_id": "test/test_001173.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear at the top and the bottom of this scene ."
+    },
+    {
+        "image_id": "test/test_001212.png",
+        "question": "NULL",
+        "ground_truth": "a shopping center has been constructed in the clearing of the dense residential ."
+    },
+    {
+        "image_id": "test/test_001218.png",
+        "question": "NULL",
+        "ground_truth": "a building and a road have appeared on bareland ."
+    },
+    {
+        "image_id": "test/test_001219.png",
+        "question": "NULL",
+        "ground_truth": "a house is replaced by three houses and a parking lot ."
+    },
+    {
+        "image_id": "test/test_001220.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the right side of the scene and the vegetation has restored ."
+    },
+    {
+        "image_id": "test/test_001221.png",
+        "question": "NULL",
+        "ground_truth": "a large building appears with roads around on the bareland ."
+    },
+    {
+        "image_id": "test/test_001222.png",
+        "question": "NULL",
+        "ground_truth": "the farms are replaced by a parking lot ."
+    },
+    {
+        "image_id": "test/test_001226.png",
+        "question": "NULL",
+        "ground_truth": "roads with a large building are built on the bareland ."
+    },
+    {
+        "image_id": "test/test_001227.png",
+        "question": "NULL",
+        "ground_truth": "two large buildings with roads and parking lots appear ."
+    },
+    {
+        "image_id": "test/test_001228.png",
+        "question": "NULL",
+        "ground_truth": "a building and a parking lot are constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_001232.png",
+        "question": "NULL",
+        "ground_truth": "a large building with parking lots appears on the left side of the scene ."
+    },
+    {
+        "image_id": "test/test_001241.png",
+        "question": "NULL",
+        "ground_truth": "three houses at the bottom right corner of the scene have finished construction ."
+    },
+    {
+        "image_id": "test/test_001242.png",
+        "question": "NULL",
+        "ground_truth": "three houses at the bottom left corner of the scene have finished construction ."
+    },
+    {
+        "image_id": "test/test_001249.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in the clearing by the side of the road ."
+    },
+    {
+        "image_id": "test/test_001251.png",
+        "question": "NULL",
+        "ground_truth": "three new houses are added along the roads on the top side of the scene ."
+    },
+    {
+        "image_id": "test/test_001252.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built along the roads on the top side of the scene ."
+    },
+    {
+        "image_id": "test/test_001253.png",
+        "question": "NULL",
+        "ground_truth": "a building is built beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_001256.png",
+        "question": "NULL",
+        "ground_truth": "a villa is constructed beside the road on the bareland ."
+    },
+    {
+        "image_id": "test/test_001259.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built in the clearing by the side of the road ."
+    },
+    {
+        "image_id": "test/test_001261.png",
+        "question": "NULL",
+        "ground_truth": "a house is replaced by two new houses at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001263.png",
+        "question": "NULL",
+        "ground_truth": "two houses show up at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001267.png",
+        "question": "NULL",
+        "ground_truth": "a large and dense residential area appears on bareland ."
+    },
+    {
+        "image_id": "test/test_001276.png",
+        "question": "NULL",
+        "ground_truth": "a road with a large building appears on the right side of the scene ."
+    },
+    {
+        "image_id": "test/test_001280.png",
+        "question": "NULL",
+        "ground_truth": "a large building shows up on the top side of the scene and two small tracks appear ."
+    },
+    {
+        "image_id": "test/test_001281.png",
+        "question": "NULL",
+        "ground_truth": "the lower-left corner of the site is missing and a building appears on the upper right ."
+    },
+    {
+        "image_id": "test/test_001282.png",
+        "question": "NULL",
+        "ground_truth": "a road is on the right and a building is at the top corner ."
+    },
+    {
+        "image_id": "test/test_001285.png",
+        "question": "NULL",
+        "ground_truth": "a straight road is built ."
+    },
+    {
+        "image_id": "test/test_001293.png",
+        "question": "NULL",
+        "ground_truth": "the small holes and a road in the grass above disappear and a puddle appears on the left ."
+    },
+    {
+        "image_id": "test/test_001294.png",
+        "question": "NULL",
+        "ground_truth": "three small buildings surrounded by the enclosing wall appear on the bare ground on the bare ground ."
+    },
+    {
+        "image_id": "test/test_001302.png",
+        "question": "NULL",
+        "ground_truth": "a large building is erected to replace the original buildings and trees ."
+    },
+    {
+        "image_id": "test/test_001303.png",
+        "question": "NULL",
+        "ground_truth": "the buildings are replaced by a parking lot at the bottom ."
+    },
+    {
+        "image_id": "test/test_001306.png",
+        "question": "NULL",
+        "ground_truth": "the trees on the right disappear and are replaced by a large building ."
+    },
+    {
+        "image_id": "test/test_001307.png",
+        "question": "NULL",
+        "ground_truth": "the factory is replaced by two giant buildings with parking lots and a group of small buildings disappear ."
+    },
+    {
+        "image_id": "test/test_001308.png",
+        "question": "NULL",
+        "ground_truth": "a building on the upper left disappears and a concrete road appears on the lower-right ."
+    },
+    {
+        "image_id": "test/test_001311.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear along the road on the bare ground ."
+    },
+    {
+        "image_id": "test/test_001312.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a residential area with various facilities and buildings ."
+    },
+    {
+        "image_id": "test/test_001319.png",
+        "question": "NULL",
+        "ground_truth": "a round ground appears along the road ."
+    },
+    {
+        "image_id": "test/test_001323.png",
+        "question": "NULL",
+        "ground_truth": "three buildings appear along the road ."
+    },
+    {
+        "image_id": "test/test_001324.png",
+        "question": "NULL",
+        "ground_truth": "a road and a trail appear on the wasteland on the lower-left ."
+    },
+    {
+        "image_id": "test/test_001328.png",
+        "question": "NULL",
+        "ground_truth": "an original path is extended and a straight road has been built ."
+    },
+    {
+        "image_id": "test/test_001330.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears on the bottom side of the scene ."
+    },
+    {
+        "image_id": "test/test_001331.png",
+        "question": "NULL",
+        "ground_truth": "four buildings appear along the branch of the road ."
+    },
+    {
+        "image_id": "test/test_001335.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed as a group of buildings surrounding the circular site in the middle ."
+    },
+    {
+        "image_id": "test/test_001342.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001343.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear along the road on the top side of the scene ."
+    },
+    {
+        "image_id": "test/test_001349.png",
+        "question": "NULL",
+        "ground_truth": "the bushes on the lower-right become a residential area on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001350.png",
+        "question": "NULL",
+        "ground_truth": "the forest is replaced by a road with houses on both sides at the bottom ."
+    },
+    {
+        "image_id": "test/test_001353.png",
+        "question": "NULL",
+        "ground_truth": "a large residential area is built to replace the original forest ."
+    },
+    {
+        "image_id": "test/test_001355.png",
+        "question": "NULL",
+        "ground_truth": "a winding path connected with the original road appears ."
+    },
+    {
+        "image_id": "test/test_001362.png",
+        "question": "NULL",
+        "ground_truth": "an original lush tree is removed and two houses have appeared ."
+    },
+    {
+        "image_id": "test/test_001370.png",
+        "question": "NULL",
+        "ground_truth": "a vacant ground appears and a house is built on the left side of the scene ."
+    },
+    {
+        "image_id": "test/test_001374.png",
+        "question": "NULL",
+        "ground_truth": "a piece of bare ground used to pile sundries appears ."
+    },
+    {
+        "image_id": "test/test_001377.png",
+        "question": "NULL",
+        "ground_truth": "the forest on the lower-right turns into houses surrounding a circular road and a swimming pool appears on the upper right ."
+    },
+    {
+        "image_id": "test/test_001378.png",
+        "question": "NULL",
+        "ground_truth": "the woods are developed into a complex of buildings with a swimming pool and roads ."
+    },
+    {
+        "image_id": "test/test_001379.png",
+        "question": "NULL",
+        "ground_truth": "the forest is developed into a road and houses distributed on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001381.png",
+        "question": "NULL",
+        "ground_truth": "the woods become a complex of buildings with crossroads in between ."
+    },
+    {
+        "image_id": "test/test_001382.png",
+        "question": "NULL",
+        "ground_truth": "the forest disappears and a dense residential area is built ."
+    },
+    {
+        "image_id": "test/test_001383.png",
+        "question": "NULL",
+        "ground_truth": "a road with houses on both sides is built to replace the original forest on the left ."
+    },
+    {
+        "image_id": "test/test_001385.png",
+        "question": "NULL",
+        "ground_truth": "the wood on the upper right becomes a road and buildings on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001393.png",
+        "question": "NULL",
+        "ground_truth": "a larger house on the upper left replaces the original one ."
+    },
+    {
+        "image_id": "test/test_001410.png",
+        "question": "NULL",
+        "ground_truth": "a road is built at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001411.png",
+        "question": "NULL",
+        "ground_truth": "the woods become sparse and a road appears between the woodland on the upper left ."
+    },
+    {
+        "image_id": "test/test_001412.png",
+        "question": "NULL",
+        "ground_truth": "a round road and a concrete road are built ."
+    },
+    {
+        "image_id": "test/test_001414.png",
+        "question": "NULL",
+        "ground_truth": "the woodland disappears and concrete pavement and two playgrounds appear on the right ."
+    },
+    {
+        "image_id": "test/test_001417.png",
+        "question": "NULL",
+        "ground_truth": "the grass on the upper left becomes lush and paths and a house appear on the right ."
+    },
+    {
+        "image_id": "test/test_001418.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a factory with sites and a large factory building ."
+    },
+    {
+        "image_id": "test/test_001419.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings with roads and grounds are built on the grass ."
+    },
+    {
+        "image_id": "test/test_001420.png",
+        "question": "NULL",
+        "ground_truth": "a road appears on the wasteland on the lower-left and the grass on the upper right becomes lusher ."
+    },
+    {
+        "image_id": "test/test_001422.png",
+        "question": "NULL",
+        "ground_truth": "the grass on the meadow becomes lusher and a playground and concrete floor appear on the upper right ."
+    },
+    {
+        "image_id": "test/test_001423.png",
+        "question": "NULL",
+        "ground_truth": "the grass is developed as a playground and roads and houses appear on it ."
+    },
+    {
+        "image_id": "test/test_001424.png",
+        "question": "NULL",
+        "ground_truth": "a road has been extended and two houses are added to the road ."
+    },
+    {
+        "image_id": "test/test_001425.png",
+        "question": "NULL",
+        "ground_truth": "the farmland has turned into a meadow with shrubs in ."
+    },
+    {
+        "image_id": "test/test_001448.png",
+        "question": "NULL",
+        "ground_truth": "three buildings appear at the edge of the woods ."
+    },
+    {
+        "image_id": "test/test_001466.png",
+        "question": "NULL",
+        "ground_truth": "a crossroad and houses appear on the wasteland on the upper left ."
+    },
+    {
+        "image_id": "test/test_001468.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on the lower-left is developed into a road and houses on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001471.png",
+        "question": "NULL",
+        "ground_truth": "a road and houses on both sides of the road appear on the grass on the lower-right ."
+    },
+    {
+        "image_id": "test/test_001472.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed into two roads and a group of buildings neatly distributed on both sides of the roads ."
+    },
+    {
+        "image_id": "test/test_001481.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001489.png",
+        "question": "NULL",
+        "ground_truth": "two concrete roads are built and the vegetation on this land has increased ."
+    },
+    {
+        "image_id": "test/test_001490.png",
+        "question": "NULL",
+        "ground_truth": "the woods become denser and two roads appear in the middle ."
+    },
+    {
+        "image_id": "test/test_001494.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001495.png",
+        "question": "NULL",
+        "ground_truth": "the woods become greener and a forked road appears on the upper right ."
+    },
+    {
+        "image_id": "test/test_001496.png",
+        "question": "NULL",
+        "ground_truth": "the woodland on the lower-left disappears and a road appears in the middle ."
+    },
+    {
+        "image_id": "test/test_001500.png",
+        "question": "NULL",
+        "ground_truth": "the woodland on the upper right becomes a cistern and a room appears on the right side of the pond ."
+    },
+    {
+        "image_id": "test/test_001504.png",
+        "question": "NULL",
+        "ground_truth": "a narrow road and a wide road are built to replace the forest ."
+    },
+    {
+        "image_id": "test/test_001505.png",
+        "question": "NULL",
+        "ground_truth": "a wide road appears to replace the forest at the top corner ."
+    },
+    {
+        "image_id": "test/test_001517.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001521.png",
+        "question": "NULL",
+        "ground_truth": "the forest disappears and roads with a house in the middle are built ."
+    },
+    {
+        "image_id": "test/test_001522.png",
+        "question": "NULL",
+        "ground_truth": "a small track appears ."
+    },
+    {
+        "image_id": "test/test_001525.png",
+        "question": "NULL",
+        "ground_truth": "most of the woodland disappears and a concrete road appears on the upper left ."
+    },
+    {
+        "image_id": "test/test_001528.png",
+        "question": "NULL",
+        "ground_truth": "the vegetation on the grass becomes lush and a path appears above ."
+    },
+    {
+        "image_id": "test/test_001545.png",
+        "question": "NULL",
+        "ground_truth": "a corner of a house appears at the bottom right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001546.png",
+        "question": "NULL",
+        "ground_truth": "a building appears at the edge of the woods ."
+    },
+    {
+        "image_id": "test/test_001550.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the bottom left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001564.png",
+        "question": "NULL",
+        "ground_truth": "a branch of the road shows up ."
+    },
+    {
+        "image_id": "test/test_001565.png",
+        "question": "NULL",
+        "ground_truth": "a round square has been built at the right bottom corner ."
+    },
+    {
+        "image_id": "test/test_001566.png",
+        "question": "NULL",
+        "ground_truth": "the grass has been transformed into buildings and a playground ."
+    },
+    {
+        "image_id": "test/test_001567.png",
+        "question": "NULL",
+        "ground_truth": "the road on the lower-right turns and a road appears on the lower-left ."
+    },
+    {
+        "image_id": "test/test_001585.png",
+        "question": "NULL",
+        "ground_truth": "a straight road has been built on bareland ."
+    },
+    {
+        "image_id": "test/test_001586.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings is reconstructed ."
+    },
+    {
+        "image_id": "test/test_001587.png",
+        "question": "NULL",
+        "ground_truth": "the house on the left has been rebuilt and a house next to the road has been removed ."
+    },
+    {
+        "image_id": "test/test_001588.png",
+        "question": "NULL",
+        "ground_truth": "the forest is removed and a road with houses around appears ."
+    },
+    {
+        "image_id": "test/test_001589.png",
+        "question": "NULL",
+        "ground_truth": "a house is built at the top right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001591.png",
+        "question": "NULL",
+        "ground_truth": "the forest is replaced by a road with houses on both sides ."
+    },
+    {
+        "image_id": "test/test_001592.png",
+        "question": "NULL",
+        "ground_truth": "a large and dense residential area is built to replace the original forest ."
+    },
+    {
+        "image_id": "test/test_001599.png",
+        "question": "NULL",
+        "ground_truth": "massive houses along the two roads appear in the desert ."
+    },
+    {
+        "image_id": "test/test_001600.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is built into crossroads and a complex of buildings on both sides of the roads ."
+    },
+    {
+        "image_id": "test/test_001602.png",
+        "question": "NULL",
+        "ground_truth": "a construction site with a parking lot has been built by a road vertical to the original one ."
+    },
+    {
+        "image_id": "test/test_001603.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the bottom and a parking lot appears on the left ."
+    },
+    {
+        "image_id": "test/test_001609.png",
+        "question": "NULL",
+        "ground_truth": "a house appears along the road near the existing ones ."
+    },
+    {
+        "image_id": "test/test_001610.png",
+        "question": "NULL",
+        "ground_truth": "a large house with roads and a parking lot appears on the grass at the bottom left ."
+    },
+    {
+        "image_id": "test/test_001611.png",
+        "question": "NULL",
+        "ground_truth": "a building shows up at the joint point of two roads ."
+    },
+    {
+        "image_id": "test/test_001612.png",
+        "question": "NULL",
+        "ground_truth": "a group of buildings appear between the road and the former buildings ."
+    },
+    {
+        "image_id": "test/test_001613.png",
+        "question": "NULL",
+        "ground_truth": "five separate buildings show up in the desert ."
+    },
+    {
+        "image_id": "test/test_001614.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot is built at the top ."
+    },
+    {
+        "image_id": "test/test_001615.png",
+        "question": "NULL",
+        "ground_truth": "a road and massive houses appear in the desert ."
+    },
+    {
+        "image_id": "test/test_001616.png",
+        "question": "NULL",
+        "ground_truth": "bushes and trees are removed and a road is built to join the old road with villas built along ."
+    },
+    {
+        "image_id": "test/test_001618.png",
+        "question": "NULL",
+        "ground_truth": "a white house appears in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001619.png",
+        "question": "NULL",
+        "ground_truth": "bushes and plants are removed and three buildings with parking lots are built ."
+    },
+    {
+        "image_id": "test/test_001620.png",
+        "question": "NULL",
+        "ground_truth": "bushes and plants are removed and three buildings with parking lots are built ."
+    },
+    {
+        "image_id": "test/test_001622.png",
+        "question": "NULL",
+        "ground_truth": "trees and bushes are removed and two buildings with parking lots are built ."
+    },
+    {
+        "image_id": "test/test_001623.png",
+        "question": "NULL",
+        "ground_truth": "three buildings with parking lots appear by the road replacing the shrubs ."
+    },
+    {
+        "image_id": "test/test_001624.png",
+        "question": "NULL",
+        "ground_truth": "a white house appears in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001625.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a site with parking lots and a large building ."
+    },
+    {
+        "image_id": "test/test_001626.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on the upper left becomes a parking lot and a house and a flat land appears on the lower-left ."
+    },
+    {
+        "image_id": "test/test_001629.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses appear in the center surrounding a pond and a building appears on the left ."
+    },
+    {
+        "image_id": "test/test_001630.png",
+        "question": "NULL",
+        "ground_truth": "trees at the top have been removed and a parking lot is built ."
+    },
+    {
+        "image_id": "test/test_001634.png",
+        "question": "NULL",
+        "ground_truth": "a line of buildings on the left side of the road has been pulled down and two bungalows appear on the other side ."
+    },
+    {
+        "image_id": "test/test_001636.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot is built on the bareland along the road ."
+    },
+    {
+        "image_id": "test/test_001638.png",
+        "question": "NULL",
+        "ground_truth": "a house appears at the top and three are built on the left ."
+    },
+    {
+        "image_id": "test/test_001639.png",
+        "question": "NULL",
+        "ground_truth": "a road is built at the bottom and the woods are removed ."
+    },
+    {
+        "image_id": "test/test_001640.png",
+        "question": "NULL",
+        "ground_truth": "the intersection becomes two and the direction of the original road changes ."
+    },
+    {
+        "image_id": "test/test_001641.png",
+        "question": "NULL",
+        "ground_truth": "two parallel roads appear on the sides of the original ones ."
+    },
+    {
+        "image_id": "test/test_001642.png",
+        "question": "NULL",
+        "ground_truth": "a new cement road is built near the other roads ."
+    },
+    {
+        "image_id": "test/test_001651.png",
+        "question": "NULL",
+        "ground_truth": "a small road on the lower-right disappears and a big road appears ."
+    },
+    {
+        "image_id": "test/test_001652.png",
+        "question": "NULL",
+        "ground_truth": "the road on the upper left becomes a wider forked road and a large hole appears on the right ."
+    },
+    {
+        "image_id": "test/test_001653.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot appears at the bottom and a road appears in the center ."
+    },
+    {
+        "image_id": "test/test_001654.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the top and a parking area appears at the bottom ."
+    },
+    {
+        "image_id": "test/test_001657.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is built into a residential area with parking lots and a large house ."
+    },
+    {
+        "image_id": "test/test_001658.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot is built on the bareland along the road ."
+    },
+    {
+        "image_id": "test/test_001661.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the trees in the bottom right and a parking lot is built along the road ."
+    },
+    {
+        "image_id": "test/test_001671.png",
+        "question": "NULL",
+        "ground_truth": "a dirt path appears in the open space ."
+    },
+    {
+        "image_id": "test/test_001672.png",
+        "question": "NULL",
+        "ground_truth": "a road and buildings on both sides of the road appear on the wasteland ."
+    },
+    {
+        "image_id": "test/test_001673.png",
+        "question": "NULL",
+        "ground_truth": "bushes are removed and a road is built with villas built along on both sides ."
+    },
+    {
+        "image_id": "test/test_001674.png",
+        "question": "NULL",
+        "ground_truth": "a road appears at the corner of the desert ."
+    },
+    {
+        "image_id": "test/test_001675.png",
+        "question": "NULL",
+        "ground_truth": "a turning road appears on the bareland and houses are built along the road ."
+    },
+    {
+        "image_id": "test/test_001676.png",
+        "question": "NULL",
+        "ground_truth": "a road with a parking lot and four houses appear in the desert ."
+    },
+    {
+        "image_id": "test/test_001677.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed into a crossroad and houses on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001679.png",
+        "question": "NULL",
+        "ground_truth": "a road appears in the middle of the grass and two houses appear on the upper right ."
+    },
+    {
+        "image_id": "test/test_001680.png",
+        "question": "NULL",
+        "ground_truth": "the road is rebuilt into a cross road and villas are built along the road ."
+    },
+    {
+        "image_id": "test/test_001683.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses has been built surrounding a round square on the right ."
+    },
+    {
+        "image_id": "test/test_001684.png",
+        "question": "NULL",
+        "ground_truth": "a crossroad and buildings on both sides of the road appear on the grass ."
+    },
+    {
+        "image_id": "test/test_001688.png",
+        "question": "NULL",
+        "ground_truth": "a t shaped road has been built at the top of the forest ."
+    },
+    {
+        "image_id": "test/test_001692.png",
+        "question": "NULL",
+        "ground_truth": "a house appears by the road at the bottom right of the scene ."
+    },
+    {
+        "image_id": "test/test_001696.png",
+        "question": "NULL",
+        "ground_truth": "a room appears above and the number of cars parked on the field greatly increases ."
+    },
+    {
+        "image_id": "test/test_001729.png",
+        "question": "NULL",
+        "ground_truth": "a house has been built in the clearing by the road ."
+    },
+    {
+        "image_id": "test/test_001739.png",
+        "question": "NULL",
+        "ground_truth": "two buildings with parking lots are built along the road on both sides ."
+    },
+    {
+        "image_id": "test/test_001741.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the woods at the corner of the road ."
+    },
+    {
+        "image_id": "test/test_001752.png",
+        "question": "NULL",
+        "ground_truth": "a ring of houses appears at the bottom right corner ."
+    },
+    {
+        "image_id": "test/test_001753.png",
+        "question": "NULL",
+        "ground_truth": "two small houses are removed and a big white building is built on the left side of the road ."
+    },
+    {
+        "image_id": "test/test_001760.png",
+        "question": "NULL",
+        "ground_truth": "a villa is built in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001763.png",
+        "question": "NULL",
+        "ground_truth": "trees and plants are removed and a road is built with villas built along ."
+    },
+    {
+        "image_id": "test/test_001764.png",
+        "question": "NULL",
+        "ground_truth": "bushes and plants are removed and a road with a branch is built ."
+    },
+    {
+        "image_id": "test/test_001766.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and roads are built with a house built along ."
+    },
+    {
+        "image_id": "test/test_001767.png",
+        "question": "NULL",
+        "ground_truth": "trees are removed and a turning road is built with houses built along ."
+    },
+    {
+        "image_id": "test/test_001768.png",
+        "question": "NULL",
+        "ground_truth": "plants are removed and a cross road is built with houses built along ."
+    },
+    {
+        "image_id": "test/test_001770.png",
+        "question": "NULL",
+        "ground_truth": "dirt roads extend across the forest ."
+    },
+    {
+        "image_id": "test/test_001773.png",
+        "question": "NULL",
+        "ground_truth": "two lines of villas have been arranged neatly on both sides of a central road ."
+    },
+    {
+        "image_id": "test/test_001774.png",
+        "question": "NULL",
+        "ground_truth": "trees and plants are removed and a road is built with villas built along on both sides ."
+    },
+    {
+        "image_id": "test/test_001787.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot is built near the forest ."
+    },
+    {
+        "image_id": "test/test_001794.png",
+        "question": "NULL",
+        "ground_truth": "the parking lot is extended and a new house appears ."
+    },
+    {
+        "image_id": "test/test_001795.png",
+        "question": "NULL",
+        "ground_truth": "a mansion has been added to the construction site at the top ."
+    },
+    {
+        "image_id": "test/test_001798.png",
+        "question": "NULL",
+        "ground_truth": "a bungalow has been constructed by the side of the house in the center ."
+    },
+    {
+        "image_id": "test/test_001799.png",
+        "question": "NULL",
+        "ground_truth": "a building with a parking lot is built on the bareland along the road ."
+    },
+    {
+        "image_id": "test/test_001800.png",
+        "question": "NULL",
+        "ground_truth": "the meadows and bareland are removed and a road is built with buildings and parking lots built along ."
+    },
+    {
+        "image_id": "test/test_001813.png",
+        "question": "NULL",
+        "ground_truth": "a villa at the top is rebuilt and another one is built next to it while two are built at the bottom ."
+    },
+    {
+        "image_id": "test/test_001817.png",
+        "question": "NULL",
+        "ground_truth": "a parking lot appears on the upper left and a corner of a room is exposed on the lower-right ."
+    },
+    {
+        "image_id": "test/test_001818.png",
+        "question": "NULL",
+        "ground_truth": "a building has been constructed at the bottom left corner and two parking lots appear ."
+    },
+    {
+        "image_id": "test/test_001822.png",
+        "question": "NULL",
+        "ground_truth": "a road is built on the top and a building is built at the end of the road ."
+    },
+    {
+        "image_id": "test/test_001823.png",
+        "question": "NULL",
+        "ground_truth": "two buildings appear on the meadow in the left area of the scene ."
+    },
+    {
+        "image_id": "test/test_001825.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland on the right is developed into a road and houses on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001826.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed into a crossroad and houses on both sides ."
+    },
+    {
+        "image_id": "test/test_001831.png",
+        "question": "NULL",
+        "ground_truth": "four lines of houses are built parallel to the roads ."
+    },
+    {
+        "image_id": "test/test_001834.png",
+        "question": "NULL",
+        "ground_truth": "three houses appear in the desert ."
+    },
+    {
+        "image_id": "test/test_001835.png",
+        "question": "NULL",
+        "ground_truth": "a turning road is built with villas built along on both sides ."
+    },
+    {
+        "image_id": "test/test_001838.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear by the original one at the bottom left corner ."
+    },
+    {
+        "image_id": "test/test_001840.png",
+        "question": "NULL",
+        "ground_truth": "three houses are built in the upper right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001845.png",
+        "question": "NULL",
+        "ground_truth": "three white warehouses are built in the lower half of the scene ."
+    },
+    {
+        "image_id": "test/test_001849.png",
+        "question": "NULL",
+        "ground_truth": "a cement road is built around the parking lot ."
+    },
+    {
+        "image_id": "test/test_001872.png",
+        "question": "NULL",
+        "ground_truth": "the lake extended ."
+    },
+    {
+        "image_id": "test/test_001873.png",
+        "question": "NULL",
+        "ground_truth": "a road and houses on both sides of the road appear on the wasteland at the bottom right ."
+    },
+    {
+        "image_id": "test/test_001874.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed into a complex of buildings with roads and houses ."
+    },
+    {
+        "image_id": "test/test_001876.png",
+        "question": "NULL",
+        "ground_truth": "a villa has been added to the line at the top ."
+    },
+    {
+        "image_id": "test/test_001878.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is developed as a cluster of houses with crossroads in between ."
+    },
+    {
+        "image_id": "test/test_001879.png",
+        "question": "NULL",
+        "ground_truth": "a road is built on the left edge and villas are built along the road ."
+    },
+    {
+        "image_id": "test/test_001880.png",
+        "question": "NULL",
+        "ground_truth": "the plants have been removed and two paths intersect ."
+    },
+    {
+        "image_id": "test/test_001882.png",
+        "question": "NULL",
+        "ground_truth": "three lines of houses are built parallel to two roads ."
+    },
+    {
+        "image_id": "test/test_001883.png",
+        "question": "NULL",
+        "ground_truth": "a road is built on the bareland with villas built along on both sides ."
+    },
+    {
+        "image_id": "test/test_001884.png",
+        "question": "NULL",
+        "ground_truth": "a small house disappears and a cement road is built in the open space ."
+    },
+    {
+        "image_id": "test/test_001886.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed as a residential area with roads and a swimming pool ."
+    },
+    {
+        "image_id": "test/test_001887.png",
+        "question": "NULL",
+        "ground_truth": "a circular road is built on the bareland and bushes and villas are built along the road ."
+    },
+    {
+        "image_id": "test/test_001888.png",
+        "question": "NULL",
+        "ground_truth": "a crossroad and houses on both sides of the road appear on the wasteland ."
+    },
+    {
+        "image_id": "test/test_001890.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the woods in the bottom right corner ."
+    },
+    {
+        "image_id": "test/test_001893.png",
+        "question": "NULL",
+        "ground_truth": "the vehicles on the lower-left disappear and two houses appear ."
+    },
+    {
+        "image_id": "test/test_001894.png",
+        "question": "NULL",
+        "ground_truth": "four houses are built around the corner of the road in the lower-right corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001895.png",
+        "question": "NULL",
+        "ground_truth": "two lines of buildings are arranged neatly on the sides of the road ."
+    },
+    {
+        "image_id": "test/test_001898.png",
+        "question": "NULL",
+        "ground_truth": "four houses surrounded by the roads appear in the desert ."
+    },
+    {
+        "image_id": "test/test_001899.png",
+        "question": "NULL",
+        "ground_truth": "two lines of houses are constructed on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001902.png",
+        "question": "NULL",
+        "ground_truth": "a road and buildings on both sides of the road appear on the wasteland on the lower-left ."
+    },
+    {
+        "image_id": "test/test_001903.png",
+        "question": "NULL",
+        "ground_truth": "a house is built in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_001904.png",
+        "question": "NULL",
+        "ground_truth": "a house is built among the other houses by the roadside ."
+    },
+    {
+        "image_id": "test/test_001906.png",
+        "question": "NULL",
+        "ground_truth": "a road appears vertical to the original one at the bottom ."
+    },
+    {
+        "image_id": "test/test_001907.png",
+        "question": "NULL",
+        "ground_truth": "the wasteland is built into a residential area with roads and houses ."
+    },
+    {
+        "image_id": "test/test_001911.png",
+        "question": "NULL",
+        "ground_truth": "the cistern and vegetation disappear and a road and buildings appear ."
+    },
+    {
+        "image_id": "test/test_001912.png",
+        "question": "NULL",
+        "ground_truth": "the grassland becomes a residential area with an intersecting road and buildings ."
+    },
+    {
+        "image_id": "test/test_001914.png",
+        "question": "NULL",
+        "ground_truth": "four houses appear around the road in the desert ."
+    },
+    {
+        "image_id": "test/test_001915.png",
+        "question": "NULL",
+        "ground_truth": "the road in the center is replaced by a t-shaped road and a residential area ."
+    },
+    {
+        "image_id": "test/test_001933.png",
+        "question": "NULL",
+        "ground_truth": "house and bushes are removed and a road is built with villas built along on both sides ."
+    },
+    {
+        "image_id": "test/test_001969.png",
+        "question": "NULL",
+        "ground_truth": "the grassland is developed into a crossroad and houses on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001970.png",
+        "question": "NULL",
+        "ground_truth": "the grass on the upper left is developed into a crossroad and houses on both sides of the road ."
+    },
+    {
+        "image_id": "test/test_001973.png",
+        "question": "NULL",
+        "ground_truth": "two houses appear in the upper left corner of the scene ."
+    },
+    {
+        "image_id": "test/test_002003.png",
+        "question": "NULL",
+        "ground_truth": "a road is built at the top and villas are built along the roads ."
+    },
+    {
+        "image_id": "test/test_002004.png",
+        "question": "NULL",
+        "ground_truth": "a road is built on the bareland and villas are built along the roads ."
+    },
+    {
+        "image_id": "test/test_002005.png",
+        "question": "NULL",
+        "ground_truth": "a house is built on the meadow along the road on the left edge of the scene ."
+    },
+    {
+        "image_id": "test/test_002007.png",
+        "question": "NULL",
+        "ground_truth": "two houses are built next to the other houses along the road ."
+    },
+    {
+        "image_id": "test/test_002009.png",
+        "question": "NULL",
+        "ground_truth": "a building appears between the former ones along the road ."
+    },
+    {
+        "image_id": "test/test_002012.png",
+        "question": "NULL",
+        "ground_truth": "a ring of completed villas have been constructed at the top ."
+    },
+    {
+        "image_id": "test/test_002014.png",
+        "question": "NULL",
+        "ground_truth": "a house appears on the grass on the upper left ."
+    },
+    {
+        "image_id": "test/test_002018.png",
+        "question": "NULL",
+        "ground_truth": "a line of houses has been arranged by the road at the top ."
+    },
+    {
+        "image_id": "test/test_002023.png",
+        "question": "NULL",
+        "ground_truth": "a building appears in the desert along a road ."
+    },
+    {
+        "image_id": "test/test_002037.png",
+        "question": "NULL",
+        "ground_truth": "a field with parked cars on it appears on the grass below ."
+    },
+    {
+        "image_id": "test/test_002041.png",
+        "question": "NULL",
+        "ground_truth": "a house appears in the open space with a path across the area ."
+    },
+    {
+        "image_id": "test/test_002047.png",
+        "question": "NULL",
+        "ground_truth": "two small houses appear on the grass on the upper right ."
+    }
+]

@@ -1,0 +1,5252 @@
+[
+    {
+        "image_id": "val/val_000001.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部建有两座房子。"
+    },
+    {
+        "image_id": "val/val_000003.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部沿着道路建造了三座房屋。"
+    },
+    {
+        "image_id": "val/val_000004.png",
+        "question": "NULL",
+        "ground_truth": "周围修建了一条道路和两栋别墅。"
+    },
+    {
+        "image_id": "val/val_000018.png",
+        "question": "NULL",
+        "ground_truth": "一座大别墅旁边出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000021.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角建了一座房子。"
+    },
+    {
+        "image_id": "val/val_000022.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里建造了一座大型建筑。"
+    },
+    {
+        "image_id": "val/val_000023.png",
+        "question": "NULL",
+        "ground_truth": "道路被重建，树林中建造了一座大房子，并有一条小路与主干道相连。"
+    },
+    {
+        "image_id": "val/val_000024.png",
+        "question": "NULL",
+        "ground_truth": "路边建有一座带有通往道路的别墅。"
+    },
+    {
+        "image_id": "val/val_000025.png",
+        "question": "NULL",
+        "ground_truth": "老别墅两侧建有两栋别墅，有一条通往道路的小路。"
+    },
+    {
+        "image_id": "val/val_000027.png",
+        "question": "NULL",
+        "ground_truth": "修了一条路，旁边建了两座大房子。"
+    },
+    {
+        "image_id": "val/val_000028.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一座带有通往道路的小路的别墅，场景的中右区域还建造了另一所房子。"
+    },
+    {
+        "image_id": "val/val_000031.png",
+        "question": "NULL",
+        "ground_truth": "植物被拆除，并建造带有通往道路的别墅。"
+    },
+    {
+        "image_id": "val/val_000032.png",
+        "question": "NULL",
+        "ground_truth": "路边的荒地上建造了一座带有通往转弯道路的小路的房屋。"
+    },
+    {
+        "image_id": "val/val_000033.png",
+        "question": "NULL",
+        "ground_truth": "路边的森林前建了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000034.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000036.png",
+        "question": "NULL",
+        "ground_truth": "两栋房屋的道路连接到主干道。"
+    },
+    {
+        "image_id": "val/val_000037.png",
+        "question": "NULL",
+        "ground_truth": "树林被移走，一条沿途建有别墅的道路出现了。"
+    },
+    {
+        "image_id": "val/val_000038.png",
+        "question": "NULL",
+        "ground_truth": "左下角的树林中出现了两栋建筑和一条道路。"
+    },
+    {
+        "image_id": "val/val_000040.png",
+        "question": "NULL",
+        "ground_truth": "路的尽头周围建了三座房子。"
+    },
+    {
+        "image_id": "val/val_000041.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000043.png",
+        "question": "NULL",
+        "ground_truth": "底部的植物和荒地被三栋带小路的别墅所取代。"
+    },
+    {
+        "image_id": "val/val_000044.png",
+        "question": "NULL",
+        "ground_truth": "底部出现一座房子，顶部建两座房子。"
+    },
+    {
+        "image_id": "val/val_000045.png",
+        "question": "NULL",
+        "ground_truth": "场景底部出现了两栋别墅和一条道路，植物被移除。"
+    },
+    {
+        "image_id": "val/val_000047.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部修了一条水泥路。"
+    },
+    {
+        "image_id": "val/val_000048.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000051.png",
+        "question": "NULL",
+        "ground_truth": "顶部排列着一圈别墅。"
+    },
+    {
+        "image_id": "val/val_000054.png",
+        "question": "NULL",
+        "ground_truth": "一条水泥路在森林和湖泊附近延伸。"
+    },
+    {
+        "image_id": "val/val_000055.png",
+        "question": "NULL",
+        "ground_truth": "左边有两条平行的道路，右边有一圈房屋。"
+    },
+    {
+        "image_id": "val/val_000058.png",
+        "question": "NULL",
+        "ground_truth": "水泥路取代了土路。"
+    },
+    {
+        "image_id": "val/val_000062.png",
+        "question": "NULL",
+        "ground_truth": "右边的小路消失了，右下角建了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000063.png",
+        "question": "NULL",
+        "ground_truth": "树木被拆除，道路重建成十字路口，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000066.png",
+        "question": "NULL",
+        "ground_truth": "场景边缘建造了三栋别墅。"
+    },
+    {
+        "image_id": "val/val_000067.png",
+        "question": "NULL",
+        "ground_truth": "以前的工厂和道路被新的道路和房屋取代。"
+    },
+    {
+        "image_id": "val/val_000071.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了一条道路和一排别墅，取代了树木。"
+    },
+    {
+        "image_id": "val/val_000072.png",
+        "question": "NULL",
+        "ground_truth": "拥有新房屋和道路的住宅区取代了以前的植被。"
+    },
+    {
+        "image_id": "val/val_000076.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部建有三座房子。"
+    },
+    {
+        "image_id": "val/val_000081.png",
+        "question": "NULL",
+        "ground_truth": "树林间的荒地上出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000084.png",
+        "question": "NULL",
+        "ground_truth": "右上方区域的树木被移除并建造建筑物。"
+    },
+    {
+        "image_id": "val/val_000085.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角的建筑被重建成更大的建筑。"
+    },
+    {
+        "image_id": "val/val_000087.png",
+        "question": "NULL",
+        "ground_truth": "场景中央的路边出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000092.png",
+        "question": "NULL",
+        "ground_truth": "一条T形道路取代了原来的道路，沿途出现了三排建筑物。"
+    },
+    {
+        "image_id": "val/val_000095.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，一条沿途建有别墅的道路出现了。"
+    },
+    {
+        "image_id": "val/val_000104.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建了很多别墅来取代树木。"
+    },
+    {
+        "image_id": "val/val_000106.png",
+        "question": "NULL",
+        "ground_truth": "建造了一座大型建筑物和一座相对较小的建筑物，街道与主干道相连，以取代以前的树木。"
+    },
+    {
+        "image_id": "val/val_000108.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧出现了两排建筑物。"
+    },
+    {
+        "image_id": "val/val_000109.png",
+        "question": "NULL",
+        "ground_truth": "场景中心原来的荒地变成了湖泊。"
+    },
+    {
+        "image_id": "val/val_000111.png",
+        "question": "NULL",
+        "ground_truth": "道路周围环绕着一圈完工的别墅。"
+    },
+    {
+        "image_id": "val/val_000113.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000115.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，建造了一个圆形的地面，周围建造了别墅。"
+    },
+    {
+        "image_id": "val/val_000116.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，房屋沿着底部的新道路建造。"
+    },
+    {
+        "image_id": "val/val_000121.png",
+        "question": "NULL",
+        "ground_truth": "左边的一条路旁边建了一所房子。"
+    },
+    {
+        "image_id": "val/val_000122.png",
+        "question": "NULL",
+        "ground_truth": "四座完工的豪宅出现在森林的右下角。"
+    },
+    {
+        "image_id": "val/val_000123.png",
+        "question": "NULL",
+        "ground_truth": "树木和荒地被一条穿过风景的道路所取代，沿途还建有别墅。"
+    },
+    {
+        "image_id": "val/val_000124.png",
+        "question": "NULL",
+        "ground_truth": "四栋别墅出现在场景的左上角。"
+    },
+    {
+        "image_id": "val/val_000127.png",
+        "question": "NULL",
+        "ground_truth": "空地上建了四座房子。"
+    },
+    {
+        "image_id": "val/val_000128.png",
+        "question": "NULL",
+        "ground_truth": "场景中左中部区域的两栋别墅出现，树木被移除。"
+    },
+    {
+        "image_id": "val/val_000129.png",
+        "question": "NULL",
+        "ground_truth": "植被消失了，中心道路两侧出现了两排房屋。"
+    },
+    {
+        "image_id": "val/val_000133.png",
+        "question": "NULL",
+        "ground_truth": "树林被两条道路取代，道路两旁建有别墅。"
+    },
+    {
+        "image_id": "val/val_000134.png",
+        "question": "NULL",
+        "ground_truth": "大多数树木消失了，路边建了两座房子。"
+    },
+    {
+        "image_id": "val/val_000135.png",
+        "question": "NULL",
+        "ground_truth": "树木被荒地和穿过风景的道路取代，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000136.png",
+        "question": "NULL",
+        "ground_truth": "场景的左下角出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000138.png",
+        "question": "NULL",
+        "ground_truth": "一半的植物被一块荒地取代。"
+    },
+    {
+        "image_id": "val/val_000139.png",
+        "question": "NULL",
+        "ground_truth": "顶部区域的树木被移除，一座建筑物出现。"
+    },
+    {
+        "image_id": "val/val_000140.png",
+        "question": "NULL",
+        "ground_truth": "左上角出现了一个广场和一栋房子。"
+    },
+    {
+        "image_id": "val/val_000141.png",
+        "question": "NULL",
+        "ground_truth": "树林中建了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000143.png",
+        "question": "NULL",
+        "ground_truth": "穿过场景的两条垂直交叉线上的树木被删除。"
+    },
+    {
+        "image_id": "val/val_000144.png",
+        "question": "NULL",
+        "ground_truth": "圆圈线上的树木被删除。"
+    },
+    {
+        "image_id": "val/val_000149.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角和右下角出现两座建筑物。"
+    },
+    {
+        "image_id": "val/val_000150.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000153.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角的房子旁边出现了一座建筑物。"
+    },
+    {
+        "image_id": "val/val_000154.png",
+        "question": "NULL",
+        "ground_truth": "原房屋之间的道路一侧建了一座大房子。"
+    },
+    {
+        "image_id": "val/val_000156.png",
+        "question": "NULL",
+        "ground_truth": "路边原来的大楼附近建了一座大楼。"
+    },
+    {
+        "image_id": "val/val_000158.png",
+        "question": "NULL",
+        "ground_truth": "底部建造了一排建筑物。"
+    },
+    {
+        "image_id": "val/val_000159.png",
+        "question": "NULL",
+        "ground_truth": "场景的左下角出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000162.png",
+        "question": "NULL",
+        "ground_truth": "左边的一栋房子被扩大，右边的另一栋房子被重建。"
+    },
+    {
+        "image_id": "val/val_000167.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000171.png",
+        "question": "NULL",
+        "ground_truth": "森林中建有三栋别墅。"
+    },
+    {
+        "image_id": "val/val_000174.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000175.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，道路上建有别墅。"
+    },
+    {
+        "image_id": "val/val_000176.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，顶部和底部出现两条道路，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000177.png",
+        "question": "NULL",
+        "ground_truth": "三栋别墅建在树林里。"
+    },
+    {
+        "image_id": "val/val_000178.png",
+        "question": "NULL",
+        "ground_truth": "左下角已经建成了一座建筑物。"
+    },
+    {
+        "image_id": "val/val_000180.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里修了一条弯曲的道路，旁边建了一所房子。"
+    },
+    {
+        "image_id": "val/val_000181.png",
+        "question": "NULL",
+        "ground_truth": "树木被拆除，道路重建成十字路口，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000183.png",
+        "question": "NULL",
+        "ground_truth": "植被数量减少很多，只剩下一片荒地。"
+    },
+    {
+        "image_id": "val/val_000184.png",
+        "question": "NULL",
+        "ground_truth": "大部分树木都被砍伐了，街角周围建了两座房子。"
+    },
+    {
+        "image_id": "val/val_000186.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，在场景中央建造了一座房子，左边有一条路。"
+    },
+    {
+        "image_id": "val/val_000189.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里修了一条蜿蜒的道路。"
+    },
+    {
+        "image_id": "val/val_000190.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条新路，附近建有房屋。"
+    },
+    {
+        "image_id": "val/val_000191.png",
+        "question": "NULL",
+        "ground_truth": "路边建了三座房子。"
+    },
+    {
+        "image_id": "val/val_000192.png",
+        "question": "NULL",
+        "ground_truth": "植物被拆除，底部出现一条转弯的道路，左上角出现一条周围建有别墅的环形道路。"
+    },
+    {
+        "image_id": "val/val_000193.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部出现了一栋别墅。"
+    },
+    {
+        "image_id": "val/val_000194.png",
+        "question": "NULL",
+        "ground_truth": "右下角地区的树木和荒地被道路和建筑物取代。"
+    },
+    {
+        "image_id": "val/val_000195.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里建了一座建筑。"
+    },
+    {
+        "image_id": "val/val_000196.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，并修建了一条周围建有别墅的道路。"
+    },
+    {
+        "image_id": "val/val_000197.png",
+        "question": "NULL",
+        "ground_truth": "树林中建造了一条蜿蜒的道路和两座大型建筑。"
+    },
+    {
+        "image_id": "val/val_000200.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了一排别墅。"
+    },
+    {
+        "image_id": "val/val_000201.png",
+        "question": "NULL",
+        "ground_truth": "穿过森林修了一条蜿蜒的道路，路边建了一所房子。"
+    },
+    {
+        "image_id": "val/val_000202.png",
+        "question": "NULL",
+        "ground_truth": "路边建了两座大型建筑。"
+    },
+    {
+        "image_id": "val/val_000203.png",
+        "question": "NULL",
+        "ground_truth": "底部的别墅已经重建，顶部出现了一栋房子。"
+    },
+    {
+        "image_id": "val/val_000204.png",
+        "question": "NULL",
+        "ground_truth": "底部建了一座带游泳池的完整别墅，植物生长得更加茂盛。"
+    },
+    {
+        "image_id": "val/val_000205.png",
+        "question": "NULL",
+        "ground_truth": "树林里修了一条路，附近出现了一座大楼。"
+    },
+    {
+        "image_id": "val/val_000206.png",
+        "question": "NULL",
+        "ground_truth": "树木被移除，中间的建筑物出现，顶部的道路出现，右侧区域的建筑物出现。"
+    },
+    {
+        "image_id": "val/val_000207.png",
+        "question": "NULL",
+        "ground_truth": "一座带游泳池的房子出现在道路附近的沙漠中。"
+    },
+    {
+        "image_id": "val/val_000208.png",
+        "question": "NULL",
+        "ground_truth": "顶部的别墅已经重建。"
+    },
+    {
+        "image_id": "val/val_000212.png",
+        "question": "NULL",
+        "ground_truth": "一群建筑出现在路边的森林边缘。"
+    },
+    {
+        "image_id": "val/val_000215.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子建在路边，一栋房子建在底部的树林里。"
+    },
+    {
+        "image_id": "val/val_000216.png",
+        "question": "NULL",
+        "ground_truth": "空地上建造了两座建筑物。"
+    },
+    {
+        "image_id": "val/val_000218.png",
+        "question": "NULL",
+        "ground_truth": "道路一侧建有两栋别墅，另一侧建有三栋别墅。"
+    },
+    {
+        "image_id": "val/val_000226.png",
+        "question": "NULL",
+        "ground_truth": "右侧出现了三栋完工的别墅。"
+    },
+    {
+        "image_id": "val/val_000227.png",
+        "question": "NULL",
+        "ground_truth": "树林里的路边建了一座大楼。"
+    },
+    {
+        "image_id": "val/val_000229.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里建了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000234.png",
+        "question": "NULL",
+        "ground_truth": "右下角出现了一所房子，树木长得更茂盛了。"
+    },
+    {
+        "image_id": "val/val_000235.png",
+        "question": "NULL",
+        "ground_truth": "两排房屋整齐地排列在底部的道路旁。"
+    },
+    {
+        "image_id": "val/val_000236.png",
+        "question": "NULL",
+        "ground_truth": "顶部和底部有两条道路，沿线建有别墅。"
+    },
+    {
+        "image_id": "val/val_000237.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角建造了三座房屋。"
+    },
+    {
+        "image_id": "val/val_000238.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条路边建有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_000239.png",
+        "question": "NULL",
+        "ground_truth": "沙漠变成了一个拥有巨大房屋和道路的住宅区。"
+    },
+    {
+        "image_id": "val/val_000240.png",
+        "question": "NULL",
+        "ground_truth": "沙漠变成了一个拥有巨大房屋和道路的住宅区。"
+    },
+    {
+        "image_id": "val/val_000242.png",
+        "question": "NULL",
+        "ground_truth": "场景一角的荒地上建了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000243.png",
+        "question": "NULL",
+        "ground_truth": "左下角原有建筑增加了一栋已完工的别墅。"
+    },
+    {
+        "image_id": "val/val_000245.png",
+        "question": "NULL",
+        "ground_truth": "树林里出现了一座与现有建筑相连的新建筑。"
+    },
+    {
+        "image_id": "val/val_000246.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧靠近树木的地方建造了两栋建筑。"
+    },
+    {
+        "image_id": "val/val_000247.png",
+        "question": "NULL",
+        "ground_truth": "左上角建了一座别墅，有一条通往道路的小路。"
+    },
+    {
+        "image_id": "val/val_000250.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一个大型停车场。"
+    },
+    {
+        "image_id": "val/val_000251.png",
+        "question": "NULL",
+        "ground_truth": "一座带停车场的巨大建筑出现在曾经存在树木和荒地的地方。"
+    },
+    {
+        "image_id": "val/val_000252.png",
+        "question": "NULL",
+        "ground_truth": "主干道旁的荒地上建了绕道和停车场。"
+    },
+    {
+        "image_id": "val/val_000253.png",
+        "question": "NULL",
+        "ground_truth": "几乎一半的植物被拆除，一条路出现了。"
+    },
+    {
+        "image_id": "val/val_000256.png",
+        "question": "NULL",
+        "ground_truth": "一座带停车场的建筑出现在道路的左侧，另一座建筑出现在道路的右侧。"
+    },
+    {
+        "image_id": "val/val_000257.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了两栋完工的别墅，顶部出现了一栋房子。"
+    },
+    {
+        "image_id": "val/val_000258.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了有道路穿过的巨大建筑物。"
+    },
+    {
+        "image_id": "val/val_000259.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了有道路贯穿的巨大建筑物，还有一群树木。"
+    },
+    {
+        "image_id": "val/val_000260.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了有道路贯穿的巨大建筑物，还有一群树木。"
+    },
+    {
+        "image_id": "val/val_000273.png",
+        "question": "NULL",
+        "ground_truth": "森林变成了一条路，旁边建着房屋。"
+    },
+    {
+        "image_id": "val/val_000274.png",
+        "question": "NULL",
+        "ground_truth": "场景的左下角出现了三所房子。"
+    },
+    {
+        "image_id": "val/val_000276.png",
+        "question": "NULL",
+        "ground_truth": "中心广场周围环绕着一圈别墅。"
+    },
+    {
+        "image_id": "val/val_000277.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现T形道路，两侧建有两排别墅。"
+    },
+    {
+        "image_id": "val/val_000278.png",
+        "question": "NULL",
+        "ground_truth": "左上角已建成一栋已完工的别墅。"
+    },
+    {
+        "image_id": "val/val_000281.png",
+        "question": "NULL",
+        "ground_truth": "场景边缘建了两座房子。"
+    },
+    {
+        "image_id": "val/val_000289.png",
+        "question": "NULL",
+        "ground_truth": "修建了一条T形道路，周围排列整齐的建筑物取代了植被。"
+    },
+    {
+        "image_id": "val/val_000290.png",
+        "question": "NULL",
+        "ground_truth": "工厂被两排建筑物和中间的一条道路所取代。"
+    },
+    {
+        "image_id": "val/val_000292.png",
+        "question": "NULL",
+        "ground_truth": "底部的植物被一条环形道路取代，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000293.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，修了一条带树枝的弧形路，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000294.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，修建了一条转弯的道路，顶部建有别墅。"
+    },
+    {
+        "image_id": "val/val_000295.png",
+        "question": "NULL",
+        "ground_truth": "顶部的树木被移除，顶部出现了一条穿过森林的道路。"
+    },
+    {
+        "image_id": "val/val_000296.png",
+        "question": "NULL",
+        "ground_truth": "大部分植物都被移走了，一片荒地出现了。"
+    },
+    {
+        "image_id": "val/val_000303.png",
+        "question": "NULL",
+        "ground_truth": "从左下角到右上角直线上的树木被移除。"
+    },
+    {
+        "image_id": "val/val_000305.png",
+        "question": "NULL",
+        "ground_truth": "树木和荒地被带有树枝的十字路口取代，沿着道路建造别墅。"
+    },
+    {
+        "image_id": "val/val_000306.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，左侧出现了一条周围建有别墅的道路。"
+    },
+    {
+        "image_id": "val/val_000307.png",
+        "question": "NULL",
+        "ground_truth": "右侧建有一排别墅。"
+    },
+    {
+        "image_id": "val/val_000308.png",
+        "question": "NULL",
+        "ground_truth": "有树枝的转弯路取代了树木，沿途建了荒地和别墅。"
+    },
+    {
+        "image_id": "val/val_000309.png",
+        "question": "NULL",
+        "ground_truth": "一条T形道路穿过住宅区，取代了植被。"
+    },
+    {
+        "image_id": "val/val_000310.png",
+        "question": "NULL",
+        "ground_truth": "树木和道路被拆除，出现了一条蜿蜒的道路，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000311.png",
+        "question": "NULL",
+        "ground_truth": "右侧荒地上出现了一条沿途建有别墅的道路。"
+    },
+    {
+        "image_id": "val/val_000313.png",
+        "question": "NULL",
+        "ground_truth": "树木和荒地被一条十字路口取代，沿途建有别墅。"
+    },
+    {
+        "image_id": "val/val_000315.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修了一条路边有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_000316.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建有一个拥有大量建筑和道路的住宅区。"
+    },
+    {
+        "image_id": "val/val_000317.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧建有四座房屋。"
+    },
+    {
+        "image_id": "val/val_000318.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000319.png",
+        "question": "NULL",
+        "ground_truth": "修建十字路口将老路与下游地区修建别墅连接起来，并拆除植物。"
+    },
+    {
+        "image_id": "val/val_000320.png",
+        "question": "NULL",
+        "ground_truth": "树木被两排房屋和中间的一条道路所取代。"
+    },
+    {
+        "image_id": "val/val_000328.png",
+        "question": "NULL",
+        "ground_truth": "场景的底部修建了一条新路。"
+    },
+    {
+        "image_id": "val/val_000329.png",
+        "question": "NULL",
+        "ground_truth": "稀疏住宅的右下角出现了一个建筑工地。"
+    },
+    {
+        "image_id": "val/val_000332.png",
+        "question": "NULL",
+        "ground_truth": "场景右侧出现一条道路。"
+    },
+    {
+        "image_id": "val/val_000335.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和两条道路。"
+    },
+    {
+        "image_id": "val/val_000339.png",
+        "question": "NULL",
+        "ground_truth": "左上角的道路旁边出现了两座建筑。"
+    },
+    {
+        "image_id": "val/val_000341.png",
+        "question": "NULL",
+        "ground_truth": "荒原上出现了一条轨迹。"
+    },
+    {
+        "image_id": "val/val_000342.png",
+        "question": "NULL",
+        "ground_truth": "道路旁边出现了三座建筑物。"
+    },
+    {
+        "image_id": "val/val_000343.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000347.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000350.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子出现在场景的右下角。"
+    },
+    {
+        "image_id": "val/val_000351.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和一条道路。"
+    },
+    {
+        "image_id": "val/val_000352.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000353.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修了一条笔直的路。"
+    },
+    {
+        "image_id": "val/val_000354.png",
+        "question": "NULL",
+        "ground_truth": "场景左上角修了一条道路。"
+    },
+    {
+        "image_id": "val/val_000356.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建有一座建筑。"
+    },
+    {
+        "image_id": "val/val_000357.png",
+        "question": "NULL",
+        "ground_truth": "在原来的荒地上修建了一条笔直的道路。"
+    },
+    {
+        "image_id": "val/val_000364.png",
+        "question": "NULL",
+        "ground_truth": "道路的尽头出现在场景的右上角。"
+    },
+    {
+        "image_id": "val/val_000372.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和十字路口。"
+    },
+    {
+        "image_id": "val/val_000373.png",
+        "question": "NULL",
+        "ground_truth": "两条主要道路的建设已经完成。"
+    },
+    {
+        "image_id": "val/val_000375.png",
+        "question": "NULL",
+        "ground_truth": "右侧建有一间平房，底部停车场旁边出现了一条道路。"
+    },
+    {
+        "image_id": "val/val_000377.png",
+        "question": "NULL",
+        "ground_truth": "道路已经重建，左侧道路上正在铺设一辆汽车。"
+    },
+    {
+        "image_id": "val/val_000379.png",
+        "question": "NULL",
+        "ground_truth": "这片土地上原来的两条穿越小路已经消失了。"
+    },
+    {
+        "image_id": "val/val_000380.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一条道路和两栋建筑。"
+    },
+    {
+        "image_id": "val/val_000382.png",
+        "question": "NULL",
+        "ground_truth": "草地已被底部的一个储存罐场地和右侧的另一个储存罐场地所取代。"
+    },
+    {
+        "image_id": "val/val_000383.png",
+        "question": "NULL",
+        "ground_truth": "荒地变成了沙地。"
+    },
+    {
+        "image_id": "val/val_000387.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上建了一座大建筑。"
+    },
+    {
+        "image_id": "val/val_000388.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一座带大停车场的巨大建筑。"
+    },
+    {
+        "image_id": "val/val_000391.png",
+        "question": "NULL",
+        "ground_truth": "草地上的院子和一条小路已被停车场和顶部被一条道路隔开的建筑物取代。"
+    },
+    {
+        "image_id": "val/val_000392.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上建了两栋建筑和一个大型停车场。"
+    },
+    {
+        "image_id": "val/val_000395.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角建造了一座带停车场的建筑。"
+    },
+    {
+        "image_id": "val/val_000396.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角建造了两座建筑。"
+    },
+    {
+        "image_id": "val/val_000399.png",
+        "question": "NULL",
+        "ground_truth": "荒地道路旁建有建筑物和停车场。"
+    },
+    {
+        "image_id": "val/val_000402.png",
+        "question": "NULL",
+        "ground_truth": "空地上修建了两条笔直的混凝土道路。"
+    },
+    {
+        "image_id": "val/val_000404.png",
+        "question": "NULL",
+        "ground_truth": "在原来的荒地上修建了两条笔直的道路。"
+    },
+    {
+        "image_id": "val/val_000419.png",
+        "question": "NULL",
+        "ground_truth": "这个住宅区的房屋数量增加了。"
+    },
+    {
+        "image_id": "val/val_000421.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了中型住宅。"
+    },
+    {
+        "image_id": "val/val_000422.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和十字路口。"
+    },
+    {
+        "image_id": "val/val_000426.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上建了一座巨大的住宅。"
+    },
+    {
+        "image_id": "val/val_000427.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了大片密集的住宅区。"
+    },
+    {
+        "image_id": "val/val_000433.png",
+        "question": "NULL",
+        "ground_truth": "右上方出现了两座建筑物。"
+    },
+    {
+        "image_id": "val/val_000445.png",
+        "question": "NULL",
+        "ground_truth": "场景的左侧边缘出现了一座小住宅。"
+    },
+    {
+        "image_id": "val/val_000516.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修建两条垂直道路。"
+    },
+    {
+        "image_id": "val/val_000519.png",
+        "question": "NULL",
+        "ground_truth": "出现了一个操场，底部建了一座小建筑。"
+    },
+    {
+        "image_id": "val/val_000520.png",
+        "question": "NULL",
+        "ground_truth": "草地消失了，荒地上的路边建了一座建筑。"
+    },
+    {
+        "image_id": "val/val_000522.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现两栋房屋，场景底部出现一个正方形。"
+    },
+    {
+        "image_id": "val/val_000523.png",
+        "question": "NULL",
+        "ground_truth": "空地上修了一条笔直的路。"
+    },
+    {
+        "image_id": "val/val_000524.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建有一座建筑。"
+    },
+    {
+        "image_id": "val/val_000528.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一座建筑和一片空地。"
+    },
+    {
+        "image_id": "val/val_000530.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和一条道路。"
+    },
+    {
+        "image_id": "val/val_000533.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和一条道路。"
+    },
+    {
+        "image_id": "val/val_000537.png",
+        "question": "NULL",
+        "ground_truth": "左侧建一条道路，周围呈直角，房屋环绕。"
+    },
+    {
+        "image_id": "val/val_000546.png",
+        "question": "NULL",
+        "ground_truth": "场景左上角的草地上建有一栋别墅。"
+    },
+    {
+        "image_id": "val/val_000549.png",
+        "question": "NULL",
+        "ground_truth": "在场景的右下角添加了一所房子。"
+    },
+    {
+        "image_id": "val/val_000551.png",
+        "question": "NULL",
+        "ground_truth": "场景的右侧出现了一座带有方形的房子。"
+    },
+    {
+        "image_id": "val/val_000553.png",
+        "question": "NULL",
+        "ground_truth": "草地上的路边建了一座房子。"
+    },
+    {
+        "image_id": "val/val_000554.png",
+        "question": "NULL",
+        "ground_truth": "路边有两座建筑物消失了。"
+    },
+    {
+        "image_id": "val/val_000555.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了两座建筑物。"
+    },
+    {
+        "image_id": "val/val_000568.png",
+        "question": "NULL",
+        "ground_truth": "草地上的路边建有一栋建筑和一个停车场。"
+    },
+    {
+        "image_id": "val/val_000572.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建有一座建筑。"
+    },
+    {
+        "image_id": "val/val_000573.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了许多建筑物和一条道路。"
+    },
+    {
+        "image_id": "val/val_000590.png",
+        "question": "NULL",
+        "ground_truth": "三栋新房和一个建筑工地出现在场景的左下角。"
+    },
+    {
+        "image_id": "val/val_000604.png",
+        "question": "NULL",
+        "ground_truth": "大量的建筑物和道路取代了植被。"
+    },
+    {
+        "image_id": "val/val_000622.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000623.png",
+        "question": "NULL",
+        "ground_truth": "底角建了两座房子。"
+    },
+    {
+        "image_id": "val/val_000626.png",
+        "question": "NULL",
+        "ground_truth": "一条路消失了，一所房子出现在场景的右侧。"
+    },
+    {
+        "image_id": "val/val_000630.png",
+        "question": "NULL",
+        "ground_truth": "场景的底部出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000634.png",
+        "question": "NULL",
+        "ground_truth": "场景左上角出现了一个小木屋。"
+    },
+    {
+        "image_id": "val/val_000636.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000641.png",
+        "question": "NULL",
+        "ground_truth": "道路周围建在右侧，底部靠近原来的通讯塔。"
+    },
+    {
+        "image_id": "val/val_000648.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角建了一座新房子。"
+    },
+    {
+        "image_id": "val/val_000650.png",
+        "question": "NULL",
+        "ground_truth": "左边的草地上出现了两座红房子。"
+    },
+    {
+        "image_id": "val/val_000654.png",
+        "question": "NULL",
+        "ground_truth": "空地上修了一条又直又窄的小路。"
+    },
+    {
+        "image_id": "val/val_000658.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角出现了一条道路，上面有一座大型建筑。"
+    },
+    {
+        "image_id": "val/val_000660.png",
+        "question": "NULL",
+        "ground_truth": "现场左上角出现了一个停车场。"
+    },
+    {
+        "image_id": "val/val_000670.png",
+        "question": "NULL",
+        "ground_truth": "中间的树木成为连接左右道路的道路。"
+    },
+    {
+        "image_id": "val/val_000675.png",
+        "question": "NULL",
+        "ground_truth": "右侧的草地被开发成道路，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "val/val_000676.png",
+        "question": "NULL",
+        "ground_truth": "所有树木都已被拆除，一座大型住宅也已建成。"
+    },
+    {
+        "image_id": "val/val_000680.png",
+        "question": "NULL",
+        "ground_truth": "草地和林地发展成为道路两侧的十字路口和建筑群。"
+    },
+    {
+        "image_id": "val/val_000684.png",
+        "question": "NULL",
+        "ground_truth": "右上角的植被消失了，出现了空地和水池。"
+    },
+    {
+        "image_id": "val/val_000686.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，住宅区已经建成。"
+    },
+    {
+        "image_id": "val/val_000696.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角建造了道路和房屋。"
+    },
+    {
+        "image_id": "val/val_000700.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上建了一座大型住宅。"
+    },
+    {
+        "image_id": "val/val_000704.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建有一群带道路的建筑物。"
+    },
+    {
+        "image_id": "val/val_000724.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角出现一条道路。"
+    },
+    {
+        "image_id": "val/val_000725.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上修了一条蜿蜒的小路。"
+    },
+    {
+        "image_id": "val/val_000727.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一条路，光秃秃的土地变成了草地。"
+    },
+    {
+        "image_id": "val/val_000728.png",
+        "question": "NULL",
+        "ground_truth": "空地上修了一条笔直的小路。"
+    },
+    {
+        "image_id": "val/val_000730.png",
+        "question": "NULL",
+        "ground_truth": "一条道路穿过底部的草地，取代了光秃秃的地面。"
+    },
+    {
+        "image_id": "val/val_000731.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修了一条又直又窄的小路。"
+    },
+    {
+        "image_id": "val/val_000734.png",
+        "question": "NULL",
+        "ground_truth": "树林变得郁郁葱葱，树林边缘出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_000748.png",
+        "question": "NULL",
+        "ground_truth": "住宅区对面左侧建了一间平房。"
+    },
+    {
+        "image_id": "val/val_000752.png",
+        "question": "NULL",
+        "ground_truth": "右边的草地上增加了三所房子。"
+    },
+    {
+        "image_id": "val/val_000753.png",
+        "question": "NULL",
+        "ground_truth": "原有道路被延长，荒地上出现停车场。"
+    },
+    {
+        "image_id": "val/val_000757.png",
+        "question": "NULL",
+        "ground_truth": "草地上建有一条道路和一座带停车场的建筑物。"
+    },
+    {
+        "image_id": "val/val_000758.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上修建了两条混凝土道路。"
+    },
+    {
+        "image_id": "val/val_000759.png",
+        "question": "NULL",
+        "ground_truth": "荒地被夷为平地，下面出现了一个十字路口。"
+    },
+    {
+        "image_id": "val/val_000760.png",
+        "question": "NULL",
+        "ground_truth": "场景中间出现了一条道路，场景底部出现了一个停车场。"
+    },
+    {
+        "image_id": "val/val_000761.png",
+        "question": "NULL",
+        "ground_truth": "一座大型建筑正在建设中。"
+    },
+    {
+        "image_id": "val/val_000762.png",
+        "question": "NULL",
+        "ground_truth": "出现了一个建筑工地。"
+    },
+    {
+        "image_id": "val/val_000763.png",
+        "question": "NULL",
+        "ground_truth": "荒地被夷为平地，右侧出现了一条路。"
+    },
+    {
+        "image_id": "val/val_000764.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成停车场和大房子。"
+    },
+    {
+        "image_id": "val/val_000765.png",
+        "question": "NULL",
+        "ground_truth": "顶部修了一条路。"
+    },
+    {
+        "image_id": "val/val_000766.png",
+        "question": "NULL",
+        "ground_truth": "植被变得郁郁葱葱，左下角出现了一条小路。"
+    },
+    {
+        "image_id": "val/val_000768.png",
+        "question": "NULL",
+        "ground_truth": "一条蜿蜒的道路出现，一座建筑物和一个大型停车场已经建成。"
+    },
+    {
+        "image_id": "val/val_000774.png",
+        "question": "NULL",
+        "ground_truth": "大多数树木都被砍伐，并建造了稀疏的住宅。"
+    },
+    {
+        "image_id": "val/val_000775.png",
+        "question": "NULL",
+        "ground_truth": "植被变得不那么郁郁葱葱，左边的林地中出现了一个房间。"
+    },
+    {
+        "image_id": "val/val_000780.png",
+        "question": "NULL",
+        "ground_truth": "植被变得不那么郁郁葱葱，场景下方出现了一个房间。"
+    },
+    {
+        "image_id": "val/val_000784.png",
+        "question": "NULL",
+        "ground_truth": "左下方和上方的草丛中出现了两座房子。"
+    },
+    {
+        "image_id": "val/val_000799.png",
+        "question": "NULL",
+        "ground_truth": "植被变得有点枯萎，右上角的小房子也消失了。"
+    },
+    {
+        "image_id": "val/val_000801.png",
+        "question": "NULL",
+        "ground_truth": "植被消失，住宅区内修了两条道路。"
+    },
+    {
+        "image_id": "val/val_000802.png",
+        "question": "NULL",
+        "ground_truth": "路边建了一排房屋。"
+    },
+    {
+        "image_id": "val/val_000805.png",
+        "question": "NULL",
+        "ground_truth": "路边的巨大房屋出现在沙漠中。"
+    },
+    {
+        "image_id": "val/val_000806.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建造了四排房屋。"
+    },
+    {
+        "image_id": "val/val_000809.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成一个由建筑物和道路组成的综合体。"
+    },
+    {
+        "image_id": "val/val_000810.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成一个由建筑物和道路组成的综合体。"
+    },
+    {
+        "image_id": "val/val_000811.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了延伸的道路沿线的巨大房屋。"
+    },
+    {
+        "image_id": "val/val_000813.png",
+        "question": "NULL",
+        "ground_truth": "顶部道路两侧出现了两排建筑物。"
+    },
+    {
+        "image_id": "val/val_000814.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条两边都是房屋的道路。"
+    },
+    {
+        "image_id": "val/val_000816.png",
+        "question": "NULL",
+        "ground_truth": "街区的其他房屋中建有三栋房屋。"
+    },
+    {
+        "image_id": "val/val_000818.png",
+        "question": "NULL",
+        "ground_truth": "右下角的树林里建着一座建筑。"
+    },
+    {
+        "image_id": "val/val_000819.png",
+        "question": "NULL",
+        "ground_truth": "左下角的林地上出现了两栋房屋。"
+    },
+    {
+        "image_id": "val/val_000821.png",
+        "question": "NULL",
+        "ground_truth": "下面的空地上出现了四所房子。"
+    },
+    {
+        "image_id": "val/val_000823.png",
+        "question": "NULL",
+        "ground_truth": "小路变成了一条路，两侧的两排别墅取代了树木。"
+    },
+    {
+        "image_id": "val/val_000825.png",
+        "question": "NULL",
+        "ground_truth": "路边建了一排完工的别墅。"
+    },
+    {
+        "image_id": "val/val_000826.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，一条带树枝的道路出现，两侧建有别墅。"
+    },
+    {
+        "image_id": "val/val_000827.png",
+        "question": "NULL",
+        "ground_truth": "左侧的林地变成了十字路口，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "val/val_000829.png",
+        "question": "NULL",
+        "ground_truth": "路边的其他房屋之间建有三栋房屋。"
+    },
+    {
+        "image_id": "val/val_000830.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，一条有树枝连接老路的道路出现，两侧建有别墅。"
+    },
+    {
+        "image_id": "val/val_000831.png",
+        "question": "NULL",
+        "ground_truth": "一条两侧都有房屋的道路取代了大部分树林。"
+    },
+    {
+        "image_id": "val/val_000834.png",
+        "question": "NULL",
+        "ground_truth": "左侧的道路继续延伸，道路右侧出现了一排整齐的房屋。"
+    },
+    {
+        "image_id": "val/val_000837.png",
+        "question": "NULL",
+        "ground_truth": "清除灌木丛，修建两条道路，两侧建别墅。"
+    },
+    {
+        "image_id": "val/val_000838.png",
+        "question": "NULL",
+        "ground_truth": "左上角修一条道路，道路周围建有别墅。"
+    },
+    {
+        "image_id": "val/val_000842.png",
+        "question": "NULL",
+        "ground_truth": "树林中道路之间的一座建筑被拆除。"
+    },
+    {
+        "image_id": "val/val_000844.png",
+        "question": "NULL",
+        "ground_truth": "树林边缘的一座建筑消失了。"
+    },
+    {
+        "image_id": "val/val_000852.png",
+        "question": "NULL",
+        "ground_truth": "道路附近出现了三所房子。"
+    },
+    {
+        "image_id": "val/val_000856.png",
+        "question": "NULL",
+        "ground_truth": "一群建筑沿着道路的新分支出现。"
+    },
+    {
+        "image_id": "val/val_000859.png",
+        "question": "NULL",
+        "ground_truth": "一所房子建在树林前，旁边是另一所房子。"
+    },
+    {
+        "image_id": "val/val_000885.png",
+        "question": "NULL",
+        "ground_truth": "场景左上角的路边出现了两栋房屋。"
+    },
+    {
+        "image_id": "val/val_000886.png",
+        "question": "NULL",
+        "ground_truth": "路边的另外两栋房子之间建着一座房子。"
+    },
+    {
+        "image_id": "val/val_000887.png",
+        "question": "NULL",
+        "ground_truth": "左下角的线路中增加了两栋别墅。"
+    },
+    {
+        "image_id": "val/val_000888.png",
+        "question": "NULL",
+        "ground_truth": "底部的工地上增加了一栋别墅。"
+    },
+    {
+        "image_id": "val/val_000893.png",
+        "question": "NULL",
+        "ground_truth": "有道路和别墅的住宅区建有房子。"
+    },
+    {
+        "image_id": "val/val_000894.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角建有两栋房子。"
+    },
+    {
+        "image_id": "val/val_000908.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修了一条有尽头的路。"
+    },
+    {
+        "image_id": "val/val_000912.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角建了一所房子。"
+    },
+    {
+        "image_id": "val/val_000913.png",
+        "question": "NULL",
+        "ground_truth": "左上角的植被变得茂密，右下角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_000918.png",
+        "question": "NULL",
+        "ground_truth": "前一条道路附近出现了一条两侧有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_000921.png",
+        "question": "NULL",
+        "ground_truth": "荒地变成了住宅区，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "val/val_000922.png",
+        "question": "NULL",
+        "ground_truth": "荒地变成了住宅区，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "val/val_000923.png",
+        "question": "NULL",
+        "ground_truth": "路修得更长，底部修路，沿途建别墅。"
+    },
+    {
+        "image_id": "val/val_000925.png",
+        "question": "NULL",
+        "ground_truth": "道路附近的沙漠中出现了三座建筑物。"
+    },
+    {
+        "image_id": "val/val_000951.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现了两栋房子。"
+    },
+    {
+        "image_id": "val/val_000952.png",
+        "question": "NULL",
+        "ground_truth": "草地上出现了一条路和道路两侧的房屋。"
+    },
+    {
+        "image_id": "val/val_000956.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了连接现有道路与旁边房屋的新道路。"
+    },
+    {
+        "image_id": "val/val_000970.png",
+        "question": "NULL",
+        "ground_truth": "中心的平房已被拆除，盖起了房子。"
+    },
+    {
+        "image_id": "val/val_000993.png",
+        "question": "NULL",
+        "ground_truth": "两栋房屋建在一条连接原两条道路的小路旁边。"
+    },
+    {
+        "image_id": "val/val_001001.png",
+        "question": "NULL",
+        "ground_truth": "植被变得稀疏干燥，左边的林地中出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_001005.png",
+        "question": "NULL",
+        "ground_truth": "右边的草变成了一大片田地，上面有一座房子。"
+    },
+    {
+        "image_id": "val/val_001006.png",
+        "question": "NULL",
+        "ground_truth": "植被消失了，左边出现了一个带房子和道路的大遗址。"
+    },
+    {
+        "image_id": "val/val_001021.png",
+        "question": "NULL",
+        "ground_truth": "沙漠边缘出现了三座建筑物。"
+    },
+    {
+        "image_id": "val/val_001022.png",
+        "question": "NULL",
+        "ground_truth": "草地上的植被枯萎，道路左侧增加了三栋房屋。"
+    },
+    {
+        "image_id": "val/val_001239.png",
+        "question": "NULL",
+        "ground_truth": "图片顶部的房屋前修了一条新路。"
+    },
+    {
+        "image_id": "val/val_001240.png",
+        "question": "NULL",
+        "ground_truth": "顶部拐角处修了一条狭窄的道路。"
+    },
+    {
+        "image_id": "val/val_001241.png",
+        "question": "NULL",
+        "ground_truth": "道路延长，草减少。"
+    },
+    {
+        "image_id": "val/val_001242.png",
+        "question": "NULL",
+        "ground_truth": "顶部建造了别墅的一圈，底部的草地消失了。"
+    },
+    {
+        "image_id": "val/val_001244.png",
+        "question": "NULL",
+        "ground_truth": "森林中出现了一条狭窄的道路。"
+    },
+    {
+        "image_id": "val/val_001245.png",
+        "question": "NULL",
+        "ground_truth": "大多数树木都被两条垂直的道路和排列整齐的房屋所取代。"
+    },
+    {
+        "image_id": "val/val_001248.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发为道路和右上角的建筑物。"
+    },
+    {
+        "image_id": "val/val_001250.png",
+        "question": "NULL",
+        "ground_truth": "森林被砍伐，修建了一条蜿蜒的道路，周围有建筑。"
+    },
+    {
+        "image_id": "val/val_001252.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了三条道路和三栋房屋。"
+    },
+    {
+        "image_id": "val/val_001253.png",
+        "question": "NULL",
+        "ground_truth": "底部修两条笔直的道路，右侧修一条周围有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_001257.png",
+        "question": "NULL",
+        "ground_truth": "图片顶部修了一条水泥路。"
+    },
+    {
+        "image_id": "val/val_001259.png",
+        "question": "NULL",
+        "ground_truth": "一个排列整齐的住宅区取代了工厂。"
+    },
+    {
+        "image_id": "val/val_001261.png",
+        "question": "NULL",
+        "ground_truth": "四座房子建在空地的拐角处。"
+    },
+    {
+        "image_id": "val/val_001262.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了两排别墅。"
+    },
+    {
+        "image_id": "val/val_001267.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了两条两侧有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_001268.png",
+        "question": "NULL",
+        "ground_truth": "住宅区出现了一条道路。"
+    },
+    {
+        "image_id": "val/val_001270.png",
+        "question": "NULL",
+        "ground_truth": "右侧的开放空间被开发为道路和建筑群。"
+    },
+    {
+        "image_id": "val/val_001276.png",
+        "question": "NULL",
+        "ground_truth": "光秃秃的地上出现了一群带停车场的建筑。"
+    },
+    {
+        "image_id": "val/val_001283.png",
+        "question": "NULL",
+        "ground_truth": "林地变成了一块混凝土田地，上面有一座大房子。"
+    },
+    {
+        "image_id": "val/val_001285.png",
+        "question": "NULL",
+        "ground_truth": "树林附近的空地上出现了一座方形的房子。"
+    },
+    {
+        "image_id": "val/val_001286.png",
+        "question": "NULL",
+        "ground_truth": "一条蜿蜒的道路出现了。"
+    },
+    {
+        "image_id": "val/val_001287.png",
+        "question": "NULL",
+        "ground_truth": "林地变得稀疏，屏幕右上角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_001292.png",
+        "question": "NULL",
+        "ground_truth": "植被数量增加，场景边缘出现了两栋房屋。"
+    },
+    {
+        "image_id": "val/val_001295.png",
+        "question": "NULL",
+        "ground_truth": "图片右下角的森林中出现了两栋房屋。"
+    },
+    {
+        "image_id": "val/val_001296.png",
+        "question": "NULL",
+        "ground_truth": "林地左下角的路边出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_001298.png",
+        "question": "NULL",
+        "ground_truth": "中间建了一座建筑物。"
+    },
+    {
+        "image_id": "val/val_001299.png",
+        "question": "NULL",
+        "ground_truth": "右上方的小路消失了，左下角居民区的植被变得更加茂密。"
+    },
+    {
+        "image_id": "val/val_001301.png",
+        "question": "NULL",
+        "ground_truth": "图片底部建造了四栋新房子。"
+    },
+    {
+        "image_id": "val/val_001302.png",
+        "question": "NULL",
+        "ground_truth": "光秃秃的地上出现了一条两侧都是房屋的道路。"
+    },
+    {
+        "image_id": "val/val_001303.png",
+        "question": "NULL",
+        "ground_truth": "一条路穿过左侧的两排建筑物。"
+    },
+    {
+        "image_id": "val/val_001306.png",
+        "question": "NULL",
+        "ground_truth": "大部分植物被拆除，五座房屋出现。"
+    },
+    {
+        "image_id": "val/val_001307.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成整洁的房屋和道路。"
+    },
+    {
+        "image_id": "val/val_001308.png",
+        "question": "NULL",
+        "ground_truth": "图片左侧的水泥地面附近建有两栋房屋。"
+    },
+    {
+        "image_id": "val/val_001309.png",
+        "question": "NULL",
+        "ground_truth": "树木已被移走，右侧道路附近出现了一个建筑工地。"
+    },
+    {
+        "image_id": "val/val_001310.png",
+        "question": "NULL",
+        "ground_truth": "两座新的白色建筑取代了地上的树木。"
+    },
+    {
+        "image_id": "val/val_001312.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了停车区，道路也被拓宽了。"
+    },
+    {
+        "image_id": "val/val_001313.png",
+        "question": "NULL",
+        "ground_truth": "植被消失了，中心停车场附近出现了一条道路。"
+    },
+    {
+        "image_id": "val/val_001316.png",
+        "question": "NULL",
+        "ground_truth": "植被消失了，右侧道路附近出现了一个建筑工地。"
+    },
+    {
+        "image_id": "val/val_001317.png",
+        "question": "NULL",
+        "ground_truth": "停车场周围的一组房屋取代了一半的工厂。"
+    },
+    {
+        "image_id": "val/val_001319.png",
+        "question": "NULL",
+        "ground_truth": "所有的树木都被移走了，地面上建了一个环岛。"
+    },
+    {
+        "image_id": "val/val_001320.png",
+        "question": "NULL",
+        "ground_truth": "郁郁葱葱的植被消失，变成了荒地。"
+    },
+    {
+        "image_id": "val/val_001322.png",
+        "question": "NULL",
+        "ground_truth": "下面的草变成了混凝土，上面出现了两座大型建筑。"
+    },
+    {
+        "image_id": "val/val_001323.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了两座建筑物，路边的树木消失了。"
+    },
+    {
+        "image_id": "val/val_001324.png",
+        "question": "NULL",
+        "ground_truth": "图片右下角出现了两栋小房子。"
+    },
+    {
+        "image_id": "val/val_001327.png",
+        "question": "NULL",
+        "ground_truth": "一条两侧都有房屋的道路取代了植物。"
+    },
+    {
+        "image_id": "val/val_001328.png",
+        "question": "NULL",
+        "ground_truth": "所有工厂都被两排房屋和中心的一条道路所取代。"
+    },
+    {
+        "image_id": "val/val_001329.png",
+        "question": "NULL",
+        "ground_truth": "植被被道路和排列整齐的房屋所取代。"
+    },
+    {
+        "image_id": "val/val_001330.png",
+        "question": "NULL",
+        "ground_truth": "场景边缘出现了一群房屋。"
+    },
+    {
+        "image_id": "val/val_001335.png",
+        "question": "NULL",
+        "ground_truth": "树林里出现了一群房屋，草地消失了。"
+    },
+    {
+        "image_id": "val/val_001336.png",
+        "question": "NULL",
+        "ground_truth": "荒地发展成为一个有混凝土道路和房屋的住宅区。"
+    },
+    {
+        "image_id": "val/val_001337.png",
+        "question": "NULL",
+        "ground_truth": "图片左侧的树林里建有两栋别墅。"
+    },
+    {
+        "image_id": "val/val_001338.png",
+        "question": "NULL",
+        "ground_truth": "路边的五栋房子取代了树林。"
+    },
+    {
+        "image_id": "val/val_001341.png",
+        "question": "NULL",
+        "ground_truth": "左边靠近森林的地方建了一座房子。"
+    },
+    {
+        "image_id": "val/val_001342.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建有四座房屋，周围都是树木。"
+    },
+    {
+        "image_id": "val/val_001344.png",
+        "question": "NULL",
+        "ground_truth": "图片右侧的森林里建了两栋别墅。"
+    },
+    {
+        "image_id": "val/val_001348.png",
+        "question": "NULL",
+        "ground_truth": "路边建了四座房子，旁边有树木。"
+    },
+    {
+        "image_id": "val/val_001351.png",
+        "question": "NULL",
+        "ground_truth": "两条路的交叉口出现了一个停车场。"
+    },
+    {
+        "image_id": "val/val_001352.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧的两个水坑消失了，树木丛生。"
+    },
+    {
+        "image_id": "val/val_001353.png",
+        "question": "NULL",
+        "ground_truth": "一座圆形建筑消失了，停车场附近建了一座白色建筑。"
+    },
+    {
+        "image_id": "val/val_001355.png",
+        "question": "NULL",
+        "ground_truth": "右侧停车场附近有一栋别墅。"
+    },
+    {
+        "image_id": "val/val_001356.png",
+        "question": "NULL",
+        "ground_truth": "现场上方道路两侧的植被被大量房屋所取代。"
+    },
+    {
+        "image_id": "val/val_001357.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一个建筑工地，取代了工厂。"
+    },
+    {
+        "image_id": "val/val_001359.png",
+        "question": "NULL",
+        "ground_truth": "路边的森林前建了三座新房子。"
+    },
+    {
+        "image_id": "val/val_001361.png",
+        "question": "NULL",
+        "ground_truth": "森林中央出现了一条小路。"
+    },
+    {
+        "image_id": "val/val_001362.png",
+        "question": "NULL",
+        "ground_truth": "一条路穿过中心的森林。"
+    },
+    {
+        "image_id": "val/val_001363.png",
+        "question": "NULL",
+        "ground_truth": "左边出现一排房屋，右边出现一栋房屋。"
+    },
+    {
+        "image_id": "val/val_001364.png",
+        "question": "NULL",
+        "ground_truth": "森林的中间和上方出现了两条小路，路边出现了一座小房子。"
+    },
+    {
+        "image_id": "val/val_001365.png",
+        "question": "NULL",
+        "ground_truth": "森林中出现了一条小路，图片顶部修了一条水泥路。"
+    },
+    {
+        "image_id": "val/val_001367.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一片停着车辆的田野，右上角出现了一座建筑物。"
+    },
+    {
+        "image_id": "val/val_001368.png",
+        "question": "NULL",
+        "ground_truth": "荒地上开发了道路和停车场。"
+    },
+    {
+        "image_id": "val/val_001369.png",
+        "question": "NULL",
+        "ground_truth": "荒地变得整洁，中间出现了一条小路。"
+    },
+    {
+        "image_id": "val/val_001370.png",
+        "question": "NULL",
+        "ground_truth": "荒地变得整洁，上面出现了一条小路。"
+    },
+    {
+        "image_id": "val/val_001371.png",
+        "question": "NULL",
+        "ground_truth": "荒地变得整洁，上面出现了一个十字路口。"
+    },
+    {
+        "image_id": "val/val_001372.png",
+        "question": "NULL",
+        "ground_truth": "中间修一条与现有道路垂直的道路。"
+    },
+    {
+        "image_id": "val/val_001373.png",
+        "question": "NULL",
+        "ground_truth": "荒地被夷为平地，中间出现了一条路。"
+    },
+    {
+        "image_id": "val/val_001374.png",
+        "question": "NULL",
+        "ground_truth": "荒地的右上角出现了一条路。"
+    },
+    {
+        "image_id": "val/val_001375.png",
+        "question": "NULL",
+        "ground_truth": "右边的荒地已开发成住宅区。"
+    },
+    {
+        "image_id": "val/val_001376.png",
+        "question": "NULL",
+        "ground_truth": "下面道路两侧的荒地被开发成住宅区。"
+    },
+    {
+        "image_id": "val/val_001377.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧的荒地开发成住宅区和停车场。"
+    },
+    {
+        "image_id": "val/val_001378.png",
+        "question": "NULL",
+        "ground_truth": "空地上建了一座大楼。"
+    },
+    {
+        "image_id": "val/val_001380.png",
+        "question": "NULL",
+        "ground_truth": "地上建了一个住宅区。"
+    },
+    {
+        "image_id": "val/val_001381.png",
+        "question": "NULL",
+        "ground_truth": "空地上建了一个住宅区。"
+    },
+    {
+        "image_id": "val/val_001383.png",
+        "question": "NULL",
+        "ground_truth": "一半的树林被一条道路取代，旁边有四栋房屋。"
+    },
+    {
+        "image_id": "val/val_001384.png",
+        "question": "NULL",
+        "ground_truth": "树木消失了，路边建了四所房子。"
+    },
+    {
+        "image_id": "val/val_001385.png",
+        "question": "NULL",
+        "ground_truth": "树林被一条路边有房屋的道路所取代。"
+    },
+    {
+        "image_id": "val/val_001386.png",
+        "question": "NULL",
+        "ground_truth": "树林的左下角出现了一所房子。"
+    },
+    {
+        "image_id": "val/val_001387.png",
+        "question": "NULL",
+        "ground_truth": "树林下的荒地被开发成一条路和路边的三栋房屋。"
+    },
+    {
+        "image_id": "val/val_001388.png",
+        "question": "NULL",
+        "ground_truth": "森林的右侧建了一座建筑物。"
+    },
+    {
+        "image_id": "val/val_001389.png",
+        "question": "NULL",
+        "ground_truth": "大部分植物被拆除，一条旁边有房屋的道路出现了。"
+    },
+    {
+        "image_id": "val/val_001390.png",
+        "question": "NULL",
+        "ground_truth": "大部分植被消失了，左边出现了一条小路。"
+    },
+    {
+        "image_id": "val/val_001392.png",
+        "question": "NULL",
+        "ground_truth": "森林的右上角出现了一条路。"
+    },
+    {
+        "image_id": "val/val_001394.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧房屋之间的树木变得郁郁葱葱，左下角出现了三栋房屋。"
+    },
+    {
+        "image_id": "val/val_001395.png",
+        "question": "NULL",
+        "ground_truth": "水泥路变成柏油路。"
+    },
+    {
+        "image_id": "val/val_001396.png",
+        "question": "NULL",
+        "ground_truth": "十字路口建了四座房子。"
+    },
+    {
+        "image_id": "val/val_001399.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建了五栋房子。"
+    },
+    {
+        "image_id": "val/val_001400.png",
+        "question": "NULL",
+        "ground_truth": "与现有道路平行修建直线道路。"
+    },
+    {
+        "image_id": "val/val_001402.png",
+        "question": "NULL",
+        "ground_truth": "与现有道路平行修建直线道路。"
+    },
+    {
+        "image_id": "val/val_001404.png",
+        "question": "NULL",
+        "ground_truth": "十字路口的光秃秃的地上建了三栋房子。"
+    },
+    {
+        "image_id": "val/val_001408.png",
+        "question": "NULL",
+        "ground_truth": "顶部道路两侧排列着两排建筑物。"
+    },
+    {
+        "image_id": "val/val_001409.png",
+        "question": "NULL",
+        "ground_truth": "小路和树林被T形道路和排列整齐的房屋所取代。"
+    },
+    {
+        "image_id": "val/val_001410.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条路边有房屋的道路，一座建筑物消失了。"
+    },
+    {
+        "image_id": "val/val_001412.png",
+        "question": "NULL",
+        "ground_truth": "右边原来的平房建了一间平房。"
+    },
+    {
+        "image_id": "val/val_001417.png",
+        "question": "NULL",
+        "ground_truth": "顶部拐角呈直角修建一条两侧有房屋的道路。"
+    },
+    {
+        "image_id": "val/val_001418.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条转弯的道路，旁边有房屋和三个庭院。"
+    },
+    {
+        "image_id": "val/val_001420.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了一条道路，出现了一个建筑工地。"
+    },
+    {
+        "image_id": "val/val_001423.png",
+        "question": "NULL",
+        "ground_truth": "空地边缘的树林里建了一座小房子。"
+    },
+    {
+        "image_id": "val/val_001424.png",
+        "question": "NULL",
+        "ground_truth": "草地上的植被变薄了，右下角的一所房子也消失了。"
+    },
+    {
+        "image_id": "val/val_001425.png",
+        "question": "NULL",
+        "ground_truth": "场景角落的建筑物消失，植被数量大幅减少。"
+    },
+    {
+        "image_id": "val/val_001431.png",
+        "question": "NULL",
+        "ground_truth": "大多数工厂已被建筑物和道路取代。"
+    },
+    {
+        "image_id": "val/val_001432.png",
+        "question": "NULL",
+        "ground_truth": "右侧修一条两侧有房屋的道路，左侧拆除树林。"
+    },
+    {
+        "image_id": "val/val_001433.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，周围建了一条圆形的路，周围建了一座大型的圆形建筑。"
+    },
+    {
+        "image_id": "val/val_001434.png",
+        "question": "NULL",
+        "ground_truth": "树木已被砍伐，空地上建了三所房子。"
+    },
+    {
+        "image_id": "val/val_001437.png",
+        "question": "NULL",
+        "ground_truth": "巨大的房屋和道路取代了大部分树木。"
+    },
+    {
+        "image_id": "val/val_001438.png",
+        "question": "NULL",
+        "ground_truth": "树木消失了，带停车场的房屋拔地而起。"
+    },
+    {
+        "image_id": "test/test_000004.png",
+        "question": "NULL",
+        "ground_truth": "以前的森林已被一个有道路和房屋的住宅区所取代。"
+    },
+    {
+        "image_id": "test/test_000017.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，住宅楼排列整齐，顶部有一条环形道路，还有一条穿过建筑物的转弯道路。"
+    },
+    {
+        "image_id": "test/test_000018.png",
+        "question": "NULL",
+        "ground_truth": "树木和道路被一条新道路取代，新道路排列整齐的住宅楼和顶部另一条环形道路。"
+    },
+    {
+        "image_id": "test/test_000020.png",
+        "question": "NULL",
+        "ground_truth": "地上建了三座房子。"
+    },
+    {
+        "image_id": "test/test_000032.png",
+        "question": "NULL",
+        "ground_truth": "房子建在荒地上，树木消失了。"
+    },
+    {
+        "image_id": "test/test_000044.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中的道路附近出现了一座单独的房子。"
+    },
+    {
+        "image_id": "test/test_000045.png",
+        "question": "NULL",
+        "ground_truth": "右下角已建成一栋已完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000046.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000047.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一座有通往道路的小路的房子。"
+    },
+    {
+        "image_id": "test/test_000048.png",
+        "question": "NULL",
+        "ground_truth": "两座房子建在靠近树林的荒地上。"
+    },
+    {
+        "image_id": "test/test_000049.png",
+        "question": "NULL",
+        "ground_truth": "右上角建了一栋新房子，旁边是另一栋房子。"
+    },
+    {
+        "image_id": "test/test_000050.png",
+        "question": "NULL",
+        "ground_truth": "一座建筑物出现在左上角，另一座建筑物出现在右上角。"
+    },
+    {
+        "image_id": "test/test_000051.png",
+        "question": "NULL",
+        "ground_truth": "场景右中角的树林里建有一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000062.png",
+        "question": "NULL",
+        "ground_truth": "一栋房子已经完工，一栋别墅又在原别墅附近的荒地上建造了另一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000063.png",
+        "question": "NULL",
+        "ground_truth": "建成了三座排列整齐的建筑物，并有通往道路的道路。"
+    },
+    {
+        "image_id": "test/test_000064.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建有四座建筑物。"
+    },
+    {
+        "image_id": "test/test_000068.png",
+        "question": "NULL",
+        "ground_truth": "森林中心出现了一条路。"
+    },
+    {
+        "image_id": "test/test_000079.png",
+        "question": "NULL",
+        "ground_truth": "树林中出现了两栋房子，一条路消失了。"
+    },
+    {
+        "image_id": "test/test_000082.png",
+        "question": "NULL",
+        "ground_truth": "住宅内建造了一座有通往道路的新建筑。"
+    },
+    {
+        "image_id": "test/test_000085.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角的树林中出现了一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000088.png",
+        "question": "NULL",
+        "ground_truth": "右边的空地上建了一所房子。"
+    },
+    {
+        "image_id": "test/test_000091.png",
+        "question": "NULL",
+        "ground_truth": "左中角的树林中出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000092.png",
+        "question": "NULL",
+        "ground_truth": "场景边缘的树林中建了一座小房子。"
+    },
+    {
+        "image_id": "test/test_000096.png",
+        "question": "NULL",
+        "ground_truth": "场景边缘的树木附近建了一座建筑。"
+    },
+    {
+        "image_id": "test/test_000101.png",
+        "question": "NULL",
+        "ground_truth": "广场周围环绕着一圈房屋。"
+    },
+    {
+        "image_id": "test/test_000104.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，道路两侧建有房屋。"
+    },
+    {
+        "image_id": "test/test_000106.png",
+        "question": "NULL",
+        "ground_truth": "两条路两侧的荒地上建有很多别墅。"
+    },
+    {
+        "image_id": "test/test_000107.png",
+        "question": "NULL",
+        "ground_truth": "道路一侧出现两栋房屋，另一侧出现两栋房屋。"
+    },
+    {
+        "image_id": "test/test_000108.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，左边出现了排列整齐、带有道路的别墅。"
+    },
+    {
+        "image_id": "test/test_000111.png",
+        "question": "NULL",
+        "ground_truth": "底部的线上添加了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000112.png",
+        "question": "NULL",
+        "ground_truth": "新别墅沿着老别墅建造。"
+    },
+    {
+        "image_id": "test/test_000113.png",
+        "question": "NULL",
+        "ground_truth": "新别墅沿着旧别墅建在顶部。"
+    },
+    {
+        "image_id": "test/test_000115.png",
+        "question": "NULL",
+        "ground_truth": "右上角建了一栋别墅，对面建了一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000116.png",
+        "question": "NULL",
+        "ground_truth": "左上角建了三座房子。"
+    },
+    {
+        "image_id": "test/test_000122.png",
+        "question": "NULL",
+        "ground_truth": "一半的工厂被拆除，并在该地点建造了道路和房屋。"
+    },
+    {
+        "image_id": "test/test_000124.png",
+        "question": "NULL",
+        "ground_truth": "旧路改建为新路，左下角有一栋建筑。"
+    },
+    {
+        "image_id": "test/test_000126.png",
+        "question": "NULL",
+        "ground_truth": "一条水泥路建成，一栋房屋随之建成。"
+    },
+    {
+        "image_id": "test/test_000127.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，该地区周围出现了排列整齐的别墅，并有通往道路的小路。"
+    },
+    {
+        "image_id": "test/test_000128.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了一排别墅。"
+    },
+    {
+        "image_id": "test/test_000129.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建了三栋新房子。"
+    },
+    {
+        "image_id": "test/test_000133.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧的荒地上建有三栋建筑。"
+    },
+    {
+        "image_id": "test/test_000137.png",
+        "question": "NULL",
+        "ground_truth": "一座有通往道路的道路的建筑出现在荒地上。"
+    },
+    {
+        "image_id": "test/test_000141.png",
+        "question": "NULL",
+        "ground_truth": "两座被道路包围的建筑出现在荒地上。"
+    },
+    {
+        "image_id": "test/test_000149.png",
+        "question": "NULL",
+        "ground_truth": "拐角的右下角建了两栋房子。"
+    },
+    {
+        "image_id": "test/test_000150.png",
+        "question": "NULL",
+        "ground_truth": "左下角建了三栋房子，并修了一条新路。"
+    },
+    {
+        "image_id": "test/test_000153.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，道路两侧建造了住宅区。"
+    },
+    {
+        "image_id": "test/test_000154.png",
+        "question": "NULL",
+        "ground_truth": "树木和道路被拆除，别墅建在新道路旁边。"
+    },
+    {
+        "image_id": "test/test_000155.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，一条新的柏油路被修建，上面还有房屋。"
+    },
+    {
+        "image_id": "test/test_000156.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，别墅在左下角修建了一条新路。"
+    },
+    {
+        "image_id": "test/test_000157.png",
+        "question": "NULL",
+        "ground_truth": "沿途建有大量别墅。"
+    },
+    {
+        "image_id": "test/test_000158.png",
+        "question": "NULL",
+        "ground_truth": "道路周围建造了一圈房屋。"
+    },
+    {
+        "image_id": "test/test_000159.png",
+        "question": "NULL",
+        "ground_truth": "道路的两个新分支出现，道路附近出现了巨大的建筑物。"
+    },
+    {
+        "image_id": "test/test_000171.png",
+        "question": "NULL",
+        "ground_truth": "底部工地增加三栋房屋。"
+    },
+    {
+        "image_id": "test/test_000172.png",
+        "question": "NULL",
+        "ground_truth": "森林中建有三栋别墅。"
+    },
+    {
+        "image_id": "test/test_000174.png",
+        "question": "NULL",
+        "ground_truth": "别墅建在路边的老别墅之间。"
+    },
+    {
+        "image_id": "test/test_000175.png",
+        "question": "NULL",
+        "ground_truth": "一座新别墅建有一条通往广场的小路，并与道路相连。"
+    },
+    {
+        "image_id": "test/test_000176.png",
+        "question": "NULL",
+        "ground_truth": "两栋别墅建在场景顶部。"
+    },
+    {
+        "image_id": "test/test_000181.png",
+        "question": "NULL",
+        "ground_truth": "一个新的住宅区建在废弃的土地上。"
+    },
+    {
+        "image_id": "test/test_000182.png",
+        "question": "NULL",
+        "ground_truth": "树林里建了四所房子。"
+    },
+    {
+        "image_id": "test/test_000186.png",
+        "question": "NULL",
+        "ground_truth": "两条道路穿过现场，沿途建有别墅。"
+    },
+    {
+        "image_id": "test/test_000190.png",
+        "question": "NULL",
+        "ground_truth": "沙漠变成了一个拥有巨大房屋和道路的住宅区。"
+    },
+    {
+        "image_id": "test/test_000191.png",
+        "question": "NULL",
+        "ground_truth": "树林变成了一个拥有巨大房屋和道路的住宅区。"
+    },
+    {
+        "image_id": "test/test_000192.png",
+        "question": "NULL",
+        "ground_truth": "一条新路在另一条新路附近修建，并沿着新路建造房屋。"
+    },
+    {
+        "image_id": "test/test_000193.png",
+        "question": "NULL",
+        "ground_truth": "场景的角落里建造了两座大房子。"
+    },
+    {
+        "image_id": "test/test_000194.png",
+        "question": "NULL",
+        "ground_truth": "一个新的住宅区建成并清除植被。"
+    },
+    {
+        "image_id": "test/test_000195.png",
+        "question": "NULL",
+        "ground_truth": "大部分工厂被住宅区取代。"
+    },
+    {
+        "image_id": "test/test_000196.png",
+        "question": "NULL",
+        "ground_truth": "转弯的路变成了十字路口，道路周围又建造了新的建筑物。"
+    },
+    {
+        "image_id": "test/test_000198.png",
+        "question": "NULL",
+        "ground_truth": "两排完工的别墅整齐排列在路边。"
+    },
+    {
+        "image_id": "test/test_000199.png",
+        "question": "NULL",
+        "ground_truth": "树林变成了一个住宅区，道路交叉，房屋宽敞。"
+    },
+    {
+        "image_id": "test/test_000203.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，一条沿途建有别墅的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000205.png",
+        "question": "NULL",
+        "ground_truth": "左上角出现了一栋完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000207.png",
+        "question": "NULL",
+        "ground_truth": "中间顶部的树林中出现了两座建筑。"
+    },
+    {
+        "image_id": "test/test_000208.png",
+        "question": "NULL",
+        "ground_truth": "路边原有别墅之间建了两栋别墅。"
+    },
+    {
+        "image_id": "test/test_000209.png",
+        "question": "NULL",
+        "ground_truth": "道路周围都是建筑工地。"
+    },
+    {
+        "image_id": "test/test_000211.png",
+        "question": "NULL",
+        "ground_truth": "左下角建造了两栋已完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000213.png",
+        "question": "NULL",
+        "ground_truth": "十字路口周围排列整齐的建筑物，并有一条通往十字路口的道路。"
+    },
+    {
+        "image_id": "test/test_000214.png",
+        "question": "NULL",
+        "ground_truth": "建筑物建在道路旁边，并有一条通往道路。"
+    },
+    {
+        "image_id": "test/test_000215.png",
+        "question": "NULL",
+        "ground_truth": "建筑物建在道路旁边，并有一条通往道路。"
+    },
+    {
+        "image_id": "test/test_000219.png",
+        "question": "NULL",
+        "ground_truth": "一座建筑取代了左上角的树木。"
+    },
+    {
+        "image_id": "test/test_000222.png",
+        "question": "NULL",
+        "ground_truth": "广场周围建造了一圈别墅。"
+    },
+    {
+        "image_id": "test/test_000226.png",
+        "question": "NULL",
+        "ground_truth": "场景中心建了一座小房子。"
+    },
+    {
+        "image_id": "test/test_000236.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条道路，沿途建有三栋房屋。"
+    },
+    {
+        "image_id": "test/test_000237.png",
+        "question": "NULL",
+        "ground_truth": "路边的荒地上建了一所房子。"
+    },
+    {
+        "image_id": "test/test_000239.png",
+        "question": "NULL",
+        "ground_truth": "场景角落的树林里建了一所房子。"
+    },
+    {
+        "image_id": "test/test_000240.png",
+        "question": "NULL",
+        "ground_truth": "左上角的荒地上出现了一座建筑，森林中出现了一条穿越树林的道路。"
+    },
+    {
+        "image_id": "test/test_000241.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建了一座带停车场的大楼。"
+    },
+    {
+        "image_id": "test/test_000242.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建造了一座前面有广场的大建筑。"
+    },
+    {
+        "image_id": "test/test_000243.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一座旁边有广场的建筑。"
+    },
+    {
+        "image_id": "test/test_000245.png",
+        "question": "NULL",
+        "ground_truth": "建成了两条垂直道路，并建成了两座大别墅，并有小径与道路相连。"
+    },
+    {
+        "image_id": "test/test_000246.png",
+        "question": "NULL",
+        "ground_truth": "一半的工厂被道路和停车场取代。"
+    },
+    {
+        "image_id": "test/test_000247.png",
+        "question": "NULL",
+        "ground_truth": "树林附近的荒地上修了一条带绕道的蜿蜒道路。"
+    },
+    {
+        "image_id": "test/test_000249.png",
+        "question": "NULL",
+        "ground_truth": "树林里的一栋小房子消失了，一条路和一个广场被建造起来。"
+    },
+    {
+        "image_id": "test/test_000250.png",
+        "question": "NULL",
+        "ground_truth": "中心有一条公路穿过森林，左侧建有一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000253.png",
+        "question": "NULL",
+        "ground_truth": "左下角出现一栋别墅，右上角出现另一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000260.png",
+        "question": "NULL",
+        "ground_truth": "穿过中心的灌木丛开辟了一条小路。"
+    },
+    {
+        "image_id": "test/test_000262.png",
+        "question": "NULL",
+        "ground_truth": "一半的工厂已被荒地和道路所取代。"
+    },
+    {
+        "image_id": "test/test_000270.png",
+        "question": "NULL",
+        "ground_truth": "一半的工厂被一条有房屋的道路取代。"
+    },
+    {
+        "image_id": "test/test_000271.png",
+        "question": "NULL",
+        "ground_truth": "大部分工厂已被拆除，沿途修建了房屋。"
+    },
+    {
+        "image_id": "test/test_000272.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，柏油路拐角处建了一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000274.png",
+        "question": "NULL",
+        "ground_truth": "右边的树林里建了一条路。"
+    },
+    {
+        "image_id": "test/test_000275.png",
+        "question": "NULL",
+        "ground_truth": "森林变成了住宅区，建筑物和道路排列整齐。"
+    },
+    {
+        "image_id": "test/test_000276.png",
+        "question": "NULL",
+        "ground_truth": "森林变成了住宅区，建筑物和道路排列整齐。"
+    },
+    {
+        "image_id": "test/test_000278.png",
+        "question": "NULL",
+        "ground_truth": "荒地的顶部出现了两条小路。"
+    },
+    {
+        "image_id": "test/test_000280.png",
+        "question": "NULL",
+        "ground_truth": "森林被一座巨大的建筑所取代，建筑有广场和道路，房屋排列整齐。"
+    },
+    {
+        "image_id": "test/test_000285.png",
+        "question": "NULL",
+        "ground_truth": "拆除中间的建筑物和树木，建造一座大建筑，周围环绕环形道路。"
+    },
+    {
+        "image_id": "test/test_000286.png",
+        "question": "NULL",
+        "ground_truth": "汽车和右侧的一座建筑物消失了，一座周围环绕着环形道路的建筑物出现了。"
+    },
+    {
+        "image_id": "test/test_000287.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了三座带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_000288.png",
+        "question": "NULL",
+        "ground_truth": "左侧出现了一座带停车场的建筑物，树林中消失了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000289.png",
+        "question": "NULL",
+        "ground_truth": "顶部建了一条道路和一个停车场，左下角建了一栋新房子。"
+    },
+    {
+        "image_id": "test/test_000293.png",
+        "question": "NULL",
+        "ground_truth": "顶部的房子被重建成一个大房子，并沿着它建了一座新房子。"
+    },
+    {
+        "image_id": "test/test_000299.png",
+        "question": "NULL",
+        "ground_truth": "草原周围出现了一条环形道路。"
+    },
+    {
+        "image_id": "test/test_000301.png",
+        "question": "NULL",
+        "ground_truth": "路边建有一排完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000302.png",
+        "question": "NULL",
+        "ground_truth": "顶部道路两侧出现了两排建筑物。"
+    },
+    {
+        "image_id": "test/test_000304.png",
+        "question": "NULL",
+        "ground_truth": "广场周围出现了一圈房屋。"
+    },
+    {
+        "image_id": "test/test_000305.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建有两排房屋。"
+    },
+    {
+        "image_id": "test/test_000306.png",
+        "question": "NULL",
+        "ground_truth": "一个住宅区建在荒地上。"
+    },
+    {
+        "image_id": "test/test_000308.png",
+        "question": "NULL",
+        "ground_truth": "沙漠变成了住宅区，建筑大小不一，道路通向四面八方。"
+    },
+    {
+        "image_id": "test/test_000309.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，十字路口建有排列整齐的别墅。"
+    },
+    {
+        "image_id": "test/test_000310.png",
+        "question": "NULL",
+        "ground_truth": "森林变成了一个住宅区，有巨大的建筑物和通向四面八方的道路。"
+    },
+    {
+        "image_id": "test/test_000311.png",
+        "question": "NULL",
+        "ground_truth": "左侧的树木被一条环形道路取代，沿途整齐地建造着别墅，右上角还建造着另一栋建筑。"
+    },
+    {
+        "image_id": "test/test_000312.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一群带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_000313.png",
+        "question": "NULL",
+        "ground_truth": "所有树木都被砍伐，住宅区已经建成。"
+    },
+    {
+        "image_id": "test/test_000314.png",
+        "question": "NULL",
+        "ground_truth": "房子和周围的树木被拆除，一条新路被修建，沿途整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000316.png",
+        "question": "NULL",
+        "ground_truth": "植物长得更茂盛，底部出现了一条路。"
+    },
+    {
+        "image_id": "test/test_000319.png",
+        "question": "NULL",
+        "ground_truth": "一半的工厂已被拆除，一群群建筑物以及一条有树枝的道路出现。"
+    },
+    {
+        "image_id": "test/test_000320.png",
+        "question": "NULL",
+        "ground_truth": "场景左上角修了一条道路。"
+    },
+    {
+        "image_id": "test/test_000322.png",
+        "question": "NULL",
+        "ground_truth": "左边的道路被改建成一条，沿途整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000323.png",
+        "question": "NULL",
+        "ground_truth": "几乎所有的植物都被拆除了，一条周围建有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000324.png",
+        "question": "NULL",
+        "ground_truth": "小路和树木消失了，一条路穿过两排建筑物。"
+    },
+    {
+        "image_id": "test/test_000325.png",
+        "question": "NULL",
+        "ground_truth": "树木被拆除，右边的道路被重建成一条，沿途整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000327.png",
+        "question": "NULL",
+        "ground_truth": "一条转弯的道路取代了树木，路边整齐地建造了别墅，底部出现了一个停车场。"
+    },
+    {
+        "image_id": "test/test_000328.png",
+        "question": "NULL",
+        "ground_truth": "两排中间有道路的建筑取代了树木。"
+    },
+    {
+        "image_id": "test/test_000329.png",
+        "question": "NULL",
+        "ground_truth": "在场景边缘的荒地上建造了两栋别墅。"
+    },
+    {
+        "image_id": "test/test_000330.png",
+        "question": "NULL",
+        "ground_truth": "一座巨大的建筑建在场景的中心。"
+    },
+    {
+        "image_id": "test/test_000331.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了一圈房屋，底部修建了一条道路，取代了植被。"
+    },
+    {
+        "image_id": "test/test_000332.png",
+        "question": "NULL",
+        "ground_truth": "树木和房屋被拆除，并在树林中修建了一条十字路口。"
+    },
+    {
+        "image_id": "test/test_000333.png",
+        "question": "NULL",
+        "ground_truth": "拆除两个仓库建造停车场。"
+    },
+    {
+        "image_id": "test/test_000334.png",
+        "question": "NULL",
+        "ground_truth": "建造了带停车场和道路的新建筑，并建造了一条新路来连接旧道路。"
+    },
+    {
+        "image_id": "test/test_000335.png",
+        "question": "NULL",
+        "ground_truth": "左侧出现一条道路，两侧建有两个购物中心。"
+    },
+    {
+        "image_id": "test/test_000336.png",
+        "question": "NULL",
+        "ground_truth": "左上角的森林中出现了一座巨大的建筑。"
+    },
+    {
+        "image_id": "test/test_000345.png",
+        "question": "NULL",
+        "ground_truth": "树林中建造了两座大型建筑物。"
+    },
+    {
+        "image_id": "test/test_000347.png",
+        "question": "NULL",
+        "ground_truth": "树林中建了一座房子。"
+    },
+    {
+        "image_id": "test/test_000352.png",
+        "question": "NULL",
+        "ground_truth": "顶部有一排别墅，底部有两栋别墅。"
+    },
+    {
+        "image_id": "test/test_000353.png",
+        "question": "NULL",
+        "ground_truth": "建筑物建在场景较低区域的森林中。"
+    },
+    {
+        "image_id": "test/test_000354.png",
+        "question": "NULL",
+        "ground_truth": "树林里建了三栋别墅，一条小路与道路相连。"
+    },
+    {
+        "image_id": "test/test_000361.png",
+        "question": "NULL",
+        "ground_truth": "别墅建在树林里，有一条通往道路的小路。"
+    },
+    {
+        "image_id": "test/test_000362.png",
+        "question": "NULL",
+        "ground_truth": "沿途建了三栋别墅，场景右上角建了一栋房子。"
+    },
+    {
+        "image_id": "test/test_000363.png",
+        "question": "NULL",
+        "ground_truth": "两座房子建在场景顶部的森林中。"
+    },
+    {
+        "image_id": "test/test_000366.png",
+        "question": "NULL",
+        "ground_truth": "别墅和道路都建有通往道路的小路。"
+    },
+    {
+        "image_id": "test/test_000371.png",
+        "question": "NULL",
+        "ground_truth": "道路右侧建造了两栋完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000372.png",
+        "question": "NULL",
+        "ground_truth": "路边的树林里建了一座小房子。"
+    },
+    {
+        "image_id": "test/test_000373.png",
+        "question": "NULL",
+        "ground_truth": "右下角的荒地上出现了一座建筑。"
+    },
+    {
+        "image_id": "test/test_000374.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一个建筑工地，植物长得更茂盛。"
+    },
+    {
+        "image_id": "test/test_000375.png",
+        "question": "NULL",
+        "ground_truth": "路左侧的树林里建着一座别墅。"
+    },
+    {
+        "image_id": "test/test_000376.png",
+        "question": "NULL",
+        "ground_truth": "树林中建造了两座房子。"
+    },
+    {
+        "image_id": "test/test_000377.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建了三栋别墅。"
+    },
+    {
+        "image_id": "test/test_000380.png",
+        "question": "NULL",
+        "ground_truth": "一条与原来的道路垂直的道路出现，两侧建有四栋别墅。"
+    },
+    {
+        "image_id": "test/test_000384.png",
+        "question": "NULL",
+        "ground_truth": "路边建了两栋房子。"
+    },
+    {
+        "image_id": "test/test_000385.png",
+        "question": "NULL",
+        "ground_truth": "左下角的树林中出现了一栋完工的别墅。"
+    },
+    {
+        "image_id": "test/test_000386.png",
+        "question": "NULL",
+        "ground_truth": "树林中出现了两栋相连的小建筑。"
+    },
+    {
+        "image_id": "test/test_000388.png",
+        "question": "NULL",
+        "ground_truth": "左上角的树林里出现了一座建筑，两座建筑被重建成更大的建筑。"
+    },
+    {
+        "image_id": "test/test_000389.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧的树林里建了三栋别墅。"
+    },
+    {
+        "image_id": "test/test_000390.png",
+        "question": "NULL",
+        "ground_truth": "路边场景的正确区域出现了一座大房子。"
+    },
+    {
+        "image_id": "test/test_000391.png",
+        "question": "NULL",
+        "ground_truth": "路边的森林里建了两座小房子。"
+    },
+    {
+        "image_id": "test/test_000392.png",
+        "question": "NULL",
+        "ground_truth": "森林里建着三座小建筑。"
+    },
+    {
+        "image_id": "test/test_000393.png",
+        "question": "NULL",
+        "ground_truth": "路边的植物中间出现了四座房子。"
+    },
+    {
+        "image_id": "test/test_000394.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了两栋建筑，底部出现了一栋别墅，路边。"
+    },
+    {
+        "image_id": "test/test_000396.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建了两座大型建筑。"
+    },
+    {
+        "image_id": "test/test_000397.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现了两座带有各自游泳池的建筑物。"
+    },
+    {
+        "image_id": "test/test_000398.png",
+        "question": "NULL",
+        "ground_truth": "树林里出现了四座独立的房子。"
+    },
+    {
+        "image_id": "test/test_000401.png",
+        "question": "NULL",
+        "ground_truth": "场景左下方建有两座小房子。"
+    },
+    {
+        "image_id": "test/test_000402.png",
+        "question": "NULL",
+        "ground_truth": "路边的树林里建了两栋小建筑。"
+    },
+    {
+        "image_id": "test/test_000403.png",
+        "question": "NULL",
+        "ground_truth": "工厂和现有工厂附近出现了两栋房屋。"
+    },
+    {
+        "image_id": "test/test_000404.png",
+        "question": "NULL",
+        "ground_truth": "底部建造了一座豪宅，取代了树木，中心的小路也消失了。"
+    },
+    {
+        "image_id": "test/test_000405.png",
+        "question": "NULL",
+        "ground_truth": "左上角的树林中出现了一座建筑物，场景下部区域的老房子之间出现了另一座房子。"
+    },
+    {
+        "image_id": "test/test_000408.png",
+        "question": "NULL",
+        "ground_truth": "场景中央出现了一栋别墅，下方建造了另一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000409.png",
+        "question": "NULL",
+        "ground_truth": "另外三栋建筑的中心建了一座房子。"
+    },
+    {
+        "image_id": "test/test_000411.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了一座小建筑。"
+    },
+    {
+        "image_id": "test/test_000412.png",
+        "question": "NULL",
+        "ground_truth": "树木和荒地被场景左下角的两座建筑所取代。"
+    },
+    {
+        "image_id": "test/test_000413.png",
+        "question": "NULL",
+        "ground_truth": "树林里另外两栋房子之间建了一座新房子。"
+    },
+    {
+        "image_id": "test/test_000415.png",
+        "question": "NULL",
+        "ground_truth": "树前建有三栋别墅。"
+    },
+    {
+        "image_id": "test/test_000416.png",
+        "question": "NULL",
+        "ground_truth": "大部分树木被拆除，道路重建成笔直的道路，沿途整齐地建造别墅。"
+    },
+    {
+        "image_id": "test/test_000417.png",
+        "question": "NULL",
+        "ground_truth": "场景中央的路边建了一座新房子。"
+    },
+    {
+        "image_id": "test/test_000418.png",
+        "question": "NULL",
+        "ground_truth": "顶部有两栋房子，底部有一栋房子。"
+    },
+    {
+        "image_id": "test/test_000419.png",
+        "question": "NULL",
+        "ground_truth": "住宅区左侧建了一栋房子。"
+    },
+    {
+        "image_id": "test/test_000420.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了四所房子，树林中出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_000421.png",
+        "question": "NULL",
+        "ground_truth": "左下角建造了一座建筑，右上角出现了另一座建筑。"
+    },
+    {
+        "image_id": "test/test_000422.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧的道路沿线建造了一座别墅。"
+    },
+    {
+        "image_id": "test/test_000427.png",
+        "question": "NULL",
+        "ground_truth": "该街区其他房屋附近建有三栋小房子。"
+    },
+    {
+        "image_id": "test/test_000429.png",
+        "question": "NULL",
+        "ground_truth": "树木被拆除，道路重建成十字路口，沿途整齐地建造别墅。"
+    },
+    {
+        "image_id": "test/test_000430.png",
+        "question": "NULL",
+        "ground_truth": "树木被拆除，道路重建成十字路口，沿途建有别墅。"
+    },
+    {
+        "image_id": "test/test_000436.png",
+        "question": "NULL",
+        "ground_truth": "路边有三所相同的房子。"
+    },
+    {
+        "image_id": "test/test_000441.png",
+        "question": "NULL",
+        "ground_truth": "住宅区位于废弃空间中。"
+    },
+    {
+        "image_id": "test/test_000442.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建造了三排完工的别墅，取代了树木。"
+    },
+    {
+        "image_id": "test/test_000443.png",
+        "question": "NULL",
+        "ground_truth": "场景底部出现了一条道路，沿途整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000446.png",
+        "question": "NULL",
+        "ground_truth": "树林和荒地上出现了一条道路，两旁整齐地建有别墅。"
+    },
+    {
+        "image_id": "test/test_000447.png",
+        "question": "NULL",
+        "ground_truth": "树林和荒地上出现了两条道路，两旁整齐地建有别墅。"
+    },
+    {
+        "image_id": "test/test_000448.png",
+        "question": "NULL",
+        "ground_truth": "树林和荒地上出现了一条道路，两旁整齐地建有别墅。"
+    },
+    {
+        "image_id": "test/test_000451.png",
+        "question": "NULL",
+        "ground_truth": "路边有一栋完工的别墅，底部有另一栋。"
+    },
+    {
+        "image_id": "test/test_000452.png",
+        "question": "NULL",
+        "ground_truth": "柏油路的拐角处建了四座房子。"
+    },
+    {
+        "image_id": "test/test_000453.png",
+        "question": "NULL",
+        "ground_truth": "场景右侧出现了三栋相同的别墅。"
+    },
+    {
+        "image_id": "test/test_000454.png",
+        "question": "NULL",
+        "ground_truth": "植被已被道路和排列整齐的建筑所取代。"
+    },
+    {
+        "image_id": "test/test_000455.png",
+        "question": "NULL",
+        "ground_truth": "大多数植物都被拆除了，一条十字路口出现了，周围整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000456.png",
+        "question": "NULL",
+        "ground_truth": "右侧的植物被拆除，一圈别墅围绕着广场。"
+    },
+    {
+        "image_id": "test/test_000457.png",
+        "question": "NULL",
+        "ground_truth": "工厂被一条道路取代，道路两旁整齐地建有别墅。"
+    },
+    {
+        "image_id": "test/test_000458.png",
+        "question": "NULL",
+        "ground_truth": "树木和水池被一条道路取代，道路两旁整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000459.png",
+        "question": "NULL",
+        "ground_truth": "树木被十字路口取代，旁边整齐地建有别墅。"
+    },
+    {
+        "image_id": "test/test_000460.png",
+        "question": "NULL",
+        "ground_truth": "地势较高的树木被砍伐，一条两旁整齐地建有别墅的道路出现。"
+    },
+    {
+        "image_id": "test/test_000462.png",
+        "question": "NULL",
+        "ground_truth": "大部分树木被砍伐，新的住宅区已经建成。"
+    },
+    {
+        "image_id": "test/test_000463.png",
+        "question": "NULL",
+        "ground_truth": "荒地边缘的树林中出现了三座房屋。"
+    },
+    {
+        "image_id": "test/test_000464.png",
+        "question": "NULL",
+        "ground_truth": "一条道路和两座建筑物出现在场景的中间区域。"
+    },
+    {
+        "image_id": "test/test_000466.png",
+        "question": "NULL",
+        "ground_truth": "森林前面有一座小建筑。"
+    },
+    {
+        "image_id": "test/test_000469.png",
+        "question": "NULL",
+        "ground_truth": "三座新建筑位于森林中的道路尽头附近。"
+    },
+    {
+        "image_id": "test/test_000470.png",
+        "question": "NULL",
+        "ground_truth": "一座新建筑位于现场的左侧。"
+    },
+    {
+        "image_id": "test/test_000473.png",
+        "question": "NULL",
+        "ground_truth": "一栋别墅由原来的别墅和底部的别墅组成。"
+    },
+    {
+        "image_id": "test/test_000474.png",
+        "question": "NULL",
+        "ground_truth": "几乎一半的植物消失了，路边出现了四所房屋。"
+    },
+    {
+        "image_id": "test/test_000476.png",
+        "question": "NULL",
+        "ground_truth": "一排别墅出现在右侧，取代了植物。"
+    },
+    {
+        "image_id": "test/test_000477.png",
+        "question": "NULL",
+        "ground_truth": "树林的左边建了三座豪宅。"
+    },
+    {
+        "image_id": "test/test_000478.png",
+        "question": "NULL",
+        "ground_truth": "树木被移走，一条道路出现，沿途整齐地建造着别墅。"
+    },
+    {
+        "image_id": "test/test_000480.png",
+        "question": "NULL",
+        "ground_truth": "几乎所有的植物都被拆除了，一条两侧都建有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000484.png",
+        "question": "NULL",
+        "ground_truth": "几乎所有的工厂都被拆除了，一条旁边建有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000485.png",
+        "question": "NULL",
+        "ground_truth": "大部分工厂被拆除，一条两侧都建有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000486.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部出现了一座建筑物，取代了树木和荒地。"
+    },
+    {
+        "image_id": "test/test_000487.png",
+        "question": "NULL",
+        "ground_truth": "底部建了一个网球场，并建造了另一座带通往道路的建筑物。"
+    },
+    {
+        "image_id": "test/test_000488.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一个足球场，并出现了两座建筑物。"
+    },
+    {
+        "image_id": "test/test_000489.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000490.png",
+        "question": "NULL",
+        "ground_truth": "一条有四座建筑物的道路取代了大部分工厂。"
+    },
+    {
+        "image_id": "test/test_000491.png",
+        "question": "NULL",
+        "ground_truth": "左中出现一座建筑物，顶部出现另外两座建筑物。"
+    },
+    {
+        "image_id": "test/test_000492.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一座小建筑。"
+    },
+    {
+        "image_id": "test/test_000493.png",
+        "question": "NULL",
+        "ground_truth": "大部分工厂被拆除，一条两侧都建有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_000494.png",
+        "question": "NULL",
+        "ground_truth": "建造了穿过场景的两条道路，并在它们之间建造了建筑物。"
+    },
+    {
+        "image_id": "test/test_000495.png",
+        "question": "NULL",
+        "ground_truth": "中心出现了两栋房屋，左下角出现了一栋平房。"
+    },
+    {
+        "image_id": "test/test_000496.png",
+        "question": "NULL",
+        "ground_truth": "路边的树林里建了两座房子。"
+    },
+    {
+        "image_id": "test/test_000499.png",
+        "question": "NULL",
+        "ground_truth": "右侧是一座完工的别墅，带一个游泳池。"
+    },
+    {
+        "image_id": "test/test_000500.png",
+        "question": "NULL",
+        "ground_truth": "在原来的建筑旁边建造了一座建筑。"
+    },
+    {
+        "image_id": "test/test_000501.png",
+        "question": "NULL",
+        "ground_truth": "除其他外，还建造了三座小房子。"
+    },
+    {
+        "image_id": "test/test_000504.png",
+        "question": "NULL",
+        "ground_truth": "场景中心出现一条道路。"
+    },
+    {
+        "image_id": "test/test_000505.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部的森林中有一座小建筑。"
+    },
+    {
+        "image_id": "test/test_000506.png",
+        "question": "NULL",
+        "ground_truth": "一栋新房子位于场景右上角的空地上。"
+    },
+    {
+        "image_id": "test/test_000512.png",
+        "question": "NULL",
+        "ground_truth": "中心出现一条道路，两侧有两排房屋，植物被拆除。"
+    },
+    {
+        "image_id": "test/test_000513.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上建了一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000519.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一群被道路包围的建筑物。"
+    },
+    {
+        "image_id": "test/test_000522.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现一座建筑物，场景右中出现一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000523.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧出现了两排别墅，荒地上长满了青草。"
+    },
+    {
+        "image_id": "test/test_000525.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部出现一座建筑物，右下角出现另一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000528.png",
+        "question": "NULL",
+        "ground_truth": "水泥路附近有三栋新房子，旁边还有另一栋新房子。"
+    },
+    {
+        "image_id": "test/test_000529.png",
+        "question": "NULL",
+        "ground_truth": "道路周围建造了住宅区。"
+    },
+    {
+        "image_id": "test/test_000531.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角的树林中出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000534.png",
+        "question": "NULL",
+        "ground_truth": "两侧道路两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_000535.png",
+        "question": "NULL",
+        "ground_truth": "路边的荒地上建了一所房子。"
+    },
+    {
+        "image_id": "test/test_000536.png",
+        "question": "NULL",
+        "ground_truth": "右侧出现了一排房屋和一条道路。"
+    },
+    {
+        "image_id": "test/test_000537.png",
+        "question": "NULL",
+        "ground_truth": "四座橙色别墅出现在主干道和小路之间的空地上。"
+    },
+    {
+        "image_id": "test/test_000538.png",
+        "question": "NULL",
+        "ground_truth": "两侧沿着弧形道路建造别墅。"
+    },
+    {
+        "image_id": "test/test_000539.png",
+        "question": "NULL",
+        "ground_truth": "两侧道路两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_000541.png",
+        "question": "NULL",
+        "ground_truth": "森林前面的地面上有两栋黄色的房子。"
+    },
+    {
+        "image_id": "test/test_000544.png",
+        "question": "NULL",
+        "ground_truth": "住宅区位于三角形街区内。"
+    },
+    {
+        "image_id": "test/test_000548.png",
+        "question": "NULL",
+        "ground_truth": "修建了一条新道路，沿线建有别墅，与旧道路相连，并拆除了植物。"
+    },
+    {
+        "image_id": "test/test_000551.png",
+        "question": "NULL",
+        "ground_truth": "拆除了植物，修建了一条带别墅的道路。"
+    },
+    {
+        "image_id": "test/test_000554.png",
+        "question": "NULL",
+        "ground_truth": "拆除了植物，并修建了一条带别墅的新路来连接老路。"
+    },
+    {
+        "image_id": "test/test_000555.png",
+        "question": "NULL",
+        "ground_truth": "植物被拆除，修了一条新路，沿途建了排列整齐的别墅。"
+    },
+    {
+        "image_id": "test/test_000556.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧整齐排列着两排房屋。"
+    },
+    {
+        "image_id": "test/test_000558.png",
+        "question": "NULL",
+        "ground_truth": "拆除了植物，顶部修建了一条带别墅的道路。"
+    },
+    {
+        "image_id": "test/test_000559.png",
+        "question": "NULL",
+        "ground_truth": "修建了一条十字路口来连接老路，并沿着老路及其之间建造了别墅。"
+    },
+    {
+        "image_id": "test/test_000564.png",
+        "question": "NULL",
+        "ground_truth": "路边建了一个停车场。"
+    },
+    {
+        "image_id": "test/test_000571.png",
+        "question": "NULL",
+        "ground_truth": "大多数树木都被右侧的道路所取代。"
+    },
+    {
+        "image_id": "test/test_000572.png",
+        "question": "NULL",
+        "ground_truth": "场景底部出现了一座小房子，几乎所有的树木都被移走了。"
+    },
+    {
+        "image_id": "test/test_000573.png",
+        "question": "NULL",
+        "ground_truth": "道路被拆除，树木变得更加茂密。"
+    },
+    {
+        "image_id": "test/test_000576.png",
+        "question": "NULL",
+        "ground_truth": "街区里建造了许多类似的房屋，新的水泥路也在延伸。"
+    },
+    {
+        "image_id": "test/test_000579.png",
+        "question": "NULL",
+        "ground_truth": "寡妇身上出现了一条路边建有建筑物的道路。"
+    },
+    {
+        "image_id": "test/test_000581.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建有十字路口，周围建有排列整齐的别墅。"
+    },
+    {
+        "image_id": "test/test_000582.png",
+        "question": "NULL",
+        "ground_truth": "修建了十字路口，沿途修建了排列整齐的别墅。"
+    },
+    {
+        "image_id": "test/test_000585.png",
+        "question": "NULL",
+        "ground_truth": "顶部的路边建了一排房屋。"
+    },
+    {
+        "image_id": "test/test_000595.png",
+        "question": "NULL",
+        "ground_truth": "修建垂直道路连接老路，道路周围修建别墅。"
+    },
+    {
+        "image_id": "test/test_000597.png",
+        "question": "NULL",
+        "ground_truth": "道路周围出现了一个住宅区。"
+    },
+    {
+        "image_id": "test/test_000598.png",
+        "question": "NULL",
+        "ground_truth": "场景顶部和底部出现两条转弯道路，沿线和场景左侧区域建有别墅。"
+    },
+    {
+        "image_id": "test/test_000599.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了新的道路分支和巨大排列的建筑物。"
+    },
+    {
+        "image_id": "test/test_000601.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了三所房子。"
+    },
+    {
+        "image_id": "test/test_000602.png",
+        "question": "NULL",
+        "ground_truth": "三栋别墅建在一片空地周围。"
+    },
+    {
+        "image_id": "test/test_000604.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修两条垂直道路与老路相连，沿途建别墅。"
+    },
+    {
+        "image_id": "test/test_000607.png",
+        "question": "NULL",
+        "ground_truth": "道路被修建，别墅出现在场景的右上方。"
+    },
+    {
+        "image_id": "test/test_000609.png",
+        "question": "NULL",
+        "ground_truth": "场景较低区域的树林已经稀疏。"
+    },
+    {
+        "image_id": "test/test_000613.png",
+        "question": "NULL",
+        "ground_truth": "顶部的树木变得稀疏，底部的树木被转弯的道路所取代。"
+    },
+    {
+        "image_id": "test/test_000614.png",
+        "question": "NULL",
+        "ground_truth": "大部分植物已被拆除，道路出现。"
+    },
+    {
+        "image_id": "test/test_000617.png",
+        "question": "NULL",
+        "ground_truth": "所有的植物都被顶部一条路和底部一条路移走了。"
+    },
+    {
+        "image_id": "test/test_000618.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，两条路和一群房屋出现了。"
+    },
+    {
+        "image_id": "test/test_000619.png",
+        "question": "NULL",
+        "ground_truth": "田野里出现了三栋房子。"
+    },
+    {
+        "image_id": "test/test_000621.png",
+        "question": "NULL",
+        "ground_truth": "两条垂直道路已经建成，两排完工的别墅似乎取代了植被。"
+    },
+    {
+        "image_id": "test/test_000623.png",
+        "question": "NULL",
+        "ground_truth": "植物消失了，左侧区域出现了一条十字路口，沿途建有别墅。"
+    },
+    {
+        "image_id": "test/test_000627.png",
+        "question": "NULL",
+        "ground_truth": "路边建了两排房屋。"
+    },
+    {
+        "image_id": "test/test_000644.png",
+        "question": "NULL",
+        "ground_truth": "别墅建在荒地上。"
+    },
+    {
+        "image_id": "test/test_000645.png",
+        "question": "NULL",
+        "ground_truth": "一条与原来的道路垂直的道路已与之相连。"
+    },
+    {
+        "image_id": "test/test_000646.png",
+        "question": "NULL",
+        "ground_truth": "中心修了一条路，底部又修了一条路。"
+    },
+    {
+        "image_id": "test/test_000647.png",
+        "question": "NULL",
+        "ground_truth": "出现了一条道路和两座建筑物。"
+    },
+    {
+        "image_id": "test/test_000657.png",
+        "question": "NULL",
+        "ground_truth": "三座建筑物和一个篮球场出现。"
+    },
+    {
+        "image_id": "test/test_000661.png",
+        "question": "NULL",
+        "ground_truth": "场景的底部出现了一排新房子。"
+    },
+    {
+        "image_id": "test/test_000662.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角出现了三栋房屋。"
+    },
+    {
+        "image_id": "test/test_000667.png",
+        "question": "NULL",
+        "ground_truth": "建造住宅区来取代原来的树苗。"
+    },
+    {
+        "image_id": "test/test_000671.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现了一所房子，并出现了一个建筑工地。"
+    },
+    {
+        "image_id": "test/test_000675.png",
+        "question": "NULL",
+        "ground_truth": "右上角建了三座建筑。"
+    },
+    {
+        "image_id": "test/test_000676.png",
+        "question": "NULL",
+        "ground_truth": "道路两旁出现了三座房屋，场景底部建造了一座带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_000680.png",
+        "question": "NULL",
+        "ground_truth": "空地上建了一座带停车场的房子。"
+    },
+    {
+        "image_id": "test/test_000684.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_000692.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子出现在场景的右下角。"
+    },
+    {
+        "image_id": "test/test_000708.png",
+        "question": "NULL",
+        "ground_truth": "原来的森林消失了，建成了大片住宅区。"
+    },
+    {
+        "image_id": "test/test_000712.png",
+        "question": "NULL",
+        "ground_truth": "一个带道路和别墅的街区已经在以前的荒地上实现。"
+    },
+    {
+        "image_id": "test/test_000720.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，一片整洁的住宅区拔地而起。"
+    },
+    {
+        "image_id": "test/test_000729.png",
+        "question": "NULL",
+        "ground_truth": "该地区只出现某些建筑物。"
+    },
+    {
+        "image_id": "test/test_000734.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建着一栋别墅。"
+    },
+    {
+        "image_id": "test/test_000737.png",
+        "question": "NULL",
+        "ground_truth": "大部分植被消失了，裸露的地面上出现了两条小路。"
+    },
+    {
+        "image_id": "test/test_000740.png",
+        "question": "NULL",
+        "ground_truth": "场景底部出现了一条路。"
+    },
+    {
+        "image_id": "test/test_000741.png",
+        "question": "NULL",
+        "ground_truth": "大部分植被消失了，但出现了一条狭窄的道路。"
+    },
+    {
+        "image_id": "test/test_000745.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_000747.png",
+        "question": "NULL",
+        "ground_truth": "一条旁边有建筑物的街道出现了。"
+    },
+    {
+        "image_id": "test/test_000755.png",
+        "question": "NULL",
+        "ground_truth": "中心的别墅已建成游泳池，左上角建有别墅。"
+    },
+    {
+        "image_id": "test/test_000773.png",
+        "question": "NULL",
+        "ground_truth": "最近只有一个建筑出现在场景底部。"
+    },
+    {
+        "image_id": "test/test_000774.png",
+        "question": "NULL",
+        "ground_truth": "一条道路被延长，旁边建造了建筑物。"
+    },
+    {
+        "image_id": "test/test_000777.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建着一座房子。"
+    },
+    {
+        "image_id": "test/test_000788.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上出现了湖泊和蜿蜒的小路。"
+    },
+    {
+        "image_id": "test/test_000789.png",
+        "question": "NULL",
+        "ground_truth": "两条交叉的道路建在荒地上。"
+    },
+    {
+        "image_id": "test/test_000792.png",
+        "question": "NULL",
+        "ground_truth": "出现了一条小路和一条道路，并在一条道路附近建造了两座建筑物。"
+    },
+    {
+        "image_id": "test/test_000794.png",
+        "question": "NULL",
+        "ground_truth": "出现了一条T形道路，并在T形道路附近建造了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_000795.png",
+        "question": "NULL",
+        "ground_truth": "场景的下角仅出现一栋建筑。"
+    },
+    {
+        "image_id": "test/test_000808.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角出现一条道路。"
+    },
+    {
+        "image_id": "test/test_000810.png",
+        "question": "NULL",
+        "ground_truth": "光秃秃的土地的右下角出现了一条小路。"
+    },
+    {
+        "image_id": "test/test_000811.png",
+        "question": "NULL",
+        "ground_truth": "裸露的地面中心修了一条水泥路。"
+    },
+    {
+        "image_id": "test/test_000812.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上修了一条弯曲的道路。"
+    },
+    {
+        "image_id": "test/test_000813.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角出现一条道路。"
+    },
+    {
+        "image_id": "test/test_000814.png",
+        "question": "NULL",
+        "ground_truth": "原来的荒地上修了一条蜿蜒的道路。"
+    },
+    {
+        "image_id": "test/test_000840.png",
+        "question": "NULL",
+        "ground_truth": "在场景顶部完成单个施工。"
+    },
+    {
+        "image_id": "test/test_000842.png",
+        "question": "NULL",
+        "ground_truth": "场景底部出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_000845.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角出现一栋建筑。"
+    },
+    {
+        "image_id": "test/test_000849.png",
+        "question": "NULL",
+        "ground_truth": "主干道和两座大型建筑都建在荒地上。"
+    },
+    {
+        "image_id": "test/test_000850.png",
+        "question": "NULL",
+        "ground_truth": "沿途建造了三座大型建筑。"
+    },
+    {
+        "image_id": "test/test_000851.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建了一座建筑。"
+    },
+    {
+        "image_id": "test/test_000853.png",
+        "question": "NULL",
+        "ground_truth": "出现了一个十字路口和三座建筑物。"
+    },
+    {
+        "image_id": "test/test_000854.png",
+        "question": "NULL",
+        "ground_truth": "路左侧已建成四栋豪宅。"
+    },
+    {
+        "image_id": "test/test_000857.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角建造了一座带停车场和道路的房子。"
+    },
+    {
+        "image_id": "test/test_000858.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一条带停车场的道路。"
+    },
+    {
+        "image_id": "test/test_000868.png",
+        "question": "NULL",
+        "ground_truth": "出现了两个湖。"
+    },
+    {
+        "image_id": "test/test_000878.png",
+        "question": "NULL",
+        "ground_truth": "大量的房屋建在道路沿线。"
+    },
+    {
+        "image_id": "test/test_000884.png",
+        "question": "NULL",
+        "ground_truth": "荒地上新建的道路旁边建了一座建筑。"
+    },
+    {
+        "image_id": "test/test_000890.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角出现了两座带道路的大型建筑。"
+    },
+    {
+        "image_id": "test/test_000894.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现了一座方形的大型建筑。"
+    },
+    {
+        "image_id": "test/test_000897.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现一条小路，旁边是一排别墅。"
+    },
+    {
+        "image_id": "test/test_000905.png",
+        "question": "NULL",
+        "ground_truth": "在原来的荒地上建了一座小房子。"
+    },
+    {
+        "image_id": "test/test_000909.png",
+        "question": "NULL",
+        "ground_truth": "别墅附近的房屋已被拆除，左侧的小路也消失了。"
+    },
+    {
+        "image_id": "test/test_000910.png",
+        "question": "NULL",
+        "ground_truth": "草地变成了光秃秃的土地，房子被中间的小路取代。"
+    },
+    {
+        "image_id": "test/test_000913.png",
+        "question": "NULL",
+        "ground_truth": "道路左侧只出现一栋建筑。"
+    },
+    {
+        "image_id": "test/test_000943.png",
+        "question": "NULL",
+        "ground_truth": "三栋小房子出现了。"
+    },
+    {
+        "image_id": "test/test_000968.png",
+        "question": "NULL",
+        "ground_truth": "一座建筑消失了，一座建筑出现了。"
+    },
+    {
+        "image_id": "test/test_000980.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现一个小轨迹。"
+    },
+    {
+        "image_id": "test/test_000993.png",
+        "question": "NULL",
+        "ground_truth": "顶部的小路已被另一条连接道路和树林的小路所取代。"
+    },
+    {
+        "image_id": "test/test_000994.png",
+        "question": "NULL",
+        "ground_truth": "一条路消失，一条路出现。"
+    },
+    {
+        "image_id": "test/test_000995.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角的道路被更宽的道路取代。"
+    },
+    {
+        "image_id": "test/test_000997.png",
+        "question": "NULL",
+        "ground_truth": "森林中的两栋房屋和旁边的小路被拆除。"
+    },
+    {
+        "image_id": "test/test_000999.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角的道路被更宽的道路取代。"
+    },
+    {
+        "image_id": "test/test_001000.png",
+        "question": "NULL",
+        "ground_truth": "场景中间的道路被更宽的道路取代。"
+    },
+    {
+        "image_id": "test/test_001013.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角的道路被更宽的道路取代。"
+    },
+    {
+        "image_id": "test/test_001017.png",
+        "question": "NULL",
+        "ground_truth": "修建两条笔直的混凝土道路和一条小路来取代原来的道路。"
+    },
+    {
+        "image_id": "test/test_001018.png",
+        "question": "NULL",
+        "ground_truth": "修建一条小路和两条混凝土道路，取代原来的道路和树木。"
+    },
+    {
+        "image_id": "test/test_001023.png",
+        "question": "NULL",
+        "ground_truth": "在原来的道路旁边，中心又修了一条道路。"
+    },
+    {
+        "image_id": "test/test_001037.png",
+        "question": "NULL",
+        "ground_truth": "左边的道路上出现了三辆车，中间修了一条路。"
+    },
+    {
+        "image_id": "test/test_001061.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角草地上的路边建了一座房子。"
+    },
+    {
+        "image_id": "test/test_001062.png",
+        "question": "NULL",
+        "ground_truth": "原来的大片绿地被两条主干道取代。"
+    },
+    {
+        "image_id": "test/test_001065.png",
+        "question": "NULL",
+        "ground_truth": "场景右侧出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001069.png",
+        "question": "NULL",
+        "ground_truth": "以前的草地被一个大型运动场和一栋建筑所取代。"
+    },
+    {
+        "image_id": "test/test_001072.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角出现了房屋的一角。"
+    },
+    {
+        "image_id": "test/test_001076.png",
+        "question": "NULL",
+        "ground_truth": "灌木被清除，右侧房屋旁边修了一条T形道路。"
+    },
+    {
+        "image_id": "test/test_001080.png",
+        "question": "NULL",
+        "ground_truth": "两条T形道路出现，一座建筑物消失。"
+    },
+    {
+        "image_id": "test/test_001083.png",
+        "question": "NULL",
+        "ground_truth": "房屋旁边的草地和小路已被顶部和光秃秃的土地取代。"
+    },
+    {
+        "image_id": "test/test_001084.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修建了一条道路和一座建筑物。"
+    },
+    {
+        "image_id": "test/test_001095.png",
+        "question": "NULL",
+        "ground_truth": "场景的右侧出现了一所房子的一角。"
+    },
+    {
+        "image_id": "test/test_001097.png",
+        "question": "NULL",
+        "ground_truth": "空地上出现了一个又大又密集的住宅区。"
+    },
+    {
+        "image_id": "test/test_001100.png",
+        "question": "NULL",
+        "ground_truth": "左下角建有三座建筑。"
+    },
+    {
+        "image_id": "test/test_001113.png",
+        "question": "NULL",
+        "ground_truth": "场景右侧出现了一栋带道路和游泳池的房子。"
+    },
+    {
+        "image_id": "test/test_001117.png",
+        "question": "NULL",
+        "ground_truth": "一座带道路和停车场的大型建筑出现了。"
+    },
+    {
+        "image_id": "test/test_001126.png",
+        "question": "NULL",
+        "ground_truth": "主干道左侧的大型建筑已经完成。"
+    },
+    {
+        "image_id": "test/test_001127.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一座带停车场的大型建筑。"
+    },
+    {
+        "image_id": "test/test_001136.png",
+        "question": "NULL",
+        "ground_truth": "两座建筑消失了，一座建筑被建造，一个停车场被建造。"
+    },
+    {
+        "image_id": "test/test_001164.png",
+        "question": "NULL",
+        "ground_truth": "只有一座建筑出现在荒地上的场景顶部。"
+    },
+    {
+        "image_id": "test/test_001171.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建了一个大而密集的住宅区。"
+    },
+    {
+        "image_id": "test/test_001173.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子出现在这个场景的顶部和底部。"
+    },
+    {
+        "image_id": "test/test_001212.png",
+        "question": "NULL",
+        "ground_truth": "在密集住宅的空地上建造了一个购物中心。"
+    },
+    {
+        "image_id": "test/test_001218.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一栋建筑和一条道路。"
+    },
+    {
+        "image_id": "test/test_001219.png",
+        "question": "NULL",
+        "ground_truth": "一栋房子被三栋房子和一个停车场取代。"
+    },
+    {
+        "image_id": "test/test_001220.png",
+        "question": "NULL",
+        "ground_truth": "场景右侧出现了一所房子，植被也恢复了。"
+    },
+    {
+        "image_id": "test/test_001221.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一座大建筑，周围有道路。"
+    },
+    {
+        "image_id": "test/test_001222.png",
+        "question": "NULL",
+        "ground_truth": "农场被停车场取代。"
+    },
+    {
+        "image_id": "test/test_001226.png",
+        "question": "NULL",
+        "ground_truth": "荒地上建有大型建筑物的道路。"
+    },
+    {
+        "image_id": "test/test_001227.png",
+        "question": "NULL",
+        "ground_truth": "出现了两座带道路和停车场的大型建筑。"
+    },
+    {
+        "image_id": "test/test_001228.png",
+        "question": "NULL",
+        "ground_truth": "荒地道路旁建有建筑物和停车场。"
+    },
+    {
+        "image_id": "test/test_001232.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧出现了一座带停车场的大型建筑。"
+    },
+    {
+        "image_id": "test/test_001241.png",
+        "question": "NULL",
+        "ground_truth": "现场右下角的三栋房屋已完工。"
+    },
+    {
+        "image_id": "test/test_001242.png",
+        "question": "NULL",
+        "ground_truth": "现场左下角的三栋房屋已完工。"
+    },
+    {
+        "image_id": "test/test_001249.png",
+        "question": "NULL",
+        "ground_truth": "路边的空地上建了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001251.png",
+        "question": "NULL",
+        "ground_truth": "沿着场景顶部的道路添加了三座新房屋。"
+    },
+    {
+        "image_id": "test/test_001252.png",
+        "question": "NULL",
+        "ground_truth": "两座房子沿着场景顶部的道路建造。"
+    },
+    {
+        "image_id": "test/test_001253.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建了一座建筑。"
+    },
+    {
+        "image_id": "test/test_001256.png",
+        "question": "NULL",
+        "ground_truth": "荒地上的路边建着一栋别墅。"
+    },
+    {
+        "image_id": "test/test_001259.png",
+        "question": "NULL",
+        "ground_truth": "路边的空地上建了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001261.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角的一栋房子被两栋新房子取代。"
+    },
+    {
+        "image_id": "test/test_001263.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子出现在场景的右上角。"
+    },
+    {
+        "image_id": "test/test_001267.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了大片密集的住宅区。"
+    },
+    {
+        "image_id": "test/test_001276.png",
+        "question": "NULL",
+        "ground_truth": "场景的右侧出现了一条带有大型建筑物的道路。"
+    },
+    {
+        "image_id": "test/test_001280.png",
+        "question": "NULL",
+        "ground_truth": "场景的顶部出现了一座大型建筑，并出现了两条小痕迹。"
+    },
+    {
+        "image_id": "test/test_001281.png",
+        "question": "NULL",
+        "ground_truth": "该网站的左下角缺失，右上方出现了一座建筑。"
+    },
+    {
+        "image_id": "test/test_001282.png",
+        "question": "NULL",
+        "ground_truth": "右侧有一条路，顶部拐角有一栋建筑物。"
+    },
+    {
+        "image_id": "test/test_001285.png",
+        "question": "NULL",
+        "ground_truth": "一条笔直的路就建成了。"
+    },
+    {
+        "image_id": "test/test_001293.png",
+        "question": "NULL",
+        "ground_truth": "上面草地上的小洞和道路消失了，左边出现了一个水坑。"
+    },
+    {
+        "image_id": "test/test_001294.png",
+        "question": "NULL",
+        "ground_truth": "三栋被围墙包围的小建筑出现在光秃秃的地上。"
+    },
+    {
+        "image_id": "test/test_001302.png",
+        "question": "NULL",
+        "ground_truth": "建造了一座大型建筑来取代原来的建筑和树木。"
+    },
+    {
+        "image_id": "test/test_001303.png",
+        "question": "NULL",
+        "ground_truth": "建筑物被底部的停车场取代。"
+    },
+    {
+        "image_id": "test/test_001306.png",
+        "question": "NULL",
+        "ground_truth": "右边的树木消失了，取而代之的是一座大型建筑。"
+    },
+    {
+        "image_id": "test/test_001307.png",
+        "question": "NULL",
+        "ground_truth": "工厂被两座带停车场的巨型建筑所取代，一群小建筑也消失了。"
+    },
+    {
+        "image_id": "test/test_001308.png",
+        "question": "NULL",
+        "ground_truth": "左上角的一座建筑消失了，右下角出现了一条混凝土道路。"
+    },
+    {
+        "image_id": "test/test_001311.png",
+        "question": "NULL",
+        "ground_truth": "两座建筑物出现在道路两旁光秃秃的地上。"
+    },
+    {
+        "image_id": "test/test_001312.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成一个拥有各种设施和建筑的住宅区。"
+    },
+    {
+        "image_id": "test/test_001319.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了一个圆形的地面。"
+    },
+    {
+        "image_id": "test/test_001323.png",
+        "question": "NULL",
+        "ground_truth": "道路两旁出现了三座建筑物。"
+    },
+    {
+        "image_id": "test/test_001324.png",
+        "question": "NULL",
+        "ground_truth": "左下角的荒地上出现了一条道路和一条小路。"
+    },
+    {
+        "image_id": "test/test_001328.png",
+        "question": "NULL",
+        "ground_truth": "延长了原来的道路，修了一条笔直的道路。"
+    },
+    {
+        "image_id": "test/test_001330.png",
+        "question": "NULL",
+        "ground_truth": "场景的底部出现了房子的一角。"
+    },
+    {
+        "image_id": "test/test_001331.png",
+        "question": "NULL",
+        "ground_truth": "四座建筑沿着道路的支线出现。"
+    },
+    {
+        "image_id": "test/test_001335.png",
+        "question": "NULL",
+        "ground_truth": "草原被开发为围绕中间圆形场地的一群建筑物。"
+    },
+    {
+        "image_id": "test/test_001342.png",
+        "question": "NULL",
+        "ground_truth": "三栋房屋出现在场景的右上角。"
+    },
+    {
+        "image_id": "test/test_001343.png",
+        "question": "NULL",
+        "ground_truth": "三座房屋沿着场景顶部的道路出现。"
+    },
+    {
+        "image_id": "test/test_001349.png",
+        "question": "NULL",
+        "ground_truth": "右下角的灌木丛变成了道路两侧的住宅区。"
+    },
+    {
+        "image_id": "test/test_001350.png",
+        "question": "NULL",
+        "ground_truth": "森林被一条底部两侧有房屋的道路所取代。"
+    },
+    {
+        "image_id": "test/test_001353.png",
+        "question": "NULL",
+        "ground_truth": "建造了一个大型住宅区来取代原来的森林。"
+    },
+    {
+        "image_id": "test/test_001355.png",
+        "question": "NULL",
+        "ground_truth": "一条与原来道路相连的蜿蜒小路出现了。"
+    },
+    {
+        "image_id": "test/test_001362.png",
+        "question": "NULL",
+        "ground_truth": "原来郁郁葱葱的树木被移走，出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001370.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧出现了一块空地，并建造了一座房子。"
+    },
+    {
+        "image_id": "test/test_001374.png",
+        "question": "NULL",
+        "ground_truth": "出现了一块用来堆放杂物的裸露地面。"
+    },
+    {
+        "image_id": "test/test_001377.png",
+        "question": "NULL",
+        "ground_truth": "右下角的森林变成了环绕环形道路的房屋，右上角出现了游泳池。"
+    },
+    {
+        "image_id": "test/test_001378.png",
+        "question": "NULL",
+        "ground_truth": "树林被开发成一座带有游泳池和道路的建筑群。"
+    },
+    {
+        "image_id": "test/test_001379.png",
+        "question": "NULL",
+        "ground_truth": "森林被开发成道路，道路两侧分布着房屋。"
+    },
+    {
+        "image_id": "test/test_001381.png",
+        "question": "NULL",
+        "ground_truth": "树林变成了一个建筑群，中间有十字路口。"
+    },
+    {
+        "image_id": "test/test_001382.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，密集的住宅区拔地而起。"
+    },
+    {
+        "image_id": "test/test_001383.png",
+        "question": "NULL",
+        "ground_truth": "修建了一条两侧有房屋的道路，取代了左侧原来的森林。"
+    },
+    {
+        "image_id": "test/test_001385.png",
+        "question": "NULL",
+        "ground_truth": "右上角的树林变成了一条路和道路两侧的建筑物。"
+    },
+    {
+        "image_id": "test/test_001393.png",
+        "question": "NULL",
+        "ground_truth": "左上角的一座更大的房子取代了原来的房子。"
+    },
+    {
+        "image_id": "test/test_001410.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角修了一条道路。"
+    },
+    {
+        "image_id": "test/test_001411.png",
+        "question": "NULL",
+        "ground_truth": "树林变得稀疏，左上方的林地之间出现了一条路。"
+    },
+    {
+        "image_id": "test/test_001412.png",
+        "question": "NULL",
+        "ground_truth": "修建了圆形道路和混凝土道路。"
+    },
+    {
+        "image_id": "test/test_001414.png",
+        "question": "NULL",
+        "ground_truth": "林地消失了，混凝土人行道和两个游乐场出现在右侧。"
+    },
+    {
+        "image_id": "test/test_001417.png",
+        "question": "NULL",
+        "ground_truth": "左上角的草变得郁郁葱葱，右边出现了小路和房子。"
+    },
+    {
+        "image_id": "test/test_001418.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成工厂，有场地和大型厂房。"
+    },
+    {
+        "image_id": "test/test_001419.png",
+        "question": "NULL",
+        "ground_truth": "草地上建有一群有道路和地面的建筑。"
+    },
+    {
+        "image_id": "test/test_001420.png",
+        "question": "NULL",
+        "ground_truth": "左下角的荒地上出现了一条路，右上角的草变得郁郁葱葱。"
+    },
+    {
+        "image_id": "test/test_001422.png",
+        "question": "NULL",
+        "ground_truth": "草地上的草变得茂盛，右上方出现了操场和混凝土地板。"
+    },
+    {
+        "image_id": "test/test_001423.png",
+        "question": "NULL",
+        "ground_truth": "草地被开发成游乐场，上面出现了道路和房屋。"
+    },
+    {
+        "image_id": "test/test_001424.png",
+        "question": "NULL",
+        "ground_truth": "一条道路被延长，道路上增加了两栋房屋。"
+    },
+    {
+        "image_id": "test/test_001425.png",
+        "question": "NULL",
+        "ground_truth": "农田变成了灌木丛生的草地。"
+    },
+    {
+        "image_id": "test/test_001448.png",
+        "question": "NULL",
+        "ground_truth": "树林边缘出现了三座建筑物。"
+    },
+    {
+        "image_id": "test/test_001466.png",
+        "question": "NULL",
+        "ground_truth": "左上角的荒地上出现了十字路口和房屋。"
+    },
+    {
+        "image_id": "test/test_001468.png",
+        "question": "NULL",
+        "ground_truth": "左下角的荒地被开发成道路和道路两侧的房屋。"
+    },
+    {
+        "image_id": "test/test_001471.png",
+        "question": "NULL",
+        "ground_truth": "右下角的草地上出现了一条道路和道路两侧的房屋。"
+    },
+    {
+        "image_id": "test/test_001472.png",
+        "question": "NULL",
+        "ground_truth": "草原发展成两条道路和整齐分布在道路两侧的一群建筑物。"
+    },
+    {
+        "image_id": "test/test_001481.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子的一角。"
+    },
+    {
+        "image_id": "test/test_001489.png",
+        "question": "NULL",
+        "ground_truth": "修建了两条混凝土道路，这片土地上的植被也增加了。"
+    },
+    {
+        "image_id": "test/test_001490.png",
+        "question": "NULL",
+        "ground_truth": "树林变得更加密集，中间出现了两条路。"
+    },
+    {
+        "image_id": "test/test_001494.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角出现一条道路。"
+    },
+    {
+        "image_id": "test/test_001495.png",
+        "question": "NULL",
+        "ground_truth": "树林变得更绿了，右上角出现了一条岔路。"
+    },
+    {
+        "image_id": "test/test_001496.png",
+        "question": "NULL",
+        "ground_truth": "左下角的林地消失了，中间出现了一条道路。"
+    },
+    {
+        "image_id": "test/test_001500.png",
+        "question": "NULL",
+        "ground_truth": "右上方的林地变成了水箱，池塘的右侧出现了一个房间。"
+    },
+    {
+        "image_id": "test/test_001504.png",
+        "question": "NULL",
+        "ground_truth": "修建一条窄路和一条宽路来取代森林。"
+    },
+    {
+        "image_id": "test/test_001505.png",
+        "question": "NULL",
+        "ground_truth": "一条宽阔的道路似乎取代了顶部角落的森林。"
+    },
+    {
+        "image_id": "test/test_001517.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子的一角。"
+    },
+    {
+        "image_id": "test/test_001521.png",
+        "question": "NULL",
+        "ground_truth": "森林消失了，中间有房子的道路建成了。"
+    },
+    {
+        "image_id": "test/test_001522.png",
+        "question": "NULL",
+        "ground_truth": "出现了一条小轨迹。"
+    },
+    {
+        "image_id": "test/test_001525.png",
+        "question": "NULL",
+        "ground_truth": "大部分林地消失了，左上角出现了一条混凝土道路。"
+    },
+    {
+        "image_id": "test/test_001528.png",
+        "question": "NULL",
+        "ground_truth": "草地上的植被变得郁郁葱葱，上面出现了一条小路。"
+    },
+    {
+        "image_id": "test/test_001545.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了房子的一角。"
+    },
+    {
+        "image_id": "test/test_001546.png",
+        "question": "NULL",
+        "ground_truth": "树林边缘出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_001550.png",
+        "question": "NULL",
+        "ground_truth": "场景左下角出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_001564.png",
+        "question": "NULL",
+        "ground_truth": "道路的一个分支出现了。"
+    },
+    {
+        "image_id": "test/test_001565.png",
+        "question": "NULL",
+        "ground_truth": "右下角建了一个圆形广场。"
+    },
+    {
+        "image_id": "test/test_001566.png",
+        "question": "NULL",
+        "ground_truth": "草地已经变成了建筑物和操场。"
+    },
+    {
+        "image_id": "test/test_001567.png",
+        "question": "NULL",
+        "ground_truth": "右下角的道路转弯，左下角出现一条道路。"
+    },
+    {
+        "image_id": "test/test_001585.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修了一条笔直的路。"
+    },
+    {
+        "image_id": "test/test_001586.png",
+        "question": "NULL",
+        "ground_truth": "一组建筑物被重建。"
+    },
+    {
+        "image_id": "test/test_001587.png",
+        "question": "NULL",
+        "ground_truth": "左边的房子已经重建，路边的一栋房子也被拆除。"
+    },
+    {
+        "image_id": "test/test_001588.png",
+        "question": "NULL",
+        "ground_truth": "森林被清除，一条周围有房屋的道路出现了。"
+    },
+    {
+        "image_id": "test/test_001589.png",
+        "question": "NULL",
+        "ground_truth": "场景的右上角建了一座房子。"
+    },
+    {
+        "image_id": "test/test_001591.png",
+        "question": "NULL",
+        "ground_truth": "森林被一条两侧有房屋的道路所取代。"
+    },
+    {
+        "image_id": "test/test_001592.png",
+        "question": "NULL",
+        "ground_truth": "建造了一个大而密集的住宅区来取代原来的森林。"
+    },
+    {
+        "image_id": "test/test_001599.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了两条道路沿线的巨大房屋。"
+    },
+    {
+        "image_id": "test/test_001600.png",
+        "question": "NULL",
+        "ground_truth": "草原被建成十字路口和道路两侧的建筑群。"
+    },
+    {
+        "image_id": "test/test_001602.png",
+        "question": "NULL",
+        "ground_truth": "一条与原道路垂直的道路建成了带停车场的建筑工地。"
+    },
+    {
+        "image_id": "test/test_001603.png",
+        "question": "NULL",
+        "ground_truth": "底部出现一条道路，左侧出现一个停车场。"
+    },
+    {
+        "image_id": "test/test_001609.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了一所房子，靠近现有房子。"
+    },
+    {
+        "image_id": "test/test_001610.png",
+        "question": "NULL",
+        "ground_truth": "左下角的草地上出现了一栋带道路和停车场的大房子。"
+    },
+    {
+        "image_id": "test/test_001611.png",
+        "question": "NULL",
+        "ground_truth": "两条道路的交汇处出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_001612.png",
+        "question": "NULL",
+        "ground_truth": "道路和以前的建筑物之间出现了一群建筑物。"
+    },
+    {
+        "image_id": "test/test_001613.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了五座独立的建筑物。"
+    },
+    {
+        "image_id": "test/test_001614.png",
+        "question": "NULL",
+        "ground_truth": "顶部建有一座带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_001615.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条道路和巨大的房屋。"
+    },
+    {
+        "image_id": "test/test_001616.png",
+        "question": "NULL",
+        "ground_truth": "灌木丛和树木被清除，并修建了一条道路，将老路与沿途建造的别墅连接起来。"
+    },
+    {
+        "image_id": "test/test_001618.png",
+        "question": "NULL",
+        "ground_truth": "场景的右下角出现了一座白色的房子。"
+    },
+    {
+        "image_id": "test/test_001619.png",
+        "question": "NULL",
+        "ground_truth": "灌木丛和植物被清除，并建造了三座带停车场的建筑物。"
+    },
+    {
+        "image_id": "test/test_001620.png",
+        "question": "NULL",
+        "ground_truth": "灌木丛和植物被清除，并建造了三座带停车场的建筑物。"
+    },
+    {
+        "image_id": "test/test_001622.png",
+        "question": "NULL",
+        "ground_truth": "树木和灌木丛被清除，建造了两座带停车场的建筑物。"
+    },
+    {
+        "image_id": "test/test_001623.png",
+        "question": "NULL",
+        "ground_truth": "路边出现了三座带停车场的建筑，取代了灌木丛。"
+    },
+    {
+        "image_id": "test/test_001624.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了一座白色的房子。"
+    },
+    {
+        "image_id": "test/test_001625.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成一个有停车场和一栋大型建筑的地方。"
+    },
+    {
+        "image_id": "test/test_001626.png",
+        "question": "NULL",
+        "ground_truth": "左上角的荒地变成了停车场，左下角出现了一栋房子和一片平地。"
+    },
+    {
+        "image_id": "test/test_001629.png",
+        "question": "NULL",
+        "ground_truth": "中心出现了一圈房屋，周围环绕着一个池塘，左侧出现了一座建筑。"
+    },
+    {
+        "image_id": "test/test_001630.png",
+        "question": "NULL",
+        "ground_truth": "顶部的树木已被拆除，并建造了停车场。"
+    },
+    {
+        "image_id": "test/test_001634.png",
+        "question": "NULL",
+        "ground_truth": "道路左侧的一排建筑物已被拆除，另一边出现了两间平房。"
+    },
+    {
+        "image_id": "test/test_001636.png",
+        "question": "NULL",
+        "ground_truth": "路边荒地上建有一栋带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_001638.png",
+        "question": "NULL",
+        "ground_truth": "顶部有一座房子，左侧建有三座房子。"
+    },
+    {
+        "image_id": "test/test_001639.png",
+        "question": "NULL",
+        "ground_truth": "底部修了一条路，砍伐了树林。"
+    },
+    {
+        "image_id": "test/test_001640.png",
+        "question": "NULL",
+        "ground_truth": "十字路口变成两个，原道路的方向发生变化。"
+    },
+    {
+        "image_id": "test/test_001641.png",
+        "question": "NULL",
+        "ground_truth": "两条平行的道路出现在原来的道路两侧。"
+    },
+    {
+        "image_id": "test/test_001642.png",
+        "question": "NULL",
+        "ground_truth": "在其他道路附近修建了一条新的水泥路。"
+    },
+    {
+        "image_id": "test/test_001651.png",
+        "question": "NULL",
+        "ground_truth": "右下角的一条小路消失了，一条大路出现了。"
+    },
+    {
+        "image_id": "test/test_001652.png",
+        "question": "NULL",
+        "ground_truth": "左上角的道路变成了一条更宽的岔路，右侧出现了一个大洞。"
+    },
+    {
+        "image_id": "test/test_001653.png",
+        "question": "NULL",
+        "ground_truth": "底部出现了一个停车场，中心出现了一条道路。"
+    },
+    {
+        "image_id": "test/test_001654.png",
+        "question": "NULL",
+        "ground_truth": "顶部出现一条道路，底部出现一个停车区。"
+    },
+    {
+        "image_id": "test/test_001657.png",
+        "question": "NULL",
+        "ground_truth": "荒地被建成一个带有停车场和一栋大房子的住宅区。"
+    },
+    {
+        "image_id": "test/test_001658.png",
+        "question": "NULL",
+        "ground_truth": "沿途荒地上建有停车场。"
+    },
+    {
+        "image_id": "test/test_001661.png",
+        "question": "NULL",
+        "ground_truth": "右下角的树林里建了一座房子，路边建了一个停车场。"
+    },
+    {
+        "image_id": "test/test_001671.png",
+        "question": "NULL",
+        "ground_truth": "空地上出现了一条土路。"
+    },
+    {
+        "image_id": "test/test_001672.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一条道路和道路两侧的建筑物。"
+    },
+    {
+        "image_id": "test/test_001673.png",
+        "question": "NULL",
+        "ground_truth": "灌木丛被清除，道路两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_001674.png",
+        "question": "NULL",
+        "ground_truth": "沙漠的拐角处出现了一条路。"
+    },
+    {
+        "image_id": "test/test_001675.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了一条转弯的道路，沿途建有房屋。"
+    },
+    {
+        "image_id": "test/test_001676.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了一条带停车场和四栋房屋的道路。"
+    },
+    {
+        "image_id": "test/test_001677.png",
+        "question": "NULL",
+        "ground_truth": "草地发展成十字路口，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "test/test_001679.png",
+        "question": "NULL",
+        "ground_truth": "草地中央出现了一条路，右上方出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001680.png",
+        "question": "NULL",
+        "ground_truth": "道路改建为十字路口，沿线建别墅。"
+    },
+    {
+        "image_id": "test/test_001683.png",
+        "question": "NULL",
+        "ground_truth": "右侧的圆形广场周围建造了一圈房屋。"
+    },
+    {
+        "image_id": "test/test_001684.png",
+        "question": "NULL",
+        "ground_truth": "草地上出现了十字路口和道路两侧的建筑物。"
+    },
+    {
+        "image_id": "test/test_001688.png",
+        "question": "NULL",
+        "ground_truth": "森林顶部修了一条T形道路。"
+    },
+    {
+        "image_id": "test/test_001692.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角的路边出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_001696.png",
+        "question": "NULL",
+        "ground_truth": "上面出现了一个房间，球场上停着的汽车数量大大增加。"
+    },
+    {
+        "image_id": "test/test_001729.png",
+        "question": "NULL",
+        "ground_truth": "路边的空地上建了一所房子。"
+    },
+    {
+        "image_id": "test/test_001739.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建有两栋带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_001741.png",
+        "question": "NULL",
+        "ground_truth": "路拐角处的树林里建了一所房子。"
+    },
+    {
+        "image_id": "test/test_001752.png",
+        "question": "NULL",
+        "ground_truth": "右下角出现了一圈房屋。"
+    },
+    {
+        "image_id": "test/test_001753.png",
+        "question": "NULL",
+        "ground_truth": "两栋小房子被拆除，路左侧建了一座白色的大建筑。"
+    },
+    {
+        "image_id": "test/test_001760.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角建有一栋别墅。"
+    },
+    {
+        "image_id": "test/test_001763.png",
+        "question": "NULL",
+        "ground_truth": "树木和植物被拆除，道路上建有别墅。"
+    },
+    {
+        "image_id": "test/test_001764.png",
+        "question": "NULL",
+        "ground_truth": "灌木和植物被清除，并修建了一条带树枝的道路。"
+    },
+    {
+        "image_id": "test/test_001766.png",
+        "question": "NULL",
+        "ground_truth": "植物被拆除，道路被修建，沿途建造房屋。"
+    },
+    {
+        "image_id": "test/test_001767.png",
+        "question": "NULL",
+        "ground_truth": "树木被砍伐，修建了一条转弯的道路，沿途建造了房屋。"
+    },
+    {
+        "image_id": "test/test_001768.png",
+        "question": "NULL",
+        "ground_truth": "植物被拆除，十字路口建了一条房屋。"
+    },
+    {
+        "image_id": "test/test_001770.png",
+        "question": "NULL",
+        "ground_truth": "土路穿过森林。"
+    },
+    {
+        "image_id": "test/test_001773.png",
+        "question": "NULL",
+        "ground_truth": "中心道路两侧整齐排列着两排别墅。"
+    },
+    {
+        "image_id": "test/test_001774.png",
+        "question": "NULL",
+        "ground_truth": "树木和植物被拆除，道路两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_001787.png",
+        "question": "NULL",
+        "ground_truth": "森林附近建了一个停车场。"
+    },
+    {
+        "image_id": "test/test_001794.png",
+        "question": "NULL",
+        "ground_truth": "停车场扩建，新房出现。"
+    },
+    {
+        "image_id": "test/test_001795.png",
+        "question": "NULL",
+        "ground_truth": "顶部的工地上增加了一座豪宅。"
+    },
+    {
+        "image_id": "test/test_001798.png",
+        "question": "NULL",
+        "ground_truth": "中心房屋的一侧建了一座平房。"
+    },
+    {
+        "image_id": "test/test_001799.png",
+        "question": "NULL",
+        "ground_truth": "路边荒地上建有一栋带停车场的建筑。"
+    },
+    {
+        "image_id": "test/test_001800.png",
+        "question": "NULL",
+        "ground_truth": "草地和荒地被拆除，道路上建有建筑物和停车场。"
+    },
+    {
+        "image_id": "test/test_001813.png",
+        "question": "NULL",
+        "ground_truth": "顶部重建了一栋别墅，旁边建了一栋别墅，底部建了两栋别墅。"
+    },
+    {
+        "image_id": "test/test_001817.png",
+        "question": "NULL",
+        "ground_truth": "左上角出现了一个停车场，右下角暴露了房间的一角。"
+    },
+    {
+        "image_id": "test/test_001818.png",
+        "question": "NULL",
+        "ground_truth": "左下角建造了一座建筑，并出现了两个停车场。"
+    },
+    {
+        "image_id": "test/test_001822.png",
+        "question": "NULL",
+        "ground_truth": "顶部修一条路，尽头建一座建筑物。"
+    },
+    {
+        "image_id": "test/test_001823.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧区域的草地上出现了两座建筑物。"
+    },
+    {
+        "image_id": "test/test_001825.png",
+        "question": "NULL",
+        "ground_truth": "右侧荒地开发成道路，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "test/test_001826.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成十字路口，两侧都有房屋。"
+    },
+    {
+        "image_id": "test/test_001831.png",
+        "question": "NULL",
+        "ground_truth": "与道路平行建造了四排房屋。"
+    },
+    {
+        "image_id": "test/test_001834.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了三所房子。"
+    },
+    {
+        "image_id": "test/test_001835.png",
+        "question": "NULL",
+        "ground_truth": "一条转弯路，两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_001838.png",
+        "question": "NULL",
+        "ground_truth": "左下角原来的房子旁边出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001840.png",
+        "question": "NULL",
+        "ground_truth": "场景右上角建有三座房子。"
+    },
+    {
+        "image_id": "test/test_001845.png",
+        "question": "NULL",
+        "ground_truth": "场景的下半部分建造了三个白色仓库。"
+    },
+    {
+        "image_id": "test/test_001849.png",
+        "question": "NULL",
+        "ground_truth": "停车场周围修了一条水泥路。"
+    },
+    {
+        "image_id": "test/test_001872.png",
+        "question": "NULL",
+        "ground_truth": "湖延伸了。"
+    },
+    {
+        "image_id": "test/test_001873.png",
+        "question": "NULL",
+        "ground_truth": "右下角的荒地上出现了一条道路和道路两侧的房屋。"
+    },
+    {
+        "image_id": "test/test_001874.png",
+        "question": "NULL",
+        "ground_truth": "草原发展成为一个有道路和房屋的建筑群。"
+    },
+    {
+        "image_id": "test/test_001876.png",
+        "question": "NULL",
+        "ground_truth": "顶部添加了一栋别墅。"
+    },
+    {
+        "image_id": "test/test_001878.png",
+        "question": "NULL",
+        "ground_truth": "荒地被开发成一群房屋，中间有十字路口。"
+    },
+    {
+        "image_id": "test/test_001879.png",
+        "question": "NULL",
+        "ground_truth": "左侧边缘修一条路，沿途建别墅。"
+    },
+    {
+        "image_id": "test/test_001880.png",
+        "question": "NULL",
+        "ground_truth": "植物已被移除，两条路径相交。"
+    },
+    {
+        "image_id": "test/test_001882.png",
+        "question": "NULL",
+        "ground_truth": "三排房屋与两条道路平行建造。"
+    },
+    {
+        "image_id": "test/test_001883.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修一条路，两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_001884.png",
+        "question": "NULL",
+        "ground_truth": "一栋小房子消失了，空地上修了一条水泥路。"
+    },
+    {
+        "image_id": "test/test_001886.png",
+        "question": "NULL",
+        "ground_truth": "草原被开发为住宅区，有道路和游泳池。"
+    },
+    {
+        "image_id": "test/test_001887.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修环形道路，沿途建有灌木丛和别墅。"
+    },
+    {
+        "image_id": "test/test_001888.png",
+        "question": "NULL",
+        "ground_truth": "荒地上出现了十字路口和道路两侧的房屋。"
+    },
+    {
+        "image_id": "test/test_001890.png",
+        "question": "NULL",
+        "ground_truth": "右下角的树林里出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_001893.png",
+        "question": "NULL",
+        "ground_truth": "左下角的车辆消失了，出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_001894.png",
+        "question": "NULL",
+        "ground_truth": "场景右下角的道路拐角周围建造了四座房屋。"
+    },
+    {
+        "image_id": "test/test_001895.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧整齐排列着两排建筑。"
+    },
+    {
+        "image_id": "test/test_001898.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中出现了四座被道路包围的房屋。"
+    },
+    {
+        "image_id": "test/test_001899.png",
+        "question": "NULL",
+        "ground_truth": "道路两侧建有两排房屋。"
+    },
+    {
+        "image_id": "test/test_001902.png",
+        "question": "NULL",
+        "ground_truth": "左下角的荒地上出现了一条道路和道路两侧的建筑物。"
+    },
+    {
+        "image_id": "test/test_001903.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角建了一座房子。"
+    },
+    {
+        "image_id": "test/test_001904.png",
+        "question": "NULL",
+        "ground_truth": "路边的其他房屋中建了一座房子。"
+    },
+    {
+        "image_id": "test/test_001906.png",
+        "question": "NULL",
+        "ground_truth": "底部的道路与原来的道路垂直。"
+    },
+    {
+        "image_id": "test/test_001907.png",
+        "question": "NULL",
+        "ground_truth": "荒地被建成一个有道路和房屋的住宅区。"
+    },
+    {
+        "image_id": "test/test_001911.png",
+        "question": "NULL",
+        "ground_truth": "水箱和植被消失了，道路和建筑物出现了。"
+    },
+    {
+        "image_id": "test/test_001912.png",
+        "question": "NULL",
+        "ground_truth": "草原变成了道路和建筑相交的住宅区。"
+    },
+    {
+        "image_id": "test/test_001914.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中的道路周围出现了四座房屋。"
+    },
+    {
+        "image_id": "test/test_001915.png",
+        "question": "NULL",
+        "ground_truth": "中心道路被T形道路和住宅区取代。"
+    },
+    {
+        "image_id": "test/test_001933.png",
+        "question": "NULL",
+        "ground_truth": "房屋和灌木丛被拆除，道路两侧建有别墅。"
+    },
+    {
+        "image_id": "test/test_001969.png",
+        "question": "NULL",
+        "ground_truth": "草地发展成十字路口，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "test/test_001970.png",
+        "question": "NULL",
+        "ground_truth": "左上方的草地发展成十字路口，道路两侧都有房屋。"
+    },
+    {
+        "image_id": "test/test_001973.png",
+        "question": "NULL",
+        "ground_truth": "场景的左上角出现了两栋房子。"
+    },
+    {
+        "image_id": "test/test_002003.png",
+        "question": "NULL",
+        "ground_truth": "顶部修路，沿途建别墅。"
+    },
+    {
+        "image_id": "test/test_002004.png",
+        "question": "NULL",
+        "ground_truth": "荒地上修路，路边建别墅。"
+    },
+    {
+        "image_id": "test/test_002005.png",
+        "question": "NULL",
+        "ground_truth": "场景左侧边缘沿着道路的草地上建了一座房子。"
+    },
+    {
+        "image_id": "test/test_002007.png",
+        "question": "NULL",
+        "ground_truth": "两栋房子建在路边的其他房子旁边。"
+    },
+    {
+        "image_id": "test/test_002009.png",
+        "question": "NULL",
+        "ground_truth": "沿着道路，在以前的建筑之间出现了一座建筑。"
+    },
+    {
+        "image_id": "test/test_002012.png",
+        "question": "NULL",
+        "ground_truth": "顶部建造了一圈已完工的别墅。"
+    },
+    {
+        "image_id": "test/test_002014.png",
+        "question": "NULL",
+        "ground_truth": "左上方的草地上出现了一所房子。"
+    },
+    {
+        "image_id": "test/test_002018.png",
+        "question": "NULL",
+        "ground_truth": "顶部的路边排列着一排房屋。"
+    },
+    {
+        "image_id": "test/test_002023.png",
+        "question": "NULL",
+        "ground_truth": "沙漠中的一条道路上出现了一座建筑物。"
+    },
+    {
+        "image_id": "test/test_002037.png",
+        "question": "NULL",
+        "ground_truth": "下面的草地上出现了一块停着汽车的田野。"
+    },
+    {
+        "image_id": "test/test_002041.png",
+        "question": "NULL",
+        "ground_truth": "一所房子出现在空地上，有一条穿过该地区的小路。"
+    },
+    {
+        "image_id": "test/test_002047.png",
+        "question": "NULL",
+        "ground_truth": "右上方的草地上出现了两座小房子。"
+    }
+]

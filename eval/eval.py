@@ -28,11 +28,13 @@ def eval(predict_path,gt_path,eval_result_path):
     assert os.path.isdir(predict_path)
     task_names=["Change_caption","Image_caption","QA"]
     eval_result=[]
-    
+    #score=(原始cider+acc(%)+原始cider)/3
     for root, dirs, files in os.walk(predict_path):
         if len(files)==0:
             continue
         for file in files:
+            if int(file.split(".")[0])>=1000:
+                continue
             predict_file_path=os.path.join(root,file)
             task_name = predict_file_path.split("/")[-2]
             gt_file_path=os.path.join(gt_path,task_name,file)
@@ -50,6 +52,7 @@ def eval(predict_path,gt_path,eval_result_path):
                     file_score["cider"]+=cider(pred_answer,gt_answer)
             eval_result.append(file_score)
     #写入json文件
+    os.makedirs(eval_result_path,exist_ok=True)
     with open(os.path.join(eval_result_path,"judge.json"),"w",encoding="utf-8") as f:
         json.dump(eval_result,f)
     #用pandas读入，便于分组处理
@@ -63,9 +66,9 @@ def eval(predict_path,gt_path,eval_result_path):
         for _,line in group.iterrows():
             num_sum+=line["question_nums"]
             if task=="QA":
-                score_sum+=line["correct"]
+                score_sum+=(line["correct"]*100)#因为acc显示的是%
             else:
-                score_sum+=line["cider"]/10 #评分标准说要归一化
+                score_sum+=line["cider"]
         task_score={"type":task,"score":score_sum/num_sum}
         task_scores.append(task_score)
     av_score=0
@@ -96,7 +99,7 @@ if __name__=="__main__":
     # test_data_path = sys.argv[1]
     # output_path = sys.argv[2]
 
-    gt_path = "/home/sxjiang/myproject/HZ/examples/gt"
-    predict_path = "/home/sxjiang/myproject/HZ/examples/out_path"
-    eval_result_path="/home/sxjiang/myproject/HZ/eval/result"
+    gt_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/gt"
+    predict_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/origin/output_path"
+    eval_result_path="/home/jiangshixin/myproject/HZ-KM/result/MiniCPM/origin"
     eval(predict_path=predict_path,gt_path=gt_path,eval_result_path=eval_result_path)
