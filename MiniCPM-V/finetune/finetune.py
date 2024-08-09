@@ -2,6 +2,7 @@ import glob
 import json
 import logging
 import os
+os.environ["WANDB_MODE"]="offline"
 from dataclasses import dataclass, field
 from functools import partial
 from typing import Dict, List, Optional, Union, Literal, Tuple
@@ -29,11 +30,12 @@ class ModelArguments:
 @dataclass
 class DataArguments:
     data_path: str = field(
-        default="/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles/vrs_train_qa_cap.json", metadata={"help": "Path to the training data."}
+        default="/home/jiangshixin/dataset/HZ/data.json", metadata={"help": "Path to the training data."}
     )
     eval_data_path: str = field(
         default=None, metadata={"help": "Path to the evaluation data."}
     )
+    image_dir: str = field(default=None)
 
 
 @dataclass
@@ -46,16 +48,18 @@ class TrainingArguments(transformers.TrainingArguments):
             "help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."
         },
     )
-    tune_vision: Optional[bool] = field(default=True)
-    tune_llm: Optional[bool] = field(default=True)
+    tune_vision: Optional[bool] = field(default=False)
+    tune_llm: Optional[bool] = field(default=False)
     llm_type: str = field(default="llama3")
     use_lora: Optional[bool] = field(default=False)
     max_slice_nums: Optional[int] = field(default=9)
-    output_dir: str = field(default="/home/jiangshixin/model/minicpmv/debug")
+    output_dir: str = field(default="/home/jiangshixin/model/minicpmv/test_hz/debug")
     per_device_train_batch_size: int = 4
     remove_unused_columns: bool=False
     label_names: str="labels"
-    num_train_epochs: float=1.0
+    num_train_epochs: float=3.0
+    report_to: str = "wandb"
+    deepspeed: str="ds_config_zero2.json"
 
 @dataclass
 class LoraArguments:
@@ -110,6 +114,7 @@ def make_supervised_data_module(
         patch_size=patch_size,
         query_nums=query_nums,
         batch_vision=batch_vision,
+        image_dir=data_args.image_dir
     )
 
     if data_args.eval_data_path:
@@ -239,7 +244,7 @@ def train():
     rank0_print(f'llm_type={llm_type}')
 
     rank0_print(f'epochs={training_args.num_train_epochs}')
-    rank0_print(f'epochs={training_args.train_batch_size}')
+    rank0_print(f'train_batch_size={training_args.train_batch_size}')
     # Load data
     if hasattr(model.config, "slice_config"):
         model.config.slice_config.max_slice_nums = training_args.max_slice_nums

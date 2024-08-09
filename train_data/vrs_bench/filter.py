@@ -33,8 +33,7 @@ for line in data:
     assert os.path.exists(new_line["image"])
     filter_data.append(new_line)
     count+=1
-    if count>=10000:
-        break
+
 print(train_types)          
     # if line["type"] in qa_types:
 

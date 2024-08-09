@@ -1,9 +1,10 @@
 from cider_eval import cider
-from acc_eval import acc
+from acc_eval import acc,llm_judge
 import os
 import re
 import pandas as pd
 import json
+from tqdm import tqdm
 # 阅读输入的 input的 txt文件
 def read_answers_from_file(txt_file_path):
     answers = []
@@ -20,25 +21,43 @@ def read_answers_from_file(txt_file_path):
             answer = answer.strip()
             answers.append(answer)
     return answers
+# 阅读输入的 input的 txt文件
+def read_questions_from_file(txt_file_path):
+    questions = []
+    pattern=r"(.+)\'(.+)\'"
+    with open(txt_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            if "input" not in line:
+                continue 
+            search_groups = re.search(pattern,line.strip())    
+            if search_groups==None:
+                questions.append("NULL")
+                continue
+            answer = search_groups.group(2)
+            answer = answer.strip()
+            questions.append(answer)
+    return questions
 
 
 
-
-def eval(predict_path,gt_path,eval_result_path):
+def eval(predict_path,gt_path,eval_result_path,judege_function):
     assert os.path.isdir(predict_path)
     task_names=["Change_caption","Image_caption","QA"]
     eval_result=[]
     #score=(原始cider+acc(%)+原始cider)/3
+    bar=tqdm(total=3000)
     for root, dirs, files in os.walk(predict_path):
         if len(files)==0:
             continue
         for file in files:
             if int(file.split(".")[0])>=1000:
                 continue
+            bar.update(1)
             predict_file_path=os.path.join(root,file)
             task_name = predict_file_path.split("/")[-2]
             gt_file_path=os.path.join(gt_path,task_name,file)
             pred_answers=read_answers_from_file(predict_file_path)
+            questions=read_questions_from_file(gt_file_path)
             gt_answers=read_answers_from_file(gt_file_path)
             if len(pred_answers)!=len(gt_answers):#FIXME:当数量不相同时的处理方法
                 eval_result.append({"id":task_name+" "+file.split(".")[0],"pred":"","gt":"","correct":0,"sum":len(gt_answers),"cider":0,"task":task_name})            
@@ -46,8 +65,12 @@ def eval(predict_path,gt_path,eval_result_path):
             for index in range(len(gt_answers)):
                 gt_answer=gt_answers[index]
                 pred_answer=pred_answers[index]
+                question=questions[index]
                 if task_name=="QA":
-                    file_score["correct"]+=acc(pred_answer,gt_answer)
+                    if judege_function=="llm_judge":
+                        file_score["correct"]+=llm_judge(pred_answer,gt_answer,question)
+                    else:
+                        file_score["correct"]+=acc(pred_answer,gt_answer)
                 else:
                     file_score["cider"]+=cider(pred_answer,gt_answer)
             eval_result.append(file_score)
@@ -77,9 +100,10 @@ def eval(predict_path,gt_path,eval_result_path):
     av_score=av_score/len(task_names)
     task_scores.append({"type":"avg","score":av_score})
     #写入json文件
+    print(eval_result_path)
     with open(os.path.join(eval_result_path,"score.json"),"w") as f:
         json.dump(task_scores,f)
-
+    bar.close()
     
                     
             
@@ -100,6 +124,8 @@ if __name__=="__main__":
     # output_path = sys.argv[2]
 
     gt_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/gt"
-    predict_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/origin/output_path"
-    eval_result_path="/home/jiangshixin/myproject/HZ-KM/result/MiniCPM/origin"
-    eval(predict_path=predict_path,gt_path=gt_path,eval_result_path=eval_result_path)
+    predict_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/origin/"
+    eval_result_path="/home/jiangshixin/myproject/HZ-KM/result/MiniCPM/origin/"
+    judege_function = "llm_judge"
+    # judege_function = "rule_judge"
+    eval(predict_path=predict_path,gt_path=gt_path,eval_result_path=eval_result_path,judege_function=judege_function)

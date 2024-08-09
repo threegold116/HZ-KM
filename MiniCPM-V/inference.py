@@ -3,17 +3,18 @@ import torch
 from transformers import AutoProcessor
 from PIL import Image
 from MiniCPM import MiniCPMV,MiniCPMVTokenizerFast,MiniCPMVProcessor,MiniCPMVImageProcessor
-model = MiniCPMV.from_pretrained('/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5',  torch_dtype=torch.float16)
+model_path="/home/jiangshixin/model/minicpmv/test_hz/minicpmv2_merge"
+model = MiniCPMV.from_pretrained(model_path,  torch_dtype=torch.float16)
 model = model.to(device='cuda')
 
-tokenizer = MiniCPMVTokenizerFast.from_pretrained('/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5')
+tokenizer = MiniCPMVTokenizerFast.from_pretrained(model_path)
 model.eval()
 image1 = Image.open('/home/jiangshixin/myproject/HZ-KM/examples/input_path/Image_caption/image/0.tif').convert('RGB')
 # image2 = Image.open('/home/sxjiang/project/LLaVA-NeXT/test/input_path/Change_caption/image2/0.png').convert('RGB')
 question = '请问？'
 image = [image1]
-processor = MiniCPMVProcessor(image_processor=MiniCPMVImageProcessor.from_pretrained('/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5'),
-                              tokenizer=MiniCPMVTokenizerFast.from_pretrained('/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5'))
+processor = MiniCPMVProcessor(image_processor=MiniCPMVImageProcessor.from_pretrained(model_path),
+                              tokenizer=MiniCPMVTokenizerFast.from_pretrained(model_path))
 question="你好！"
 while question!="quit":
     msgs = [{'role': 'user', 'content': question}]
@@ -24,7 +25,7 @@ while question!="quit":
         tokenizer=tokenizer,
         sampling=False, # if sampling=False, beam_search will be used by default
         temperature=0.7,
-        system_prompt='你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出十分有用的答案。' # pass system_prompt if needed
+        system_prompt='' # pass system_prompt if needed
     )
     print(res)
     question=input("用户输入:")

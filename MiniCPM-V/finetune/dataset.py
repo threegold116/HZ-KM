@@ -28,6 +28,7 @@ class SupervisedDataset(Dataset):
         patch_size=14,
         query_nums=64,
         batch_vision=False,
+        image_dir=None
     ):
         super(SupervisedDataset, self).__init__()
         self.raw_data = raw_data
@@ -38,12 +39,15 @@ class SupervisedDataset(Dataset):
         self.patch_size = patch_size
         self.query_nums=query_nums
         self.batch_vision = batch_vision
-
+        self.image_dir = image_dir
     def __len__(self):
         return len(self.raw_data)
 
     def __getitem__(self, i) -> Dict[str, torch.Tensor]:
-        image = Image.open(self.raw_data[i]["image"]).convert("RGB")
+        if self.image_dir!=None:
+            image = Image.open(os.path.join(self.image_dir,self.raw_data[i]["image"])).convert("RGB")
+        else:
+            image = Image.open(self.raw_data[i]["image"]).convert("RGB")
         ret = preprocess(
             image,
             self.raw_data[i]["conversations"],
@@ -93,6 +97,7 @@ def data_collator(examples, padding_value=0, max_length=2048):
     )
     pixel_values = [example["pixel_values"] for example in examples]
     image_bound = [example["image_bound"] for example in examples]
+    # [torch.arange(r[0], r[1], dtype=torch.long) for r in image_bound[0]]
     tgt_sizes = [example["tgt_sizes"] for example in examples]
     return {
         "input_ids": input_ids,
