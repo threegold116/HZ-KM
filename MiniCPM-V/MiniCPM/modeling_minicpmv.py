@@ -238,8 +238,8 @@ class MiniCPMV(MiniCPMVPreTrainedModel):
         **kwargs
     ):
         bs = len(model_inputs["input_ids"])
-        img_list = model_inputs["pixel_values"]
-        tgt_sizes = model_inputs["tgt_sizes"]
+        img_list = getattr(model_inputs,"pixel_values",None) 
+        tgt_sizes = getattr(model_inputs,"tgt_sizes",None)
         if img_list is None:
             img_list = [[] for i in range(bs)]
         assert bs == len(img_list)
@@ -317,13 +317,15 @@ class MiniCPMV(MiniCPMVPreTrainedModel):
                 elif isinstance(c, str):
                     cur_msgs.append(c)
             msg["content"] = "\n".join(cur_msgs)
-        images=None
+
         if system_prompt:
             sys_msg = {'role': 'system', 'content': system_prompt}
             copy_msgs = [sys_msg] + copy_msgs        
 
         prompt = processor.tokenizer.apply_chat_template(copy_msgs, tokenize=False, add_generation_prompt=True)
         # print(f"PROMPT IS {prompt}")
+        if len(images) == 0:
+            images = None
         inputs = processor(prompt, images, return_tensors="pt", max_length=max_inp_length).to(self.device)
 
         if sampling:

@@ -106,7 +106,9 @@ class MiniCPMVProcessor(ProcessorMixin):
         """
         if images is not None:
             image_inputs = self.image_processor(images, do_pad=do_pad, return_tensors=return_tensors)
-        return self._convert_images_texts_to_inputs(image_inputs, text, max_length=max_length)
+        else:
+            image_inputs = []
+        return self._convert_images_texts_to_inputs(image_inputs, text, max_length=max_length,return_tensors=return_tensors)
     
     # Copied from transformers.models.clip.processing_clip.CLIPProcessor.batch_decode with CLIP->Llama
     def batch_decode(self, *args, **kwargs):
