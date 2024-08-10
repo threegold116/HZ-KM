@@ -124,8 +124,8 @@ if __name__=="__main__":
     # output_path = sys.argv[2]
 
     gt_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/gt"
-    predict_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/origin/"
-    eval_result_path="/home/jiangshixin/myproject/HZ-KM/result/MiniCPM/origin/"
+    predict_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-Next/origin"
+    eval_result_path="/home/jiangshixin/myproject/HZ-KM/result/LLaVA-Next/debug"
     judege_function = "llm_judge"
     # judege_function = "rule_judge"
     eval(predict_path=predict_path,gt_path=gt_path,eval_result_path=eval_result_path,judege_function=judege_function)

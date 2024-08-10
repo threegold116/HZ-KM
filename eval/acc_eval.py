@@ -32,7 +32,7 @@ def llm_judge(predict,ground,question):
 
     
     openai.api_key = "EMPTY"
-    openai.base_url = "http://localhost:8022/v1/"
+    openai.base_url = "http://localhost:8000/v1/"
 
     model = "Qwen2-7B-Instruct"
     # prompt = "Once upon a time"

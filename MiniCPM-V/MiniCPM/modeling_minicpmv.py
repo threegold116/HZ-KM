@@ -317,7 +317,7 @@ class MiniCPMV(MiniCPMVPreTrainedModel):
                 elif isinstance(c, str):
                     cur_msgs.append(c)
             msg["content"] = "\n".join(cur_msgs)
-
+        images=None
         if system_prompt:
             sys_msg = {'role': 'system', 'content': system_prompt}
             copy_msgs = [sys_msg] + copy_msgs        

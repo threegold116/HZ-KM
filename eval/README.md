@@ -4,9 +4,10 @@
 
 ##### with vicuna
 - 利用fastchat部署模型:替换为自己的模型路径
+- 也可以通过改变端口号部署多个模型，进行投票判断
 ```
 python3 -m fastchat.serve.controller
-python3 -m fastchat.serve.model_worker --model-path /home/jiangshixin/pretrained_model/vicuna-7b-v1.5
+python3 -m fastchat.serve.model_worker --model-path /home/jiangshixin/pretrained_model/Qwen2-7B-Instruct --controller http://localhost:21001 --port 31001 --worker http://localhost:31001
 /home/jiangshixin/pretrained_model/Qwen2-7B-Instruct
 python3 -m fastchat.serve.openai_api_server --host localhost --port 8000
 ```
@@ -34,13 +35,47 @@ completion = openai.chat.completions.create(
 # print the completion
 judge_result=completion.choices[0].message.content.lower()
 ```
-
+curl http://localhost:8000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "vicuna-7b-v1.5",
+    "messages": [{"role": "user", "content": "你是？"}]
+  }'
 
 #### Cider(0~10) 评测实现
 - PS:Cider有两种计算方法，分别对应0~1和0~10
-
 - 使用[nlg-metricverse](https://github.com/disi-unibo-nlp/nlg-metricverse/tree/main)库
 - 使用[nlg-eval](https://github.com/Maluuba/nlg-eval)库
+- 在nlg-metricverse基础上引入jieba中文分词，参考[AI_challenger_Chinese_Caption](https://github.com/lxtGH/AI_challenger_Chinese_Caption/blob/master/caption_eval/coco_caption/pycxtools/coco.py)
+```shell
+pip install jieba
+```
+- 在/anaconda3/envs/XXXX/lib/python3.10/site-packages/nlgmetricverse/metrics/cider/cider_planet.py的precook()函数处更改
+```python
+def precook(self, s, n=4, out=False):
+        """
+        Takes a string as input and returns an object that can be given to
+        either cook_refs or cook_test. This is optional: cook_refs and cook_test
+        can take string arguments as well.
+        :param s: string : sentence to be converted into ngrams
+        :param n: int    : number of ngrams for which representation is calculated
+        :return: term frequency vector for occuring ngrams
+        """
+        #THREEGOLD CHANGE
+        w=jieba.cut(s.strip().replace('。',''), cut_all=False)
+        s=' '.join(w)
+        #THREEGOLD CHANGE
+        words = s.split()
+        counts = defaultdict(int)
+        for k in range(1,n+1):
+            for i in range(len(words)-k+1):
+                ngram = tuple(words[i:i+k])
+                counts[ngram] += 1
+        return counts
+
+```
+
+
 ##### nlg-metricverse安装及使用方法：
 ```
 pip install nlg-metricverse

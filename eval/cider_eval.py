@@ -8,14 +8,17 @@ scorer = NLGMetricverse(metrics=["cider"])
 # score = scorer( predictions=[predict], references=[ground], reduce_fn="max")
 # print(score)
 
-def cider(predict,ground):
-    if isinstance(predict,str):
-        predict=[predict]
-    if isinstance(ground,str):
-        ground=[ground]
+def cider(predicts,grounds):
+    if isinstance(predicts,str):
+        predicts=[predicts]
+    if isinstance(grounds,str):
+        grounds=[grounds]
     
-    score = scorer( predictions=predict, references=ground, reduce_fn="max")
+    score = scorer( predictions=predicts, references=grounds, reduce_fn="mean")
     # metrics_dict = compute_individual_metrics([ground],[predict])
     return score[caclute_mertrcs[0]]["score"]
-
-# cider("Lihua is a pig","Lihua")
+print(cider(["我是梨花"],["我是李华"]))
+predictions = ["Evaluating artificial text has never been so simple", "the cat is on the mat"]
+references = ["Evaluating artificial text is not difficult", "The cat is playing on the mat."]
+# scores = scorer(predictions, references, reduce_fn="max")
+print(cider(predictions,references))

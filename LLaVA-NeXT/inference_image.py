@@ -8,15 +8,18 @@ from PIL import Image
 import requests
 import copy
 import torch
+import sys
+import warnings
 
-pretrained = "/home/sxjiang/model/llama3-llava-next-8b"
-model_name = "llava_llama3"
+warnings.filterwarnings("ignore")
+pretrained = "/home/jiangshixin/pretrained_model/llava-onevision-qwen2-7b-ov"
+model_name = "llava_qwen"
 device = "cuda"
-device_map = "cuda:0"
+device_map = "auto"
 tokenizer, model, image_processor, max_length = load_pretrained_model(pretrained, None, model_name, device_map=device_map,attn_implementation=None) # Add any other thing you want to pass in llava_model_args
 
 model.eval()
-model.tie_weights()
+# model.tie_weights()
 
 url = "https://github.com/haotian-liu/LLaVA/blob/1a91fc274d7c35a9b50b3cb29c4247ae5837ce39/images/llava_v1_5_radar.jpg?raw=true"
 image = Image.open("/home/sxjiang/project/LLaVA-NeXT/llava_v1_5_radar.jpg")
@@ -24,12 +27,11 @@ image1 = Image.open("/home/sxjiang/project/LLaVA/images/llava_logo.png")
 image_tensor = process_images([image,image1], image_processor, model.config)
 image_tensor = [_image.to(dtype=torch.float16, device=device) for _image in image_tensor]
 
-conv_template = "llava_llama_3" # Make sure you use correct chat template for different models
+conv_template = "qwen_1_5" # Make sure you use correct chat template for different models
 question = DEFAULT_IMAGE_TOKEN + "\n"+DEFAULT_IMAGE_TOKEN +"\nWhat is the difference between the two images?"
 conv = copy.deepcopy(conv_templates[conv_template])
 conv.append_message(conv.roles[0], question)
 conv.append_message(conv.roles[1], None)
-conv.tokenizer=tokenizer
 prompt_question = conv.get_prompt()
 
 input_ids = tokenizer_image_token(prompt_question, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(device)
