@@ -12,7 +12,7 @@ MODEL="/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5" # or openbmb/Min
 DATA="/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles/vrs_train_qa_cap.json"
 LLM_TYPE="llama3" # if use openbmb/MiniCPM-V-2, please set LLM_TYPE=minicpm
 echo "HELLO"
-out_model_name="test_vrsbench_tune_llm_vision_epoch3_bz128"
+out_model_name="test_vrsbench_tune_llm_only"
 
 DISTRIBUTED_ARGS="
     --nproc_per_node $GPUS_PER_NODE \
@@ -36,7 +36,7 @@ torchrun $DISTRIBUTED_ARGS  finetune.py  \
     --bf16 false \
     --fp16 true \
     --do_train \
-    --tune_vision true \
+    --tune_vision false \
     --tune_llm true \
     --model_max_length 512 \
     --max_slice_nums 9 \
