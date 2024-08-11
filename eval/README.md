@@ -38,7 +38,7 @@ judge_result=completion.choices[0].message.content.lower()
 curl http://localhost:8000/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "vicuna-7b-v1.5",
+    "model": "Qwen2-7B-Instruct",
     "messages": [{"role": "user", "content": "你是？"}]
   }'
 

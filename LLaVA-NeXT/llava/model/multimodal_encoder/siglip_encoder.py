@@ -63,7 +63,9 @@ class SigLipImageProcessor:
         data = {"pixel_values": images}
 
         return BatchFeature(data=data, tensor_type=return_tensors)
-
+    def __call__(self, images, **kwargs) -> BatchFeature:
+        """Preprocess an image or a batch of images."""
+        return self.preprocess(images, **kwargs)
 
 class SigLipVisionConfig(PretrainedConfig):
     model_type = "siglip_vision_model"

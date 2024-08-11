@@ -22,8 +22,8 @@ model.eval()
 # model.tie_weights()
 
 url = "https://github.com/haotian-liu/LLaVA/blob/1a91fc274d7c35a9b50b3cb29c4247ae5837ce39/images/llava_v1_5_radar.jpg?raw=true"
-image = Image.open("/home/sxjiang/project/LLaVA-NeXT/llava_v1_5_radar.jpg")
-image1 = Image.open("/home/sxjiang/project/LLaVA/images/llava_logo.png")
+image = Image.open("/home/jiangshixin/myproject/HZ-KM/examples/input_path/Change_caption/image2/0.png")
+image1 = Image.open("/home/jiangshixin/myproject/HZ-KM/examples/input_path/Change_caption/image1/0.png")
 image_tensor = process_images([image,image1], image_processor, model.config)
 image_tensor = [_image.to(dtype=torch.float16, device=device) for _image in image_tensor]
 

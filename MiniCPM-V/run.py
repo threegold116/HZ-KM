@@ -243,11 +243,11 @@ if __name__ == "__main__":
     # output_path = sys.argv[2]
 
     # llava-1.5预训练权重
-    model_path = "/home/jiangshixin/pretrained_model/llama3-llava-next-8b"
+    model_path = "/home/jiangshixin/model/minicpmv/vrsbench/test_vrsbench_tune_llm_vision_epoch3_bz128"
     # test_data_path = "input_path"
     # output_path = "output_path"
     test_data_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/input_path"
-    # output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-Next/origin"
+    output_path = "//home/jiangshixin/dataset/remote_sense/VAL_HZPC/MiniCPM/test_vrsbench_tune_llm_vision_epoch3_bz128"
 
     test(model_path,test_data_path,output_path)
     

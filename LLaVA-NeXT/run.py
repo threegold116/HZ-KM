@@ -19,7 +19,7 @@ from llava.mm_utils import (
     get_model_name_from_path,
 )
 from PIL import Image
-
+from tqdm import tqdm
 import requests
 from PIL import Image
 from io import BytesIO
@@ -85,7 +85,7 @@ def read_txt_as_dict(txt_file_path):
     return result
 
 # 给定输入进行分类处理
-def process_input(model_path,input_file_path,output_path):
+def process_input(model_path,input_file_path,output_path,exists_ok):
     model_name=get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(
         model_path=model_path,
@@ -96,13 +96,14 @@ def process_input(model_path,input_file_path,output_path):
     model.eval()
 
     prompt_base = "你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出十分有用的答案。"
-
+    bar=tqdm(total=3000)
     for root, dirs, files in os.walk(input_file_path):
         sub_floder = os.path.basename(root)
         if sub_floder in ['image1','image2','image']:
             continue
         # 只遍历 txt 文件
         for name in files:
+            bar.update(1)
             # 构建文件的完整路径
             file_path = os.path.join(root, name)
             file_path_parts = file_path.split('/')
@@ -114,6 +115,11 @@ def process_input(model_path,input_file_path,output_path):
             image_path = ""
             promots= []
             output_res = ""
+            
+            #是否跳过
+            output_res_path = os.path.join(output_path,task_name,file_name)
+            if exists_ok and os.path.exists(output_res_path):
+                continue
             # 根据不同的任务名称进行txt文件读取
             # 图像读取
             # 读取内容时的冗余设置
@@ -159,10 +165,9 @@ def process_input(model_path,input_file_path,output_path):
                 image_path = image_path1 + ',' + image_path2
                 promots.append(read_question_dict[prompt_key][0]+ "\n请用中文作答。")
 
-            print(read_question_dict)
             try:
                 for imput_prompt in promots:
-                    print(imput_prompt)
+                    # print(imput_prompt)
                     args = type('Args', (), {
                     "model_path": model_path,
                     "model_base": None,
@@ -182,7 +187,6 @@ def process_input(model_path,input_file_path,output_path):
                     
                     # 生成总结果
                     read_question_dict[answer_key].append(outputs)
-                    print(read_question_dict)
 
                 # 对于 Image_caption 和 Change_caption
                 for id in read_question_dict[question_id_key]:
@@ -203,7 +207,7 @@ def process_input(model_path,input_file_path,output_path):
             os.makedirs(os.path.dirname(output_res_path),exist_ok=True)
             with open(output_res_path, 'w',encoding="utf-8") as file:
                 file.write(output_res)
-                
+    bar.close()            
 
 def eval_model(args,tokenizer, model, image_processor,model_name):
     # Model
@@ -211,6 +215,8 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
     #FIXME:可以不用每次都加载模型
     if "llama-2" in model_name.lower():
         conv_mode = "llava_llama_2"
+    elif "onevision" in model_name.lower():
+        conv_mode = "qwen_1_5" 
     elif "mistral" in model_name.lower():
         conv_mode = "mistral_instruct"
     elif "v1.6-34b" in model_name.lower():
@@ -264,13 +270,11 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
     conv.append_message(conv.roles[1], None)
     prompt = conv.get_prompt()
 
-    print("*"*100)
     input_ids = (
         tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
         .unsqueeze(0)
         .cuda()
     )
-    print("*"*100)
     with torch.inference_mode():
         output_ids = model.generate(
             input_ids,
@@ -280,10 +284,8 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
             temperature=0.7,
             max_new_tokens=128,
         )
-    print("*"*100)
     outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
-    print(outputs)
-    print("*"*100)
+
     return outputs
 
 
@@ -301,13 +303,13 @@ if __name__ == "__main__":
     output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
 
     # llava-1.5预训练权重
-    model_path = "/home/jiangshixin/pretrained_model/llama3-llava-next-8b"
+    model_path = "/home/jiangshixin/pretrained_model/llava-onevision-qwen2-7b-ov"
     # test_data_path = "input_path"
     # output_path = "output_path"
     
     test_data_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/input_path"
-    output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-Next/origin"
+    output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-OnVision/origin"
     # 创建输出文件夹
 
-    process_input(model_path,test_data_path,output_path)
+    process_input(model_path,test_data_path,output_path,exists_ok=True)
    
