@@ -19,7 +19,7 @@ question="你好！"
 while question!="quit":
     msgs = [{'role': 'user', 'content': question}]
     res = model.chat(
-        image=None,
+        image=image,
         msgs=msgs,
         processor=processor,
         tokenizer=tokenizer,
@@ -29,9 +29,9 @@ while question!="quit":
     )
     print(res)
     question=input("用户输入:")
-    # if question=="image":
-    #     image_path=input("图像路径:")    
-    #     image=[Image.open(image_path).convert('RGB')]
-    #     question=input("用户输入:")
+    if question=="image":
+        image_path=input("图像路径:")    
+        image=[Image.open(image_path).convert('RGB')]
+        question=input("用户输入:")
         
 
