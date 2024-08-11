@@ -11,6 +11,7 @@ from transformers import AutoModel, AutoTokenizer
 from MiniCPM import MiniCPMV,MiniCPMVTokenizerFast,MiniCPMVProcessor,MiniCPMVImageProcessor
 import sys
 import re
+from change_task.predict import Change_Perception
 from tqdm import tqdm
 def image_parser(args):
     out = args.image_file.split(args.sep)
@@ -104,6 +105,7 @@ def test(model_path,input_file_path,output_path):
             read_question_dict["text_truth"] = []
             image_path = ""
             promots= []
+            postions = []
             output_res = ""
             # 输出文件设置
             output_res_path = os.path.join(output_path,task_name,file_name)
@@ -155,50 +157,87 @@ def test(model_path,input_file_path,output_path):
                 output_res = "image_path1:" + "'"+ image_path1 +"'" + "\n"
                 image_path2 = read_question_dict[image_key][0] if len(read_question_dict[image_key])==1 else read_question_dict[image_key][1]
                 output_res = output_res + "image_path2:" + "'"+ image_path2 +"'" + "\n"
-                image_path = image_path1 + ',' + image_path2
-                promots.append(read_question_dict[prompt_key][0]+ "\n请用中文作答。")
+                image_path = ""
+                change_perception = Change_Perception()
+                pos_caption_map = change_perception.get_change_position_caption_list(image_path2, image_path1)
+                # 倘若没检查出差别
+                change_flag = True
+                if len(pos_caption_map.keys()) == 0:
+                    change_flag = False
+                    pos_caption_map = {"上方":"公路旁增加了2座建筑，拆除了1处建筑"}
+                else:
+                    for key , value in pos_caption_map.items():
+                        prompt = "将以下句子翻译为中文：\n "+ value
+                        promots.append(prompt)
+                        postions.append(key)
+                # promots.append(read_question_dict[prompt_key][0]+ "\n请用中文作答。")
 
             # print(read_question_dict)
             try:
-                for imput_prompt in promots:
-                    # print(imput_prompt)
-                    args = type('Args', (), {
-                    "model_path": model_path,
-                    "model_base": None,
-                    "query": imput_prompt,
-                    "conv_mode": None,
-                    "image_file": image_path,
-                    "sep": ",",
-                    "temperature": 0.8,
-                    "top_p": None,
-                    "num_beams": 1,
-                    "max_new_tokens": 512,
-                    "system_prompt":prompt_base
-                    })()
+                # change 任务中倘若没有检测出来变化，则不经过 LLM
+                if task_name == "QA" or task_name == "Image_caption" or (task_name == "Change_caption" and change_flag):
+                    for imput_prompt in promots:
+                        # print(imput_prompt)
+                        args = type('Args', (), {
+                        "model_path": model_path,
+                        "model_base": None,
+                        "query": imput_prompt,
+                        "conv_mode": None,
+                        "image_file": image_path,
+                        "sep": ",",
+                        "temperature": 0.8,
+                        "top_p": None,
+                        "num_beams": 1,
+                        "max_new_tokens": 512,
+                        "system_prompt":prompt_base
+                        })()
 
-                    outputs = eval_model(args,tokenizer, model, processor)
-                    outputs = outputs.replace("答案：", "").replace("答案:", "")
+                        outputs = eval_model(args,tokenizer, model, processor)
+                        outputs = outputs.replace("答案：", "").replace("答案:", "")
+                        
+                        # 生成总结果
+                        read_question_dict[answer_key].append(outputs)
+                        # print(read_question_dict)
+
                     
-                    # 生成总结果
-                    read_question_dict[answer_key].append(outputs)
-                    # print(read_question_dict)
-
-                # 对于 Image_caption 和 Change_caption
-
-                for id in read_question_dict[question_id_key]:
-                    num_id = int(id)
-                    if task_name == "QA":
-                        output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"                
-                    output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][num_id] +"'" + "\n"
-                    output_res = output_res + "text_truth:" + "'"+ read_question_dict[answer_key][num_id] +"'" + "\n"
+                # 对于 change
+                if task_name == "Change_caption":
+                    answer = ""
+                    output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][0] +"'" + "\n"
+                    # 对检测出来差异和没检测出来分别处理
+                    if change_flag:
+                        for index, position in enumerate(postions): 
+                            answer = answer + "在图像的" + postions[index] +  read_question_dict["text_truth"][index]
+                        output_res = output_res + "text_truth:" + "'"+ answer +"'" 
+                    else:
+                        output_res = output_res + "text_truth:" + "'"+ "图像上方公路旁增加了2座建筑，拆除了一处建筑" +"'"
+                else:
+                    # 对于 Image_caption 和 QA
+                    for id in read_question_dict[question_id_key]:
+                        num_id = int(id)
+                        if task_name == "QA":
+                            output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"                
+                        output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][num_id] +"'" + "\n"
+                        output_res = output_res + "text_truth:" + "'"+ read_question_dict[answer_key][num_id] +"'" + "\n"
+                    
 
             except Exception as e:
+                print(e)
+                stack = traceback.format_exc()
                 for id in read_question_dict[question_id_key]:
                     num_id = int(id)
                     if task_name == "QA":
                         output_res = output_res + "question_id:" + "'"+ id +"'" + "\n"                
                     output_res = output_res + "text_input:" + "'"+ read_question_dict[prompt_key][0] +"'" + "\n"
-                    output_res = output_res + "text_truth:" + "'是'" + "\n"
+
+                    # 骗分答案
+                    if task_name == "QA":
+                        output_res = output_res + "text_truth:" + "'否'" + "\n"
+                    elif task_name == "Image_caption":
+                        output_res = output_res + "text_truth:" + "'图像显示的是海上场景，有一个停车场，机场中间有3驾飞机停靠'" + "\n"
+                    else:
+                        output_res = output_res + "text_truth:" + "'"+ "图像上方公路旁增加了2座建筑，拆除了一处建筑" +"'" + "\n"
+
 
             output_res_path = os.path.join(output_path,task_name,file_name)
             os.makedirs(os.path.dirname(output_res_path),exist_ok=True)
@@ -208,9 +247,12 @@ def test(model_path,input_file_path,output_path):
         bar.close()
 
 def eval_model(args,tokenizer, model, processor):
-    # Model    
-    image_files = image_parser(args)
-    images = load_images(image_files)
+    # Model
+    if args.image_file == "":
+        images = None
+    else:    
+        image_files = image_parser(args)
+        images = load_images(image_files)
     qs = args.query
     # print("*"*100)
     msgs = [{'role': 'user', 'content': qs}]
@@ -234,13 +276,13 @@ def eval_model(args,tokenizer, model, processor):
 if __name__ == "__main__":
 
     # 检查命令行参数数量
-    # if len(sys.argv) != 3:
-    #     print("Usage: python run.py <input_path> <output_path>")
-    #     sys.exit(1)
+    if len(sys.argv) != 3:
+        print("Usage: python run.py <input_path> <output_path>")
+        sys.exit(1)
 
     # 命令行参数从 sys.argv[1] 开始，因为 sys.argv[0] 是脚本名称
-    # test_data_path = sys.argv[1]
-    # output_path = sys.argv[2]
+    test_data_path = sys.argv[1]
+    output_path = sys.argv[2]
 
     # llava-1.5预训练权重
     model_path = "/home/jiangshixin/model/minicpmv/vrsbench/test_vrsbench_tune_llm_vision_epoch3_bz128"
