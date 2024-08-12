@@ -9,7 +9,7 @@ MASTER_PORT=6001
 MODEL="/home/jiangshixin/pretrained_model/MiniCPM-Llama3-V-2_5" # or openbmb/MiniCPM-V-2
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
-DATA="/home/jiangshixin/dataset/HZ/data.json"
+DATA="/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles/vrs_train_qa.json"
 LLM_TYPE="llama3" # if use openbmb/MiniCPM-V-2, please set LLM_TYPE=minicpm
 
 DISTRIBUTED_ARGS="

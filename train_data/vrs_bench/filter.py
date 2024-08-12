@@ -21,6 +21,7 @@ for line in data:
         continue
     if "[caption]" in conversation:
         conversation=conversation.replace("[caption]","")
+        continue
     if "[vqa]" in conversation:
         conversation=conversation.replace("[vqa]","")
     conversation=conversation.replace('"from"','"role"')
@@ -40,7 +41,7 @@ print(train_types)
 result_dir="/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles"
 os.makedirs(result_dir,exist_ok=True)
 
-with open("/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles/vrs_train_qa_cap_test.json","w") as f:
+with open("/home/jiangshixin/myproject/HZ-KM/train_data/jsonfiles/vrs_train_qa.json","w") as f:
     print(len(filter_data))
     json.dump(filter_data,f)
 

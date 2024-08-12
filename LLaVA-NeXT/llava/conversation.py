@@ -354,7 +354,8 @@ conv_llava_llama_2 = Conversation(
 )
 
 conv_llava_llama_3 = Conversation(
-    system="You are a helpful language and vision assistant. " "You are able to understand the visual content that the user provides, " "and assist the user with a variety of tasks using natural language.",
+    system="你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出具体的答案。",
+    # system="You are a helpful language and vision assistant. " "You are able to understand the visual content that the user provides, " "and assist the user with a variety of tasks using natural language.",
     roles=("user", "assistant"),
     version="llama_v3",
     messages=[],
@@ -412,7 +413,9 @@ A conversation between a user and an LLM-based AI assistant. The assistant gives
 
 conv_qwen = Conversation(
     system="""<|im_start|>system
-You are a helpful assistant.""",
+你是一个遥感图像领域的专家，你能够针对高精度可见光遥感图像进行细致的分析，并且能够给出具体的答案。""",
+#     system="""<|im_start|>system
+# You are a helpful assistant.""",
     roles=("<|im_start|>user", "<|im_start|>assistant"),
     version="qwen",
     messages=[],

@@ -280,7 +280,7 @@ def eval_model(args,tokenizer, model, image_processor,model_name):
             input_ids,
             images=images_tensor,
             image_sizes=image_sizes,
-            do_sample=True,
+            do_sample=False,
             temperature=0.7,
             max_new_tokens=128,
         )
@@ -303,13 +303,13 @@ if __name__ == "__main__":
     output_path = "/home/sxjiang/myproject/HZ/examples/out_path"
 
     # llava-1.5预训练权重
-    model_path = "/home/jiangshixin/pretrained_model/llava-onevision-qwen2-7b-ov"
+    model_path = "/home/jiangshixin/pretrained_model/llama3-llava-next-8b"
     # test_data_path = "input_path"
     # output_path = "output_path"
     
     test_data_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/input_path"
-    output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-OnVision/origin"
+    output_path = "/home/jiangshixin/dataset/remote_sense/VAL_HZPC/LLaVA-Next/origin"
     # 创建输出文件夹
 
-    process_input(model_path,test_data_path,output_path,exists_ok=True)
+    process_input(model_path,test_data_path,output_path,exists_ok=False)
    
